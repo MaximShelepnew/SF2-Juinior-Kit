@@ -1,0 +1,11 @@
+KEY IDE_DES_TOOL "Ide"
+KEY IDE_DES_ADB_PATH "E:\Projects\Actel\ActelKit\M2S\RefDes\1\MyFirstProject\designer\impl1\MyFirstProject.adb"
+LIST SOURCE_FILES
+VALUE "E:\Projects\Actel\ActelKit\M2S\RefDes\1\MyFirstProject\synthesis\MyFirstProject.edn;edn"
+VALUE "E:\Projects\Actel\ActelKit\M2S\RefDes\1\MyFirstProject\constraint\io\user.pdc;pdc"
+ENDLIST
+LIST OPTIONAL_FILES
+VALUE "E:\Projects\Actel\ActelKit\M2S\RefDes\1\MyFirstProject\synthesis\MyFirstProject_sdc.sdc;Skipped"
+ENDLIST
+LIST VCD_FILES
+ENDLIST

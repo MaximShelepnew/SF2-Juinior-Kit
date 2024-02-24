@@ -1,0 +1,4 @@
+#Fri Sep 08 13:59:08 MSD 2017
+eclipse.preferences.version=1
+org.eclipse.debug.ui.DebugView.org.eclipse.cdt.debug.ui.cDebug.show_full_paths=true
+org.eclipse.debug.ui.BreakpointView.org.eclipse.cdt.debug.ui.cDebug.show_full_paths=true

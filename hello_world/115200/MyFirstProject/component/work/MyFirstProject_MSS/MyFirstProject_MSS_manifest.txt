@@ -1,0 +1,26 @@
+Microsemi Corporation - Microsemi Libero Software Release Libero SoC v11.8 SP1 (Version 11.8.1.12)
+
+Date      :  Fri Sep 08 12:39:17 2017
+Project   :  E:\Projects\Actel\ActelKit\M2S\RefDes\1\MyFirstProject
+Component :  MyFirstProject_MSS
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    E:/Projects/Actel/ActelKit/M2S/RefDes/1/MyFirstProject/component/work/MyFirstProject_MSS/MyFirstProject_MSS.vhd
+
+HDL source files for Synopsys SynplifyPro Synthesis tool:
+    E:/Projects/Actel/ActelKit/M2S/RefDes/1/MyFirstProject/component/work/MyFirstProject_MSS/MyFirstProject_MSS_syn.vhd
+
+HDL source files for Mentor Precision Synthesis tool:
+    E:/Projects/Actel/ActelKit/M2S/RefDes/1/MyFirstProject/component/work/MyFirstProject_MSS/MyFirstProject_MSS_pre.vhd
+
+Stimulus files for all Simulation tools:
+    E:/Projects/Actel/ActelKit/M2S/RefDes/1/MyFirstProject/component/Actel/SmartFusion2MSS/MSS/1.1.500/peripheral_init.bfm
+    E:/Projects/Actel/ActelKit/M2S/RefDes/1/MyFirstProject/component/work/MyFirstProject_MSS/CM3_compile_bfm.tcl
+    E:/Projects/Actel/ActelKit/M2S/RefDes/1/MyFirstProject/component/work/MyFirstProject_MSS/test.bfm
+    E:/Projects/Actel/ActelKit/M2S/RefDes/1/MyFirstProject/component/work/MyFirstProject_MSS/user.bfm
+
+Firmware files for all Software IDE tools:
+    E:/Projects/Actel/ActelKit/M2S/RefDes/1/MyFirstProject/component/work/MyFirstProject_MSS/sys_config_mss_clocks.h
+
