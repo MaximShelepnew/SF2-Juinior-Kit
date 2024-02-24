@@ -1,0 +1,19 @@
+*****************************************************************
+Pin Report - Date: Tue Sep 19 13:50:11 2017 Pinchecksum: NOT-AVAILABLE
+Product: Designer
+Release: Libero SoC v11.8 SP1
+Version: 11.8.1.12
+Design Name: MyFirstProject
+Family: SmartFusion2
+Die: M2S010
+Package: 144 TQ
+*****************************************************************
+
+Port             |Pin |Fixed |Function   |Bank     |I/O Std   |Direction                      |I/O state in Flash*Freeze mode |Resistor Pull                      |I/O available in Flash*Freeze mode |Schmitt Trigger |Odt_Static    |Odt Imp (Ohm)  |Low Power Exit |Input Delay |Slew         |Pre-Emphasis      |Output Drive (mA) |Output Load (pF) |
+-----------------|----|------|-----------|---------|----------|-------------------------------|-------------------------------|-----------------------------------|-----------------------------------|----------------|--------------|---------------|---------------|------------|-------------|------------------|------------------|-----------------|
+BtnReset          13   Yes    MSIO76NB7   Bank7     LVCMOS25   Input                           TRISTATE                        None                                No                                  Off              ---            ---             Off             Off          ---           ---                ---                ---               
+DEVRST_N          72   Fixed  DEVRST_N    ---       
+FPGA_LED          67   Yes    MSIO114NB4  Bank4     LVCMOS25   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          SLOW          ---                4                  5                 
+M3_LED            63   Yes    MSIO113PB4  Bank4     LVCMOS25   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          SLOW          ---                4                  5                 
+MMUART_0_RXD_F2M  9    Yes    MSIO72NB7   Bank7     LVCMOS25   Input                           TRISTATE                        None                                No                                  Off              ---            ---             Off             Off          ---           ---                ---                ---               
+MMUART_0_TXD_M2F  10   Yes    MSIO73NB7   Bank7     LVCMOS25   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          SLOW          ---                4                  5                 

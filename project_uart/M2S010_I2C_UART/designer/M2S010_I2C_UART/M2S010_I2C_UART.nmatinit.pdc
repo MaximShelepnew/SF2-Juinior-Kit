@@ -1,0 +1,35 @@
+# Microsemi Physical design constraints file
+
+# Version: v11.8 11.8.0.26
+
+# Design Name: M2S010_I2C_UART 
+
+# Input Netlist Format: EDIF 
+
+# Family: SmartFusion2 , Die: M2S010 , Package: 144 TQ , Speed grade: STD 
+
+# Date generated: Fri Jun 23 14:11:45 2017 
+
+
+#
+# I/O constraints
+#
+
+set_io BtnReset -DIRECTION INPUT -pinname 13 -fixed no
+set_io MMUART_0_RXD_F2M -DIRECTION INPUT -pinname 9 -fixed no
+set_io MMUART_0_TXD_M2F -DIRECTION OUTPUT -pinname 10 -fixed no
+set_io SCL -DIRECTION INOUT -pinname 137 -fixed no
+set_io SDA -DIRECTION INOUT -pinname 134 -fixed no
+
+#
+# Core cell constraints
+#
+
+set_location AND3_0 -fixed no 391 78
+set_location FCCC_0/GL0_INST -fixed no 220 54
+set_location FCCC_0/GL0_INST/U0_RGB1 -fixed no 218 102
+set_location ip_interface_inst -fixed no 191 0
+set_location OSC_0/I_RCOSC_25_50MHZ -fixed no 396 92
+set_location SYSRESET_0 -fixed no 396 8
+set_location FCCC_0/CCC_INST -fixed no 390 92
+set_location M2S010_I2C_UART_MSS_0/MSS_ADLIB_INST -fixed no 300 104

@@ -1,0 +1,11 @@
+C:\Microsemi\Libero_SoC_v11.7\Synplify\bin64\c_hdl.exe  -osyn  E:\Projects\Actel\ActelKit\RefDes\7\SoC\M2S010_USB_vcp\synthesis\synwork\M2S010_USB_vcp_comp.srs  -top  work.M2S010_USB_vcp  -hdllog  E:\Projects\Actel\ActelKit\RefDes\7\SoC\M2S010_USB_vcp\synthesis\synlog\M2S010_USB_vcp_compiler.srr  -encrypt  -mp  1  -vhdl  -prodtype  synplify_pro  -infer_seqShift -primux -dspmac -pqdpadd -fixsmult -sdff_counter -divnmod -nram  -encrypt  -pro  -dmgen  E:\Projects\Actel\ActelKit\RefDes\7\SoC\M2S010_USB_vcp\synthesis\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -vhdl2008  -ignore_undefined_lib  -lib work E:\Projects\Actel\ActelKit\RefDes\7\SoC\M2S010_USB_vcp\component\work\M2S010_USB_vcp_MSS\M2S010_USB_vcp_MSS_syn.vhd -lib work E:\Projects\Actel\ActelKit\RefDes\7\SoC\M2S010_USB_vcp\component\work\M2S010_USB_vcp_MSS\M2S010_USB_vcp_MSS.vhd -lib work E:\Projects\Actel\ActelKit\RefDes\7\SoC\M2S010_USB_vcp\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd -lib work E:\Projects\Actel\ActelKit\RefDes\7\SoC\M2S010_USB_vcp\component\work\M2S010_USB_vcp\OSC_0\M2S010_USB_vcp_OSC_0_OSC.vhd -lib work E:\Projects\Actel\ActelKit\RefDes\7\SoC\M2S010_USB_vcp\component\work\M2S010_USB_vcp\M2S010_USB_vcp.vhd 
+rc:0 success:1
+E:\Projects\Actel\ActelKit\RefDes\7\SoC\M2S010_USB_vcp\synthesis\synwork\M2S010_USB_vcp_comp.srs|o|1499161026|49992
+E:\Projects\Actel\ActelKit\RefDes\7\SoC\M2S010_USB_vcp\synthesis\synlog\M2S010_USB_vcp_compiler.srr|o|1499161026|7457
+E:\Projects\Actel\ActelKit\RefDes\7\SoC\M2S010_USB_vcp\component\work\M2S010_USB_vcp_MSS\M2S010_USB_vcp_MSS_syn.vhd|i|1499160973|72137
+E:\Projects\Actel\ActelKit\RefDes\7\SoC\M2S010_USB_vcp\component\work\M2S010_USB_vcp_MSS\M2S010_USB_vcp_MSS.vhd|i|1499160973|85561
+E:\Projects\Actel\ActelKit\RefDes\7\SoC\M2S010_USB_vcp\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd|i|1490711803|2164
+E:\Projects\Actel\ActelKit\RefDes\7\SoC\M2S010_USB_vcp\component\work\M2S010_USB_vcp\OSC_0\M2S010_USB_vcp_OSC_0_OSC.vhd|i|1499161007|1539
+E:\Projects\Actel\ActelKit\RefDes\7\SoC\M2S010_USB_vcp\component\work\M2S010_USB_vcp\M2S010_USB_vcp.vhd|i|1499161007|6113
+C:\Microsemi\Libero_SoC_v11.7\Synplify\bin\c_hdl.exe|i|1449207322|1295872
+C:\Microsemi\Libero_SoC_v11.7\Synplify\bin64\c_hdl.exe|i|1449207324|1897472

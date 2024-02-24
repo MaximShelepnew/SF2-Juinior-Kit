@@ -1,0 +1,22 @@
+
+===============================================================================.
+
+Info: Global design data: 
+      Total globals:                       2 
+      Globals that cannot be demoted:      0 
+      Globals considered for demotion:     2 
+
+
+Info: List of globals considered for demotion: 
+    CLK    ASYN   DATA   Instance Name 
+    ---    ----   ----   ------------- 
+    24     0      0      'OSC_0/I_RCOSC_25_50MHZ_FAB_CLKINT' 
+    0      23     2      'AND2_0_RNIKOS1' 
+
+Info: Demotion information: 
+      Disconnected 2 data pins from global 'AND2_0_RNIKOS1'. 
+Info: CMPG4-302: Added 0 row global instances.
+Info: CMPG4-303: Deleted 0 global instances.
+
+===============================================================================.
+

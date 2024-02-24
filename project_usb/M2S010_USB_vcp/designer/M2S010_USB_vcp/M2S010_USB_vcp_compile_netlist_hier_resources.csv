@@ -1,0 +1,5 @@
+Detailed Resource Usage
+Module Name,Fabric 4LUT,Single-Ended I/O,Chip Globals,MSS,CAN,10/100/1000 Ethernet,HS USB,Multi-Mode UART,RCOSC_50MHZ
+M2S010_USB_vcp_MSS_0/Primitives,0,12,0,1,0,0,0,0,0
+OSC_0/Primitives,0,0,1,0,0,0,0,0,1
+Primitives/Primitives,1,3,0,0,0,0,0,0,0

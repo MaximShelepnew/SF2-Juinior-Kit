@@ -1,0 +1,71 @@
+Info: No timing constraint has been associated to the 'Place and Route' tool. 'Place and Route' will be run in non Timing Driven mode.
+***** Place and Route Configurations *****
+Timing-driven            : OFF
+Power-driven             : OFF
+High-effort              : OFF
+Repair min-delay         : ON
+Incremental              : OFF
+
+INFO: Reading User PDC file E:\Projects\Actel\ActelKit\RefDes\5\SoC\M2S010_I2C_UART\constraint\io\user.pdc. 0 error(s) and 0 warning(s)
+
+Running the I/O Bank and Globals Assigner.
+Info:  I/O Bank and Globals Assigner identified 5 fixed I/O macros, 0 unfixed I/O macros
+
+I/O Bank and Globals Assigner completed successfully.
+Total time spent in I/O Bank and Globals Assigner: 0 seconds
+
+Placer V4.0 - 11.8.0 
+Design: M2S010_I2C_UART                 Started: Fri Jun 23 14:11:26 2017
+
+Initializing Standard Placement ...
+Placing design...
+End of placement.
+Pre-Placement Runtime        : 0 seconds
+Placement Runtime            : 0 seconds
+
+Placer completed successfully.
+
+Design: M2S010_I2C_UART                 
+Finished: Fri Jun 23 14:11:31 2017
+Total CPU Time:     00:00:03            Total Elapsed Time: 00:00:05
+Total Memory Usage: 124.7 Mbytes
+                        o - o - o - o - o - o
+
+
+Router 
+Design: E:\Projects\Actel\ActelKit\RefDes\5\SoC\M2S010_I2C_UART\designer\M2S010_I2C_UART\M2S010_I2C_UARTStarted: Fri Jun 23 14:11:33 2017
+
+Final stats: search run time 0.023116
+
+Router completed successfully.
+
+Design: E:\Projects\Actel\ActelKit\RefDes\5\SoC\M2S010_I2C_UART\designer\M2S010_I2C_UART\M2S010_I2C_UART
+Finished: Fri Jun 23 14:11:39 2017
+Total CPU Time:     00:00:05            Total Elapsed Time: 00:00:06
+Total Memory Usage: 485.9 Mbytes
+                        o - o - o - o - o - o
+
+
+Router 
+Design: E:\Projects\Actel\ActelKit\RefDes\5\SoC\M2S010_I2C_UART\designer\M2S010_I2C_UART\M2S010_I2C_UARTStarted: Fri Jun 23 14:11:39 2017
+
+Final stats: search run time 0.023569
+
+Router completed successfully.
+
+Design: E:\Projects\Actel\ActelKit\RefDes\5\SoC\M2S010_I2C_UART\designer\M2S010_I2C_UART\M2S010_I2C_UART
+Finished: Fri Jun 23 14:11:45 2017
+Total CPU Time:     00:00:05            Total Elapsed Time: 00:00:06
+Total Memory Usage: 485.4 Mbytes
+                        o - o - o - o - o - o
+
+Resource Usage
++---------------+------+-------+------------+
+| Type          | Used | Total | Percentage |
++---------------+------+-------+------------+
+| 4LUT          | 1    | 12084 | 0.01       |
+| DFF           | 0    | 12084 | 0.00       |
+| I/O Register  | 0    | 246   | 0.00       |
+| Logic Element | 1    | 12084 | 0.01       |
++---------------+------+-------+------------+
+

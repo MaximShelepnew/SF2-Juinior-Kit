@@ -1,0 +1,71 @@
+#--  Synopsys, Inc.
+#--  Version J-2015.03M-SP1-2
+#--  Project file E:\Projects\Actel\ActelKit\RefDes\5\SoC\M2S010_I2C_UART\synthesis\scratchproject.prs
+
+#project files
+add_file -vhdl -lib work "E:/Projects/Actel/ActelKit/RefDes/5/SoC/M2S010_I2C_UART/component/work/M2S010_I2C_UART/FCCC_0/M2S010_I2C_UART_FCCC_0_FCCC.vhd"
+add_file -vhdl -lib work "E:/Projects/Actel/ActelKit/RefDes/5/SoC/M2S010_I2C_UART/component/work/M2S010_I2C_UART_MSS/M2S010_I2C_UART_MSS_syn.vhd"
+add_file -vhdl -lib work "E:/Projects/Actel/ActelKit/RefDes/5/SoC/M2S010_I2C_UART/component/work/M2S010_I2C_UART_MSS/M2S010_I2C_UART_MSS.vhd"
+add_file -vhdl -lib work "E:/Projects/Actel/ActelKit/RefDes/5/SoC/M2S010_I2C_UART/component/Actel/SgCore/OSC/2.0.101/osc_comps.vhd"
+add_file -vhdl -lib work "E:/Projects/Actel/ActelKit/RefDes/5/SoC/M2S010_I2C_UART/component/work/M2S010_I2C_UART/OSC_0/M2S010_I2C_UART_OSC_0_OSC.vhd"
+add_file -vhdl -lib work "E:/Projects/Actel/ActelKit/RefDes/5/SoC/M2S010_I2C_UART/component/work/M2S010_I2C_UART/M2S010_I2C_UART.vhd"
+add_file -fpga_constraint "E:/Projects/Actel/ActelKit/RefDes/5/SoC/M2S010_I2C_UART/designer/M2S010_I2C_UART/synthesis.fdc"
+
+
+
+#implementation: "synthesis"
+impl -add E:\Projects\Actel\ActelKit\RefDes\5\SoC\M2S010_I2C_UART\synthesis -type fpga
+
+#device options
+set_option -technology SmartFusion2
+set_option -part M2S010
+set_option -package TQ144
+set_option -speed_grade STD
+set_option -part_companion ""
+
+#compilation/mapping options
+set_option -use_fsm_explorer 0
+set_option -top_module "work.M2S010_I2C_UART"
+
+# mapper_options
+set_option -frequency 100.000
+set_option -write_verilog 0
+set_option -write_vhdl 0
+set_option -srs_instrumentation 1
+
+# actel_options
+set_option -rw_check_on_ram 0
+
+# Microsemi G4
+set_option -run_prop_extract 1
+set_option -maxfan 10000
+set_option -clock_globalthreshold 2
+set_option -async_globalthreshold 12
+set_option -globalthreshold 5000
+set_option -low_power_ram_decomp 0
+set_option -disable_io_insertion 0
+set_option -opcond COMTC
+set_option -retiming 0
+set_option -report_path 4000
+set_option -update_models_cp 0
+set_option -preserve_registers 0
+
+# sequential_optimization_options
+set_option -symbolic_fsm_compiler 1
+
+# Compiler Options
+set_option -compiler_compatible 0
+set_option -resource_sharing 1
+
+# Compiler Options
+set_option -auto_infer_blackbox 0
+
+# Compiler Options
+set_option -vhdl2008 1
+
+#automatic place and route (vendor) options
+set_option -write_apr_constraint 1
+
+#set result format/file last
+project -result_file "E:/Projects/Actel/ActelKit/RefDes/5/SoC/M2S010_I2C_UART/synthesis/M2S010_I2C_UART.edn"
+impl -active "synthesis"

@@ -1,0 +1,838 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet href="rptstyle.xsl" type="text/xsl" ?>
+<doc>
+<text>SmartTime Version 11.8.1.12</text>
+<text>Microsemi Corporation - Microsemi Libero Software Release Libero SoC v11.8 SP1 (Version 11.8.1.12)
+Date: Tue Oct 24 17:53:03 2017 </text>
+<table>
+<header>
+</header>
+<row>
+ <cell>Design</cell>
+ <cell>M2S010_Ethernet</cell>
+</row>
+<row>
+ <cell>Family</cell>
+ <cell>SmartFusion2</cell>
+</row>
+<row>
+ <cell>Die</cell>
+ <cell>M2S010</cell>
+</row>
+<row>
+ <cell>Package</cell>
+ <cell>144 TQ</cell>
+</row>
+<row>
+ <cell>Temperature Range</cell>
+ <cell>0 - 85 C</cell>
+</row>
+<row>
+ <cell>Voltage Range</cell>
+ <cell>1.14 - 1.26 V</cell>
+</row>
+<row>
+ <cell>Speed Grade</cell>
+ <cell>STD</cell>
+</row>
+</table>
+<text></text>
+<text></text>
+<section>
+<name>Coverage Summary</name>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>            0</cell>
+ <cell>           51</cell>
+ <cell>           51</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>            0</cell>
+ <cell>           44</cell>
+ <cell>           44</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>           12</cell>
+ <cell>           12</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>            0</cell>
+ <cell>          107</cell>
+ <cell>          107</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>            0</cell>
+ <cell>           51</cell>
+ <cell>           51</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>            0</cell>
+ <cell>           44</cell>
+ <cell>           44</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>           12</cell>
+ <cell>           12</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>            0</cell>
+ <cell>          107</cell>
+ <cell>          107</cell>
+</row>
+</table>
+<section>
+<name>Clock domain: </name>
+<text>FCCC_0/CCC_INST/INST_CCC_IP:GL0</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>            0</cell>
+ <cell>           16</cell>
+ <cell>           16</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>            0</cell>
+ <cell>           10</cell>
+ <cell>           10</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>            0</cell>
+ <cell>           26</cell>
+ <cell>           26</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>            0</cell>
+ <cell>           16</cell>
+ <cell>           16</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>            0</cell>
+ <cell>           10</cell>
+ <cell>           10</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>            0</cell>
+ <cell>           26</cell>
+ <cell>           26</cell>
+</row>
+</table>
+<section>
+<name>Enhancement Suggestions</name>
+<text></text>
+<text> - Clock constraint is missing </text>
+<text> - Max input delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>BtnReset</item>
+ <item>RMII_RXERR</item>
+</list>
+<text></text>
+<text> - Min input delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>BtnReset</item>
+ <item>RMII_RXERR</item>
+</list>
+<text></text>
+<text></text>
+<text></text>
+<text> - Setup uncconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>CORERMII_0/U_RMII_RX/rx2mii_rxd_xhdl1[0]:D</item>
+ <item>CORERMII_0/U_RMII_RX/rx2mii_rxd_xhdl1[1]:D</item>
+ <item>CORERMII_0/U_RMII_RX/rx2mii_rxd_xhdl1[2]:D</item>
+ <item>CORERMII_0/U_RMII_RX/rx2mii_rxd_xhdl1[3]:D</item>
+ <item>CORERMII_0/U_RMII_RX/rx2mii_rxerr_xhdl3:D</item>
+ <item>CORERMII_0/U_RMII_RX/srfcd1:D</item>
+ <item>CORERMII_0/U_RMII_RX/srfcd2:D</item>
+ <item>CORERMII_0/U_RMII_RX/srfcd2_d:D</item>
+ <item>CORERMII_0/U_RMII_RX/srfcd:EN</item>
+ <item>CORERMII_0/U_RMII_RX/srxdv1:D</item>
+ <item>M2S010_Ethernet_MSS_0/MSS_ADLIB_INST/INST_MSS_010_IP:RXDF[0]</item>
+ <item>M2S010_Ethernet_MSS_0/MSS_ADLIB_INST/INST_MSS_010_IP:RXDF[1]</item>
+ <item>M2S010_Ethernet_MSS_0/MSS_ADLIB_INST/INST_MSS_010_IP:RXDF[2]</item>
+ <item>M2S010_Ethernet_MSS_0/MSS_ADLIB_INST/INST_MSS_010_IP:RXDF[3]</item>
+ <item>M2S010_Ethernet_MSS_0/MSS_ADLIB_INST/INST_MSS_010_IP:RX_DVF</item>
+ <item>M2S010_Ethernet_MSS_0/MSS_ADLIB_INST/INST_MSS_010_IP:RX_ERRF</item>
+</list>
+<text></text>
+<text> - Recovery uncconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>CORERMII_0/U_RMII_RX/rx2mii_rxd_xhdl1[0]:ALn</item>
+ <item>CORERMII_0/U_RMII_RX/rx2mii_rxd_xhdl1[1]:ALn</item>
+ <item>CORERMII_0/U_RMII_RX/rx2mii_rxd_xhdl1[2]:ALn</item>
+ <item>CORERMII_0/U_RMII_RX/rx2mii_rxd_xhdl1[3]:ALn</item>
+ <item>CORERMII_0/U_RMII_RX/rx2mii_rxerr_xhdl3:ALn</item>
+ <item>CORERMII_0/U_RMII_RX/srfcd1:ALn</item>
+ <item>CORERMII_0/U_RMII_RX/srfcd2:ALn</item>
+ <item>CORERMII_0/U_RMII_RX/srfcd2_d:ALn</item>
+ <item>CORERMII_0/U_RMII_RX/srfcd:ALn</item>
+ <item>CORERMII_0/U_RMII_RX/srxdv1:ALn</item>
+</list>
+<text></text>
+<text> - Hold uncconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>CORERMII_0/U_RMII_RX/rx2mii_rxd_xhdl1[0]:D</item>
+ <item>CORERMII_0/U_RMII_RX/rx2mii_rxd_xhdl1[1]:D</item>
+ <item>CORERMII_0/U_RMII_RX/rx2mii_rxd_xhdl1[2]:D</item>
+ <item>CORERMII_0/U_RMII_RX/rx2mii_rxd_xhdl1[3]:D</item>
+ <item>CORERMII_0/U_RMII_RX/rx2mii_rxerr_xhdl3:D</item>
+ <item>CORERMII_0/U_RMII_RX/srfcd1:D</item>
+ <item>CORERMII_0/U_RMII_RX/srfcd2:D</item>
+ <item>CORERMII_0/U_RMII_RX/srfcd2_d:D</item>
+ <item>CORERMII_0/U_RMII_RX/srfcd:EN</item>
+ <item>CORERMII_0/U_RMII_RX/srxdv1:D</item>
+ <item>M2S010_Ethernet_MSS_0/MSS_ADLIB_INST/INST_MSS_010_IP:RXDF[0]</item>
+ <item>M2S010_Ethernet_MSS_0/MSS_ADLIB_INST/INST_MSS_010_IP:RXDF[1]</item>
+ <item>M2S010_Ethernet_MSS_0/MSS_ADLIB_INST/INST_MSS_010_IP:RXDF[2]</item>
+ <item>M2S010_Ethernet_MSS_0/MSS_ADLIB_INST/INST_MSS_010_IP:RXDF[3]</item>
+ <item>M2S010_Ethernet_MSS_0/MSS_ADLIB_INST/INST_MSS_010_IP:RX_DVF</item>
+ <item>M2S010_Ethernet_MSS_0/MSS_ADLIB_INST/INST_MSS_010_IP:RX_ERRF</item>
+</list>
+<text></text>
+<text> - Removal uncconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>CORERMII_0/U_RMII_RX/rx2mii_rxd_xhdl1[0]:ALn</item>
+ <item>CORERMII_0/U_RMII_RX/rx2mii_rxd_xhdl1[1]:ALn</item>
+ <item>CORERMII_0/U_RMII_RX/rx2mii_rxd_xhdl1[2]:ALn</item>
+ <item>CORERMII_0/U_RMII_RX/rx2mii_rxd_xhdl1[3]:ALn</item>
+ <item>CORERMII_0/U_RMII_RX/rx2mii_rxerr_xhdl3:ALn</item>
+ <item>CORERMII_0/U_RMII_RX/srfcd1:ALn</item>
+ <item>CORERMII_0/U_RMII_RX/srfcd2:ALn</item>
+ <item>CORERMII_0/U_RMII_RX/srfcd2_d:ALn</item>
+ <item>CORERMII_0/U_RMII_RX/srfcd:ALn</item>
+ <item>CORERMII_0/U_RMII_RX/srxdv1:ALn</item>
+</list>
+<text></text>
+</section>
+</section>
+<section>
+<name>Clock domain: </name>
+<text>FCCC_0/CCC_INST/INST_CCC_IP:GL1</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>            0</cell>
+ <cell>            1</cell>
+ <cell>            1</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>            0</cell>
+ <cell>            1</cell>
+ <cell>            1</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            5</cell>
+ <cell>            5</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>            0</cell>
+ <cell>            7</cell>
+ <cell>            7</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>            0</cell>
+ <cell>            1</cell>
+ <cell>            1</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>            0</cell>
+ <cell>            1</cell>
+ <cell>            1</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            5</cell>
+ <cell>            5</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>            0</cell>
+ <cell>            7</cell>
+ <cell>            7</cell>
+</row>
+</table>
+<section>
+<name>Enhancement Suggestions</name>
+<text></text>
+<text> - Clock constraint is missing </text>
+<text> - Max input delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>BtnReset</item>
+ <item>MMUART_0_RXD_F2M</item>
+</list>
+<text></text>
+<text> - Min input delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>BtnReset</item>
+ <item>MMUART_0_RXD_F2M</item>
+</list>
+<text></text>
+<text></text>
+<text> - Max output delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>LED1</item>
+ <item>LED2</item>
+ <item>LED3</item>
+ <item>LED4</item>
+ <item>MMUART_0_TXD_M2F</item>
+</list>
+<text></text>
+<text> - Min output delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>LED1</item>
+ <item>LED2</item>
+ <item>LED3</item>
+ <item>LED4</item>
+ <item>MMUART_0_TXD_M2F</item>
+</list>
+<text></text>
+<text></text>
+<text> - Setup uncconstrained for the following pin:</text>
+<text>   </text>
+<list>
+ <item>M2S010_Ethernet_MSS_0/MSS_ADLIB_INST/INST_MSS_010_IP:MMUART0_RXD_F2H_SCP</item>
+</list>
+<text></text>
+<text> - Recovery uncconstrained for the following pin:</text>
+<text>   </text>
+<list>
+ <item>M2S010_Ethernet_MSS_0/MSS_ADLIB_INST/INST_MSS_010_IP:USER_MSS_RESET_N</item>
+</list>
+<text></text>
+<text> - Hold uncconstrained for the following pin:</text>
+<text>   </text>
+<list>
+ <item>M2S010_Ethernet_MSS_0/MSS_ADLIB_INST/INST_MSS_010_IP:MMUART0_RXD_F2H_SCP</item>
+</list>
+<text></text>
+<text> - Removal uncconstrained for the following pin:</text>
+<text>   </text>
+<list>
+ <item>M2S010_Ethernet_MSS_0/MSS_ADLIB_INST/INST_MSS_010_IP:USER_MSS_RESET_N</item>
+</list>
+<text></text>
+</section>
+</section>
+<section>
+<name>Clock domain: </name>
+<text>OSC_0/I_XTLOSC:CLKOUT</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+</table>
+</section>
+<section>
+<name>Clock domain: </name>
+<text>REFCLK</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>            0</cell>
+ <cell>           33</cell>
+ <cell>           33</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>            0</cell>
+ <cell>           33</cell>
+ <cell>           33</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            3</cell>
+ <cell>            3</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>            0</cell>
+ <cell>           69</cell>
+ <cell>           69</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>            0</cell>
+ <cell>           33</cell>
+ <cell>           33</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>            0</cell>
+ <cell>           33</cell>
+ <cell>           33</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            3</cell>
+ <cell>            3</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>            0</cell>
+ <cell>           69</cell>
+ <cell>           69</cell>
+</row>
+</table>
+<section>
+<name>Enhancement Suggestions</name>
+<text></text>
+<text> - Clock constraint is missing </text>
+<text> - Max input delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>BtnReset</item>
+ <item>RMII_CRSDV</item>
+ <item>RMII_RXD[0]</item>
+ <item>RMII_RXD[1]</item>
+ <item>RMII_RXERR</item>
+</list>
+<text></text>
+<text> - Min input delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>BtnReset</item>
+ <item>RMII_CRSDV</item>
+ <item>RMII_RXD[0]</item>
+ <item>RMII_RXD[1]</item>
+ <item>RMII_RXERR</item>
+</list>
+<text></text>
+<text></text>
+<text> - Max output delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>RMII_TXD[0]</item>
+ <item>RMII_TXD[1]</item>
+ <item>RMII_TXEN</item>
+</list>
+<text></text>
+<text> - Min output delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>RMII_TXD[0]</item>
+ <item>RMII_TXD[1]</item>
+ <item>RMII_TXEN</item>
+</list>
+<text></text>
+<text></text>
+<text> - Setup uncconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>CORERMII_0/U_RMII_RX/bcs:D</item>
+ <item>CORERMII_0/U_RMII_RX/brfc:D</item>
+ <item>CORERMII_0/U_RMII_RX/rfcd:D</item>
+ <item>CORERMII_0/U_RMII_RX/rmii2rx_rrxd[0]:D</item>
+ <item>CORERMII_0/U_RMII_RX/rmii2rx_rrxd[1]:D</item>
+ <item>CORERMII_0/U_RMII_RX/rmii2rx_rrxd[2]:D</item>
+ <item>CORERMII_0/U_RMII_RX/rmii2rx_rrxd[3]:D</item>
+ <item>CORERMII_0/U_RMII_RX/rmii2rx_rrxd[4]:D</item>
+ <item>CORERMII_0/U_RMII_RX/rmii2rx_rrxd[5]:D</item>
+ <item>CORERMII_0/U_RMII_RX/rmii2rx_rrxd[6]:D</item>
+ <item>CORERMII_0/U_RMII_RX/rmii2rx_rrxd[7]:D</item>
+ <item>CORERMII_0/U_RMII_RX/rmii2rx_rxerr_r:D</item>
+ <item>CORERMII_0/U_RMII_RX/rmii2rx_scrsdv1:D</item>
+ <item>CORERMII_0/U_RMII_RX/rmii2rx_scrsdv2:D</item>
+ <item>CORERMII_0/U_RMII_RX/rrxd[0]:D</item>
+ <item>CORERMII_0/U_RMII_RX/rrxd[1]:D</item>
+ <item>CORERMII_0/U_RMII_RX/rrxd[2]:D</item>
+ <item>CORERMII_0/U_RMII_RX/rrxd[3]:D</item>
+ <item>CORERMII_0/U_RMII_RX/rrxdv:D</item>
+ <item>CORERMII_0/U_RMII_RX/rsfd:D</item>
+ <item>CORERMII_0/U_RMII_RX/rsfdd:D</item>
+ <item>CORERMII_0/U_RMII_RX/rxdata_en:D</item>
+ <item>CORERMII_0/U_RMII_RX/spred:D</item>
+ <item>CORERMII_0/U_RMII_RX/spred_d:D</item>
+ <item>CORERMII_0/U_RMII_TX/second_dibit_en:D</item>
+ <item>CORERMII_0/U_RMII_TX/tx2rmii_txd_xhdl1[0]:D</item>
+ <item>CORERMII_0/U_RMII_TX/tx2rmii_txd_xhdl1[1]:D</item>
+ <item>CORERMII_0/U_RMII_TX/tx2rmii_txen_xhdl2:D</item>
+ <item>CORERMII_0/U_RMII_TX/txd_mreg[0]:D</item>
+ <item>CORERMII_0/U_RMII_TX/txd_mreg[1]:D</item>
+ <item>CORERMII_0/U_RMII_TX/txd_mreg[2]:D</item>
+ <item>CORERMII_0/U_RMII_TX/txd_mreg[3]:D</item>
+ <item>CORERMII_0/U_RMII_TX/txen_mreg:D</item>
+</list>
+<text></text>
+<text> - Recovery uncconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>CORERMII_0/U_RMII_RX/bcs:ALn</item>
+ <item>CORERMII_0/U_RMII_RX/brfc:ALn</item>
+ <item>CORERMII_0/U_RMII_RX/rfcd:ALn</item>
+ <item>CORERMII_0/U_RMII_RX/rmii2rx_rrxd[0]:ALn</item>
+ <item>CORERMII_0/U_RMII_RX/rmii2rx_rrxd[1]:ALn</item>
+ <item>CORERMII_0/U_RMII_RX/rmii2rx_rrxd[2]:ALn</item>
+ <item>CORERMII_0/U_RMII_RX/rmii2rx_rrxd[3]:ALn</item>
+ <item>CORERMII_0/U_RMII_RX/rmii2rx_rrxd[4]:ALn</item>
+ <item>CORERMII_0/U_RMII_RX/rmii2rx_rrxd[5]:ALn</item>
+ <item>CORERMII_0/U_RMII_RX/rmii2rx_rrxd[6]:ALn</item>
+ <item>CORERMII_0/U_RMII_RX/rmii2rx_rrxd[7]:ALn</item>
+ <item>CORERMII_0/U_RMII_RX/rmii2rx_rxerr_r:ALn</item>
+ <item>CORERMII_0/U_RMII_RX/rmii2rx_scrsdv1:ALn</item>
+ <item>CORERMII_0/U_RMII_RX/rmii2rx_scrsdv2:ALn</item>
+ <item>CORERMII_0/U_RMII_RX/rrxd[0]:ALn</item>
+ <item>CORERMII_0/U_RMII_RX/rrxd[1]:ALn</item>
+ <item>CORERMII_0/U_RMII_RX/rrxd[2]:ALn</item>
+ <item>CORERMII_0/U_RMII_RX/rrxd[3]:ALn</item>
+ <item>CORERMII_0/U_RMII_RX/rrxdv:ALn</item>
+ <item>CORERMII_0/U_RMII_RX/rsfd:ALn</item>
+ <item>CORERMII_0/U_RMII_RX/rsfdd:ALn</item>
+ <item>CORERMII_0/U_RMII_RX/rxdata_en:ALn</item>
+ <item>CORERMII_0/U_RMII_RX/spred:ALn</item>
+ <item>CORERMII_0/U_RMII_RX/spred_d:ALn</item>
+ <item>CORERMII_0/U_RMII_TX/second_dibit_en:ALn</item>
+ <item>CORERMII_0/U_RMII_TX/tx2rmii_txd_xhdl1[0]:ALn</item>
+ <item>CORERMII_0/U_RMII_TX/tx2rmii_txd_xhdl1[1]:ALn</item>
+ <item>CORERMII_0/U_RMII_TX/tx2rmii_txen_xhdl2:ALn</item>
+ <item>CORERMII_0/U_RMII_TX/txd_mreg[0]:ALn</item>
+ <item>CORERMII_0/U_RMII_TX/txd_mreg[1]:ALn</item>
+ <item>CORERMII_0/U_RMII_TX/txd_mreg[2]:ALn</item>
+ <item>CORERMII_0/U_RMII_TX/txd_mreg[3]:ALn</item>
+ <item>CORERMII_0/U_RMII_TX/txen_mreg:ALn</item>
+</list>
+<text></text>
+<text> - Hold uncconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>CORERMII_0/U_RMII_RX/bcs:D</item>
+ <item>CORERMII_0/U_RMII_RX/brfc:D</item>
+ <item>CORERMII_0/U_RMII_RX/rfcd:D</item>
+ <item>CORERMII_0/U_RMII_RX/rmii2rx_rrxd[0]:D</item>
+ <item>CORERMII_0/U_RMII_RX/rmii2rx_rrxd[1]:D</item>
+ <item>CORERMII_0/U_RMII_RX/rmii2rx_rrxd[2]:D</item>
+ <item>CORERMII_0/U_RMII_RX/rmii2rx_rrxd[3]:D</item>
+ <item>CORERMII_0/U_RMII_RX/rmii2rx_rrxd[4]:D</item>
+ <item>CORERMII_0/U_RMII_RX/rmii2rx_rrxd[5]:D</item>
+ <item>CORERMII_0/U_RMII_RX/rmii2rx_rrxd[6]:D</item>
+ <item>CORERMII_0/U_RMII_RX/rmii2rx_rrxd[7]:D</item>
+ <item>CORERMII_0/U_RMII_RX/rmii2rx_rxerr_r:D</item>
+ <item>CORERMII_0/U_RMII_RX/rmii2rx_scrsdv1:D</item>
+ <item>CORERMII_0/U_RMII_RX/rmii2rx_scrsdv2:D</item>
+ <item>CORERMII_0/U_RMII_RX/rrxd[0]:D</item>
+ <item>CORERMII_0/U_RMII_RX/rrxd[1]:D</item>
+ <item>CORERMII_0/U_RMII_RX/rrxd[2]:D</item>
+ <item>CORERMII_0/U_RMII_RX/rrxd[3]:D</item>
+ <item>CORERMII_0/U_RMII_RX/rrxdv:D</item>
+ <item>CORERMII_0/U_RMII_RX/rsfd:D</item>
+ <item>CORERMII_0/U_RMII_RX/rsfdd:D</item>
+ <item>CORERMII_0/U_RMII_RX/rxdata_en:D</item>
+ <item>CORERMII_0/U_RMII_RX/spred:D</item>
+ <item>CORERMII_0/U_RMII_RX/spred_d:D</item>
+ <item>CORERMII_0/U_RMII_TX/second_dibit_en:D</item>
+ <item>CORERMII_0/U_RMII_TX/tx2rmii_txd_xhdl1[0]:D</item>
+ <item>CORERMII_0/U_RMII_TX/tx2rmii_txd_xhdl1[1]:D</item>
+ <item>CORERMII_0/U_RMII_TX/tx2rmii_txen_xhdl2:D</item>
+ <item>CORERMII_0/U_RMII_TX/txd_mreg[0]:D</item>
+ <item>CORERMII_0/U_RMII_TX/txd_mreg[1]:D</item>
+ <item>CORERMII_0/U_RMII_TX/txd_mreg[2]:D</item>
+ <item>CORERMII_0/U_RMII_TX/txd_mreg[3]:D</item>
+ <item>CORERMII_0/U_RMII_TX/txen_mreg:D</item>
+</list>
+<text></text>
+<text> - Removal uncconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>CORERMII_0/U_RMII_RX/bcs:ALn</item>
+ <item>CORERMII_0/U_RMII_RX/brfc:ALn</item>
+ <item>CORERMII_0/U_RMII_RX/rfcd:ALn</item>
+ <item>CORERMII_0/U_RMII_RX/rmii2rx_rrxd[0]:ALn</item>
+ <item>CORERMII_0/U_RMII_RX/rmii2rx_rrxd[1]:ALn</item>
+ <item>CORERMII_0/U_RMII_RX/rmii2rx_rrxd[2]:ALn</item>
+ <item>CORERMII_0/U_RMII_RX/rmii2rx_rrxd[3]:ALn</item>
+ <item>CORERMII_0/U_RMII_RX/rmii2rx_rrxd[4]:ALn</item>
+ <item>CORERMII_0/U_RMII_RX/rmii2rx_rrxd[5]:ALn</item>
+ <item>CORERMII_0/U_RMII_RX/rmii2rx_rrxd[6]:ALn</item>
+ <item>CORERMII_0/U_RMII_RX/rmii2rx_rrxd[7]:ALn</item>
+ <item>CORERMII_0/U_RMII_RX/rmii2rx_rxerr_r:ALn</item>
+ <item>CORERMII_0/U_RMII_RX/rmii2rx_scrsdv1:ALn</item>
+ <item>CORERMII_0/U_RMII_RX/rmii2rx_scrsdv2:ALn</item>
+ <item>CORERMII_0/U_RMII_RX/rrxd[0]:ALn</item>
+ <item>CORERMII_0/U_RMII_RX/rrxd[1]:ALn</item>
+ <item>CORERMII_0/U_RMII_RX/rrxd[2]:ALn</item>
+ <item>CORERMII_0/U_RMII_RX/rrxd[3]:ALn</item>
+ <item>CORERMII_0/U_RMII_RX/rrxdv:ALn</item>
+ <item>CORERMII_0/U_RMII_RX/rsfd:ALn</item>
+ <item>CORERMII_0/U_RMII_RX/rsfdd:ALn</item>
+ <item>CORERMII_0/U_RMII_RX/rxdata_en:ALn</item>
+ <item>CORERMII_0/U_RMII_RX/spred:ALn</item>
+ <item>CORERMII_0/U_RMII_RX/spred_d:ALn</item>
+ <item>CORERMII_0/U_RMII_TX/second_dibit_en:ALn</item>
+ <item>CORERMII_0/U_RMII_TX/tx2rmii_txd_xhdl1[0]:ALn</item>
+ <item>CORERMII_0/U_RMII_TX/tx2rmii_txd_xhdl1[1]:ALn</item>
+ <item>CORERMII_0/U_RMII_TX/tx2rmii_txen_xhdl2:ALn</item>
+ <item>CORERMII_0/U_RMII_TX/txd_mreg[0]:ALn</item>
+ <item>CORERMII_0/U_RMII_TX/txd_mreg[1]:ALn</item>
+ <item>CORERMII_0/U_RMII_TX/txd_mreg[2]:ALn</item>
+ <item>CORERMII_0/U_RMII_TX/txd_mreg[3]:ALn</item>
+ <item>CORERMII_0/U_RMII_TX/txen_mreg:ALn</item>
+</list>
+<text></text>
+</section>
+</section>
+<section>
+<name>Clock domain: </name>
+<text>gated-clocks</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>            0</cell>
+ <cell>            1</cell>
+ <cell>            1</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            3</cell>
+ <cell>            3</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>            0</cell>
+ <cell>            4</cell>
+ <cell>            4</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>            0</cell>
+ <cell>            1</cell>
+ <cell>            1</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            3</cell>
+ <cell>            3</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>            0</cell>
+ <cell>            4</cell>
+ <cell>            4</cell>
+</row>
+</table>
+<section>
+<name>Enhancement Suggestions</name>
+<text></text>
+<text> - Clock constraint is missing </text>
+<text></text>
+<text></text>
+<text> - Setup uncconstrained for the following pin:</text>
+<text>   </text>
+<list>
+ <item>M2S010_Ethernet_MSS_0/MSS_ADLIB_INST/INST_MSS_010_IP:MDIF</item>
+</list>
+<text></text>
+<text> - Hold uncconstrained for the following pin:</text>
+<text>   </text>
+<list>
+ <item>M2S010_Ethernet_MSS_0/MSS_ADLIB_INST/INST_MSS_010_IP:MDIF</item>
+</list>
+<text></text>
+</section>
+</section>
+<section>
+<name>Input to Output</name>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            1</cell>
+ <cell>            1</cell>
+</row>
+<separator/>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            1</cell>
+ <cell>            1</cell>
+</row>
+</table>
+<section>
+<name>Enhancement Suggestions</name>
+<text></text>
+<text> - Max delay constraint missing on  inputport:</text>
+<text>   </text>
+<list>
+ <item>BtnReset</item>
+</list>
+<text></text>
+<text> - Min delay constraint missing on  inputport:</text>
+<text>   </text>
+<list>
+ <item>BtnReset</item>
+</list>
+<text></text>
+<text></text>
+<text> - Max delay constraint missing on  outputport:</text>
+<text>   </text>
+<list>
+ <item>PHY_reset</item>
+</list>
+<text></text>
+<text> - Min delay constraint missing on  outputport:</text>
+<text>   </text>
+<list>
+ <item>PHY_reset</item>
+</list>
+<text></text>
+<text></text>
+</section>
+</section>
+</section>
+</doc>

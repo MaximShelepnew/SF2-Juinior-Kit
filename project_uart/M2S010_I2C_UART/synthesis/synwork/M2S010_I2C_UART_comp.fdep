@@ -1,0 +1,62 @@
+#OPTIONS:"|-layerid|0|-orig_srs|E:\\Projects\\Actel\\ActelKit\\RefDes\\5\\SoC\\M2S010_I2C_UART\\synthesis\\synwork\\M2S010_I2C_UART_comp.srs|-top|work.M2S010_I2C_UART|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-vhdl2008|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\bin64\\c_vhdl.exe":1449207326
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd2008\\location.map":1449207334
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd2008\\std.vhd":1449207334
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\snps_haps_pkg.vhd":1449207332
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd2008\\std1164.vhd":1449207334
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd2008\\std_textio.vhd":1449207334
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd2008\\numeric.vhd":1449207334
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\umr_capim.vhd":1449207332
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd2008\\arith.vhd":1449207334
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd2008\\unsigned.vhd":1449207334
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\hyperents.vhd":1449207332
+#CUR:"E:\\Projects\\Actel\\ActelKit\\RefDes\\5\\SoC\\M2S010_I2C_UART\\component\\work\\M2S010_I2C_UART\\FCCC_0\\M2S010_I2C_UART_FCCC_0_FCCC.vhd":1498216261
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\generic\\smartfusion2.vhd":1449207330
+#CUR:"E:\\Projects\\Actel\\ActelKit\\RefDes\\5\\SoC\\M2S010_I2C_UART\\component\\work\\M2S010_I2C_UART_MSS\\M2S010_I2C_UART_MSS_syn.vhd":1498216227
+#CUR:"E:\\Projects\\Actel\\ActelKit\\RefDes\\5\\SoC\\M2S010_I2C_UART\\component\\Actel\\SgCore\\OSC\\2.0.101\\osc_comps.vhd":1490711803
+#CUR:"E:\\Projects\\Actel\\ActelKit\\RefDes\\5\\SoC\\M2S010_I2C_UART\\component\\work\\M2S010_I2C_UART_MSS\\M2S010_I2C_UART_MSS.vhd":1498216227
+#CUR:"E:\\Projects\\Actel\\ActelKit\\RefDes\\5\\SoC\\M2S010_I2C_UART\\component\\work\\M2S010_I2C_UART\\OSC_0\\M2S010_I2C_UART_OSC_0_OSC.vhd":1498216262
+#CUR:"E:\\Projects\\Actel\\ActelKit\\RefDes\\5\\SoC\\M2S010_I2C_UART\\component\\work\\M2S010_I2C_UART\\M2S010_I2C_UART.vhd":1498216263
+0			"E:\Projects\Actel\ActelKit\RefDes\5\SoC\M2S010_I2C_UART\component\work\M2S010_I2C_UART\FCCC_0\M2S010_I2C_UART_FCCC_0_FCCC.vhd" vhdl
+1			"E:\Projects\Actel\ActelKit\RefDes\5\SoC\M2S010_I2C_UART\component\work\M2S010_I2C_UART_MSS\M2S010_I2C_UART_MSS_syn.vhd" vhdl
+2			"E:\Projects\Actel\ActelKit\RefDes\5\SoC\M2S010_I2C_UART\component\work\M2S010_I2C_UART_MSS\M2S010_I2C_UART_MSS.vhd" vhdl
+3			"E:\Projects\Actel\ActelKit\RefDes\5\SoC\M2S010_I2C_UART\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd" vhdl
+4			"E:\Projects\Actel\ActelKit\RefDes\5\SoC\M2S010_I2C_UART\component\work\M2S010_I2C_UART\OSC_0\M2S010_I2C_UART_OSC_0_OSC.vhd" vhdl
+5			"E:\Projects\Actel\ActelKit\RefDes\5\SoC\M2S010_I2C_UART\component\work\M2S010_I2C_UART\M2S010_I2C_UART.vhd" vhdl
+#Dependency Lists(Uses List)
+0 -1
+1 -1
+2 1
+3 -1
+4 3
+5 4 2 0
+#Dependency Lists(Users Of)
+0 5
+1 2
+2 5
+3 4
+4 5
+5 -1
+#Design Unit to File Association
+module work m2s010_i2c_uart 5
+arch work m2s010_i2c_uart rtl 5
+module work m2s010_i2c_uart_osc_0_osc 4
+arch work m2s010_i2c_uart_osc_0_osc def_arch 4
+module work rcosc_1mhz 3
+arch work rcosc_1mhz def_arch 3
+module work rcosc_25_50mhz 3
+arch work rcosc_25_50mhz def_arch 3
+module work xtlosc 3
+arch work xtlosc def_arch 3
+module work rcosc_1mhz_fab 3
+arch work rcosc_1mhz_fab def_arch 3
+module work rcosc_25_50mhz_fab 3
+arch work rcosc_25_50mhz_fab def_arch 3
+module work xtlosc_fab 3
+arch work xtlosc_fab def_arch 3
+module work m2s010_i2c_uart_mss 2
+arch work m2s010_i2c_uart_mss rtl 2
+module work mss_010 1
+arch work mss_010 def_arch 1
+module work m2s010_i2c_uart_fccc_0_fccc 0
+arch work m2s010_i2c_uart_fccc_0_fccc def_arch 0

@@ -1,0 +1,74 @@
+#### START OF AREA REPORT #####[
+
+Part:			M2S010TQ144STD (Microsemi)
+
+------------------------------------------------------------------------------
+########   Utilization report for  Top level view:   M2S010_USB_vcp   ########
+==============================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     6                  100 %                
+======================================================
+Total COMBINATIONAL LOGIC in the block M2S010_USB_vcp:	6 (21.43 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  100 %                
+===================================================
+Total GLOBAL BUFFERS in the block M2S010_USB_vcp:	1 (3.57 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       15                 100 %                
+=================================================
+Total IO PADS in the block M2S010_USB_vcp:	15 (53.57 % Utilization)
+
+------------------------------------------------------------------------
+########   Utilization report for  cell:   M2S010_USB_vcp_MSS   ########
+Instance path:   M2S010_USB_vcp.M2S010_USB_vcp_MSS                      
+========================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     1                  16.7 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block M2S010_USB_vcp.M2S010_USB_vcp_MSS:	1 (3.57 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       12                 80. %                
+=================================================
+Total IO PADS in the block M2S010_USB_vcp.M2S010_USB_vcp_MSS:	12 (42.86 % Utilization)
+
+------------------------------------------------------------------------------
+########   Utilization report for  cell:   M2S010_USB_vcp_OSC_0_OSC   ########
+Instance path:   M2S010_USB_vcp.M2S010_USB_vcp_OSC_0_OSC                      
+==============================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     3                  50. %                
+======================================================
+Total COMBINATIONAL LOGIC in the block M2S010_USB_vcp.M2S010_USB_vcp_OSC_0_OSC:	3 (10.71 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  100 %                
+===================================================
+Total GLOBAL BUFFERS in the block M2S010_USB_vcp.M2S010_USB_vcp_OSC_0_OSC:	1 (3.57 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

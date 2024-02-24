@@ -1,0 +1,21 @@
+Microsemi Corporation - Microsemi Libero Software Release Libero SoC v11.8 SP1 (Version 11.8.1.12)
+
+Date      :  Tue Sep 19 13:49:25 2017
+Project   :  E:\Projects\Actel\ActelKit\M2S\RefDes\3\115200\MyFirstProject
+Component :  MyFirstProject
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    E:/Projects/Actel/ActelKit/M2S/RefDes/3/115200/MyFirstProject/component/work/MyFirstProject/MyFirstProject.vhd
+    E:/Projects/Actel/ActelKit/M2S/RefDes/3/115200/MyFirstProject/component/work/MyFirstProject/OSC_0/MyFirstProject_OSC_0_OSC.vhd
+
+HDL source files for Synopsys SynplifyPro Synthesis tool:
+    E:/Projects/Actel/ActelKit/M2S/RefDes/3/115200/MyFirstProject/component/Actel/SgCore/OSC/2.0.101/osc_comps.vhd
+
+HDL source files for Mentor Precision Synthesis tool:
+    E:/Projects/Actel/ActelKit/M2S/RefDes/3/115200/MyFirstProject/component/Actel/SgCore/OSC/2.0.101/osc_comps_pre.vhd
+
+Stimulus files for all Simulation tools:
+    E:/Projects/Actel/ActelKit/M2S/RefDes/3/115200/MyFirstProject/component/work/MyFirstProject/subsystem.bfm
+

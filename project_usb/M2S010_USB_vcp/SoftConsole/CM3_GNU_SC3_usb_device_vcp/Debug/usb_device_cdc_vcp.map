@@ -1,0 +1,37 @@
+Archive member included because of file (symbol)
+
+c:/microsemi/libero_soc_v11.7/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-errno.o)
+                              ./CMSIS/startup_gcc/newlib_stubs.o (__errno)
+c:/microsemi/libero_soc_v11.7/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-impure.o)
+                              c:/microsemi/libero_soc_v11.7/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-errno.o) (_impure_ptr)
+c:/microsemi/libero_soc_v11.7/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-init.o)
+                              ./CMSIS/startup_gcc/startup_m2sxxx.o (__libc_init_array)
+c:/microsemi/libero_soc_v11.7/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memcpy.o)
+                              ./drivers/mss_sys_services/mss_sys_services.o (memcpy)
+
+Allocating common symbols
+Common symbol       size              file
+
+g_usbd_msc_media_ops
+                    0x4               ./drivers/mss_usb/mss_usb_device_msd.o
+g_usbd_msc_user_speed
+                    0x1               ./drivers/mss_usb/mss_usb_device_msd.o
+g_bot_cbw           0x20              ./drivers/mss_usb/mss_usb_device_msd.o
+g_mss_usbd_printer_ops
+                    0x4               ./drivers/mss_usb/mss_usb_device_printer.o
+g_usbd_hid_user_speed
+                    0x1               ./drivers/mss_usb/mss_usb_device_hid.o
+g_bot_state         0x1               ./drivers/mss_usb/mss_usb_device_msd.o
+g_mss_uart1         0x40              ./drivers/mss_uart/mss_uart.o
+cep_state           0x1               ./drivers/mss_usb/mss_usb_device_cif.o
+g_usbd_cdc_user_speed
+                    0x1               ./drivers/mss_usb/mss_usb_device_cdc.o
+g_mss_uart0         0x40              ./drivers/mss_uart/mss_uart.o
+usbd_cdc_vcp_ops    0x4               ./drivers/mss_usb/mss_usb_device_cdc.o
+g_usbd_vendor_user_speed
+                    0x1               ./drivers/mss_usb/mss_usb_device_vendor.o
+g_usbd_class_cb     0x4               ./drivers/mss_usb/mss_usb_device.o
+g_string_descriptor
+                    0x40              ./usb_user_descriptors.o
+g_usbd_user_descr_cb
+                    0x4               ./drivers/mss_usb/mss_usb_device.o

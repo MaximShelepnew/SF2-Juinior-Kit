@@ -1,0 +1,7 @@
+@W: CL240 :"E:\Projects\Actel\ActelKit\RefDes\5\SoC\M2S010_I2C_UART\component\work\M2S010_I2C_UART\OSC_0\M2S010_I2C_UART_OSC_0_OSC.vhd":16:10:16:19|XTLOSC_O2F is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"E:\Projects\Actel\ActelKit\RefDes\5\SoC\M2S010_I2C_UART\component\work\M2S010_I2C_UART\OSC_0\M2S010_I2C_UART_OSC_0_OSC.vhd":15:10:15:19|XTLOSC_CCC is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"E:\Projects\Actel\ActelKit\RefDes\5\SoC\M2S010_I2C_UART\component\work\M2S010_I2C_UART\OSC_0\M2S010_I2C_UART_OSC_0_OSC.vhd":14:10:14:23|RCOSC_1MHZ_O2F is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"E:\Projects\Actel\ActelKit\RefDes\5\SoC\M2S010_I2C_UART\component\work\M2S010_I2C_UART\OSC_0\M2S010_I2C_UART_OSC_0_OSC.vhd":13:10:13:23|RCOSC_1MHZ_CCC is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"E:\Projects\Actel\ActelKit\RefDes\5\SoC\M2S010_I2C_UART\component\work\M2S010_I2C_UART\OSC_0\M2S010_I2C_UART_OSC_0_OSC.vhd":12:10:12:27|RCOSC_25_50MHZ_O2F is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL159 :"E:\Projects\Actel\ActelKit\RefDes\5\SoC\M2S010_I2C_UART\component\work\M2S010_I2C_UART\OSC_0\M2S010_I2C_UART_OSC_0_OSC.vhd":10:10:10:12|Input XTL is unused
+

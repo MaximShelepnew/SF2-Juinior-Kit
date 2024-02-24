@@ -1,0 +1,16 @@
+C:\Microsemi\Libero_SoC_v11.7\Synplify\bin64\m_generic.exe  -prodtype  synplify_pro  -encrypt  -pro  -rundir  D:\Demo\M2S\8\M2S010_Ethernet\synthesis   -part M2S010  -package TQ144  -grade STD    -maxfan 10000 -clock_globalthreshold 2 -async_globalthreshold 12 -globalthreshold 5000 -low_power_ram_decomp 0 -opcond COMTC -report_path 4000 -RWCheckOnRam 0 -summaryfile D:\Demo\M2S\8\M2S010_Ethernet\synthesis\synlog\report\M2S010_Ethernet_fpga_mapper.xml  -top_level_module  work.M2S010_Ethernet  -licensetype  synplifypro_actel  -flow mapping  -mp  1  -prjfile  D:\Demo\M2S\8\M2S010_Ethernet\synthesis\scratchproject.prs  -implementation  synthesis  -multisrs  -oedif  D:\Demo\M2S\8\M2S010_Ethernet\synthesis\M2S010_Ethernet.edn   -freq 100.000   -tcl  D:\Demo\M2S\8\M2S010_Ethernet\designer\M2S010_Ethernet\synthesis.fdc  D:\Demo\M2S\8\M2S010_Ethernet\synthesis\synwork\M2S010_Ethernet_prem.srd  -sap  D:\Demo\M2S\8\M2S010_Ethernet\synthesis\M2S010_Ethernet.sap  -otap  D:\Demo\M2S\8\M2S010_Ethernet\synthesis\M2S010_Ethernet.tap  -omap  D:\Demo\M2S\8\M2S010_Ethernet\synthesis\M2S010_Ethernet.map  -devicelib  C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.v  -sap  D:\Demo\M2S\8\M2S010_Ethernet\synthesis\M2S010_Ethernet.sap  -ologparam  D:\Demo\M2S\8\M2S010_Ethernet\synthesis\syntmp\M2S010_Ethernet.plg  -osyn  D:\Demo\M2S\8\M2S010_Ethernet\synthesis\M2S010_Ethernet.srm  -prjdir  D:\Demo\M2S\8\M2S010_Ethernet\synthesis\  -prjname  M2S010_Ethernet_syn  -log  D:\Demo\M2S\8\M2S010_Ethernet\synthesis\synlog\M2S010_Ethernet_fpga_mapper.srr 
+rc:1 success:1
+D:\Demo\M2S\8\M2S010_Ethernet\synthesis\scratchproject.prs|o|1508856744|3103
+D:\Demo\M2S\8\M2S010_Ethernet\synthesis\M2S010_Ethernet.edn|o|1508856748|170292
+D:\Demo\M2S\8\M2S010_Ethernet\designer\M2S010_Ethernet\synthesis.fdc|i|1508856739|54
+D:\Demo\M2S\8\M2S010_Ethernet\synthesis\synwork\M2S010_Ethernet_prem.srd|i|1508856746|79291
+D:\Demo\M2S\8\M2S010_Ethernet\synthesis\M2S010_Ethernet.sap|o|1508856747|9791
+D:\Demo\M2S\8\M2S010_Ethernet\synthesis\M2S010_Ethernet.tap|o|0|0
+D:\Demo\M2S\8\M2S010_Ethernet\synthesis\M2S010_Ethernet.map|o|1508856748|28
+C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.v|i|1449207330|16359
+D:\Demo\M2S\8\M2S010_Ethernet\synthesis\M2S010_Ethernet.sap|o|1508856747|9791
+D:\Demo\M2S\8\M2S010_Ethernet\synthesis\syntmp\M2S010_Ethernet.plg|o|1508856748|3183
+D:\Demo\M2S\8\M2S010_Ethernet\synthesis\M2S010_Ethernet.srm|o|1508856748|11730
+D:\Demo\M2S\8\M2S010_Ethernet\synthesis\synlog\M2S010_Ethernet_fpga_mapper.srr|o|1508856748|29558
+C:\Microsemi\Libero_SoC_v11.7\Synplify\bin\m_generic.exe|i|1449724744|15814144
+C:\Microsemi\Libero_SoC_v11.7\Synplify\bin64\m_generic.exe|i|1449726356|27632640

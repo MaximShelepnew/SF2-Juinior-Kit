@@ -1,0 +1,63 @@
+[Version]
+Signature="$Windows NT$"
+Class=Ports
+ClassGuid={4D36E978-E325-11CE-BFC1-08002BE10318}
+Provider=%MSC%
+
+DriverVer=12/24/2012,1.2.1
+
+[Manufacturer]
+%MSC%=DeviceList,ntamd64
+
+;------------------------------------------------------------------------------
+;  Device list
+;------------------------------------------------------------------------------
+
+[DeviceList]
+%COMPOSITE%  =MSCSF2, USBVID_04D6&PID_0001&MI_00
+
+[DeviceList.ntamd64]
+%COMPOSITE%  =MSCSF2, USBVID_04D6&PID_0001&MI_00
+
+;------------------------------------------------------------------------------
+;  Installation
+;------------------------------------------------------------------------------
+
+[SourceDisksNames]
+;;; this blank section satisfies chkinf
+[SourceDisksFiles]
+;;; this blank section satisfies chkinf
+
+[DestinationDirs]
+FakeModemCopyFileSection=12
+DefaultDestDir = 12
+
+[MSCSF2]
+include=mdmcpq.inf
+CopyFiles=FakeModemCopyFileSection
+AddReg=MSCSF2.AddReg
+
+[MSCSF2.AddReg]
+HKR,,DevLoader,,ntkern
+HKR,,NTMPDriver,,usbser.sys
+HKR,,EnumPropPages32,,MsPorts.dll,SerialPortPropPageProvider
+
+[MSCSF2.Services]
+AddService = usbser, 0x00000002, DriverService
+
+[DriverService]
+DisplayName = %DRIVER.SVC%
+ServiceType = 1 ; SERVICE_KERNEL_DRIVER
+StartType = 3 ; SERVICE_DEMAND_START
+ErrorControl = 1 ; SERVICE_ERROR_NORMAL
+ServiceBinary = %12%\usbser.sys
+
+;------------------------------------------------------------------------------
+;  String Definitions
+;------------------------------------------------------------------------------
+
+[Strings]
+MSC       = Microsemi Inc
+DRIVER.SVC = SF2 USB VCom Driver
+DESCRIPTION= SF2 USB VCom Port
+COMPOSITE  = Microsemi CDC VCP

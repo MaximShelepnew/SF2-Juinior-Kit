@@ -1,0 +1,20 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\vhd2008\std.vhd":146:18:146:21|Setting time resolution to ns
+@N:"E:\Projects\Actel\ActelKit\RefDes\5\SoC\M2S010_I2C_UART\component\work\M2S010_I2C_UART\M2S010_I2C_UART.vhd":17:7:17:21|Top entity is set to M2S010_I2C_UART.
+@N: CD231 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus ('U'="1000000000")
+@N: CD630 :"E:\Projects\Actel\ActelKit\RefDes\5\SoC\M2S010_I2C_UART\component\work\M2S010_I2C_UART\M2S010_I2C_UART.vhd":17:7:17:21|Synthesizing work.m2s010_i2c_uart.rtl 
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.vhd":434:10:434:14|Synthesizing smartfusion2.bibuf.syn_black_box 
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.vhd":786:10:786:17|Synthesizing smartfusion2.sysreset.syn_black_box 
+@N: CD630 :"E:\Projects\Actel\ActelKit\RefDes\5\SoC\M2S010_I2C_UART\component\work\M2S010_I2C_UART\OSC_0\M2S010_I2C_UART_OSC_0_OSC.vhd":8:7:8:31|Synthesizing work.m2s010_i2c_uart_osc_0_osc.def_arch 
+@N: CD630 :"E:\Projects\Actel\ActelKit\RefDes\5\SoC\M2S010_I2C_UART\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd":19:7:19:20|Synthesizing work.rcosc_25_50mhz.def_arch 
+@N: CD630 :"E:\Projects\Actel\ActelKit\RefDes\5\SoC\M2S010_I2C_UART\component\work\M2S010_I2C_UART_MSS\M2S010_I2C_UART_MSS.vhd":17:7:17:25|Synthesizing work.m2s010_i2c_uart_mss.rtl 
+@N: CD630 :"E:\Projects\Actel\ActelKit\RefDes\5\SoC\M2S010_I2C_UART\component\work\M2S010_I2C_UART_MSS\M2S010_I2C_UART_MSS_syn.vhd":10:7:10:13|Synthesizing work.mss_010.def_arch 
+@N: CD630 :"E:\Projects\Actel\ActelKit\RefDes\5\SoC\M2S010_I2C_UART\component\work\M2S010_I2C_UART\FCCC_0\M2S010_I2C_UART_FCCC_0_FCCC.vhd":8:7:8:33|Synthesizing work.m2s010_i2c_uart_fccc_0_fccc.def_arch 
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.vhd":794:10:794:12|Synthesizing smartfusion2.ccc.syn_black_box 
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.vhd":562:10:562:15|Synthesizing smartfusion2.clkint.syn_black_box 
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.vhd":576:10:576:12|Synthesizing smartfusion2.gnd.syn_black_box 
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.vhd":582:10:582:12|Synthesizing smartfusion2.vcc.syn_black_box 
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.vhd":231:10:231:13|Synthesizing smartfusion2.and3.syn_black_box 
+@N|Running in 64-bit mode
+

@@ -1,0 +1,65 @@
+# Microsemi Physical design constraints file
+
+# Version: v11.8 SP1 11.8.1.12
+
+# Design Name: MyFirstProject 
+
+# Input Netlist Format: EDIF 
+
+# Family: SmartFusion2 , Die: M2S010 , Package: 144 TQ , Speed grade: STD 
+
+# Date generated: Wed Sep 13 14:02:11 2017 
+
+
+#
+# I/O constraints
+#
+
+set_io BtnReset -DIRECTION INPUT -pinname 13 -fixed no
+set_io FPGA_LED -DIRECTION OUTPUT -pinname 67 -fixed no
+set_io M3_LED -DIRECTION OUTPUT -pinname 63 -fixed no
+set_io MMUART_0_RXD_F2M -DIRECTION INPUT -pinname 9 -fixed no
+set_io MMUART_0_TXD_M2F -DIRECTION OUTPUT -pinname 10 -fixed no
+
+#
+# Core cell constraints
+#
+
+set_location MyCounter_0/Qaux\[17\] -fixed no 317 4
+set_location OSC_0/I_RCOSC_25_50MHZ_FAB_CLKINT -fixed no 219 54
+set_location AND2_0_RNIKOS1/U0_RGB1 -fixed no 218 3
+set_location MyCounter_0/Qaux\[20\] -fixed no 320 4
+set_location MyCounter_0/Qaux\[0\] -fixed no 323 4
+set_location MyCounter_0/Qaux\[11\] -fixed no 311 4
+set_location MyCounter_0/Qaux\[13\] -fixed no 313 4
+set_location OSC_0/I_RCOSC_25_50MHZ_FAB -fixed no 397 92
+set_location MyCounter_0/Qaux\[2\] -fixed no 302 4
+set_location MyCounter_0/Qaux_RNO\[0\] -fixed no 323 3
+set_location MyCounter_0/Qaux\[15\] -fixed no 315 4
+set_location MyCounter_0/Qaux\[9\] -fixed no 309 4
+set_location MyCounter_0/Qaux\[10\] -fixed no 310 4
+set_location MyCounter_0/Qaux\[6\] -fixed no 306 4
+set_location MyCounter_0/Qaux\[4\] -fixed no 304 4
+set_location MyCounter_0/Qaux\[1\] -fixed no 301 4
+set_location MyCounter_0/Qaux\[5\] -fixed no 305 4
+set_location ip_interface_inst -fixed no 191 0
+set_location MyCounter_0/Qaux\[7\] -fixed no 307 4
+set_location MyCounter_0/Qaux\[22\] -fixed no 322 4
+set_location AND2_0_RNIKOS1 -fixed no 220 54
+set_location MyCounter_0/Qaux\[14\] -fixed no 314 4
+set_location MyCounter_0/Qaux\[21\] -fixed no 321 4
+set_location OSC_0/I_RCOSC_25_50MHZ -fixed no 396 92
+set_location MyCounter_0/Qaux\[16\] -fixed no 316 4
+set_location AND2_0 -fixed no 384 72
+set_location MyCounter_0/Qaux\[8\] -fixed no 308 4
+set_location MyCounter_0/Qaux\[18\] -fixed no 318 4
+set_location MyCounter_0/Qaux\[12\] -fixed no 312 4
+set_location OSC_0/I_RCOSC_25_50MHZ_FAB_CLKINT/U0_RGB1 -fixed no 218 102
+set_location MyCounter_0/Qaux\[3\] -fixed no 303 4
+set_location MyCounter_0/Qaux\[19\] -fixed no 319 4
+set_location SYSRESET_0 -fixed no 396 8
+set_location MyFirstProject_MSS_0/MSS_ADLIB_INST -fixed no 300 104
+set_location MyCounter_0/Qaux_s_1 -fixed no 300 3
+set_location MyCounter_0/Qaux_s_1_CC_1 -fixed no 312 5
+set_location MyCounter_0/Qaux_s_1_CC_0 -fixed no 300 5
+set_location OSC_0/I_RCOSC_25_50MHZ_FAB_CLKINT/U0_RGB1_RGB0 -fixed no 219 3

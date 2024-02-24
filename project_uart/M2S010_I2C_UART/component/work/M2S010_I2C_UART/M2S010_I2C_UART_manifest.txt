@@ -1,0 +1,22 @@
+Microsemi Corporation - Microsemi Libero Software Release v11.8 (Version 11.8.0.26)
+
+Date      :  Fri Jun 23 14:11:04 2017
+Project   :  E:\Projects\Actel\ActelKit\RefDes\5\SoC\M2S010_I2C_UART
+Component :  M2S010_I2C_UART
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    E:/Projects/Actel/ActelKit/RefDes/5/SoC/M2S010_I2C_UART/component/work/M2S010_I2C_UART/FCCC_0/M2S010_I2C_UART_FCCC_0_FCCC.vhd
+    E:/Projects/Actel/ActelKit/RefDes/5/SoC/M2S010_I2C_UART/component/work/M2S010_I2C_UART/M2S010_I2C_UART.vhd
+    E:/Projects/Actel/ActelKit/RefDes/5/SoC/M2S010_I2C_UART/component/work/M2S010_I2C_UART/OSC_0/M2S010_I2C_UART_OSC_0_OSC.vhd
+
+HDL source files for Synopsys SynplifyPro Synthesis tool:
+    E:/Projects/Actel/ActelKit/RefDes/5/SoC/M2S010_I2C_UART/component/Actel/SgCore/OSC/2.0.101/osc_comps.vhd
+
+HDL source files for Mentor Precision Synthesis tool:
+    E:/Projects/Actel/ActelKit/RefDes/5/SoC/M2S010_I2C_UART/component/Actel/SgCore/OSC/2.0.101/osc_comps_pre.vhd
+
+Stimulus files for all Simulation tools:
+    E:/Projects/Actel/ActelKit/RefDes/5/SoC/M2S010_I2C_UART/component/work/M2S010_I2C_UART/subsystem.bfm
+

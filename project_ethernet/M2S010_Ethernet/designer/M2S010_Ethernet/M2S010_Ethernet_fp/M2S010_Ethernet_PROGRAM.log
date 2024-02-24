@@ -1,0 +1,37 @@
+Software Version: 11.8.1.12
+Driver : 3.0.0 build 1
+programmer '97578' : FlashPro4
+Opened 'D:\Demo\M2S\8\M2S010_Ethernet\designer\M2S010_Ethernet\M2S010_Ethernet_fp\M2S010_Ethernet.pro'
+The 'open_project' command succeeded.
+IPD file 'D:/Demo/M2S/8/M2S010_Ethernet/designer/M2S010_Ethernet/M2S010_Ethernet.ipd' has been loaded successfully.
+DESIGN : M2S010_Ethernet;  CHECKSUM : 7DF1;  PDB_VERSION : 1.9
+The 'set_programming_file' command succeeded.
+Warning: Programming is already enabled for device 'M2S010'.
+The 'enable_device' command succeeded.
+The 'set_programming_action' command succeeded.
+programmer '97578' : Scan Chain...
+Warning: programmer '97578' : Vpump has been selected on programmer AND an externally provided Vpump has also been detected. Using externally provided Vpump voltage source.
+programmer '97578' : Check Chain...
+programmer '97578' : Scan and Check Chain PASSED.
+programmer '97578' : device 'M2S010' : Executing action PROGRAM
+programmer '97578' : device 'M2S010' : Family: SmartFusion2
+programmer '97578' : device 'M2S010' : Product:      M2S010
+programmer '97578' : device 'M2S010' : EXPORT ISC_ENABLE_RESULT[32] = 007c6a44
+programmer '97578' : device 'M2S010' : EXPORT CRCERR[1] = 0
+programmer '97578' : device 'M2S010' : EXPORT EDCERR[1] = 0
+programmer '97578' : device 'M2S010' : Programming FPGA Array and eNVM...
+programmer '97578' : device 'M2S010' : ===================================================================================
+programmer '97578' : device 'M2S010' : EXPORT DSN[128] = 655a8a41b2a6677a6aa3d39cbf31245e
+programmer '97578' : device 'M2S010' : ===================================================================================
+programmer '97578' : device 'M2S010' : Finished: Tue Oct 24 17:55:14 2017 (Elapsed time 00:00:54)
+programmer '97578' : device 'M2S010' : Executing action PROGRAM PASSED.
+programmer '97578' : Chain programming PASSED.
+Chain Programming Finished: Tue Oct 24 17:55:14 2017 (Elapsed time 00:00:54)
+
+                        o - o - o - o - o - o
+
+The 'run_selected_actions' command succeeded.
+The 'set_programming_file' command succeeded.
+Project saved.
+The 'save_project' command succeeded.
+Project closed.

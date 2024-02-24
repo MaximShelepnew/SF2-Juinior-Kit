@@ -1,0 +1,11 @@
+KEY IDE_DES_TOOL "Ide"
+KEY IDE_DES_ADB_PATH "E:\Projects\Actel\ActelKit\RefDes\7\SoC\M2S010_USB_vcp\designer\impl1\M2S010_USB_vcp.adb"
+LIST SOURCE_FILES
+VALUE "E:\Projects\Actel\ActelKit\RefDes\7\SoC\M2S010_USB_vcp\synthesis\M2S010_USB_vcp.edn;edn"
+VALUE "E:\Projects\Actel\ActelKit\RefDes\7\SoC\M2S010_USB_vcp\constraint\io\user.pdc;pdc"
+ENDLIST
+LIST OPTIONAL_FILES
+VALUE "E:\Projects\Actel\ActelKit\RefDes\7\SoC\M2S010_USB_vcp\synthesis\M2S010_USB_vcp_sdc.sdc;Skipped"
+ENDLIST
+LIST VCD_FILES
+ENDLIST

@@ -1,0 +1,51 @@
+# Microsemi Physical design constraints file
+
+# Version: v11.8 11.8.0.26
+
+# Design Name:  
+
+# Input Netlist Format: EDIF 
+
+# Family: SmartFusion2 , Die: M2S010 , Package: 144 TQ , Speed grade: STD 
+
+# Date generated: Tue Jul 04 12:37:15 2017 
+
+
+#
+# IO banks setting
+#
+
+set_iobank Bank2 -vcci 2.50 -fixed no
+
+#
+# Local clock constraints
+#
+
+
+#
+# Region constraints
+#
+
+
+#
+# I/O constraints
+#
+
+set_io DEVRST_N -DIRECTION INPUT -pinname 72
+set_io USB_ULPI_DATA\[0\] -DIRECTION INOUT -pinname 88 -fixed yes
+set_io USB_ULPI_DATA\[1\] -DIRECTION INOUT -pinname 90 -fixed yes
+set_io USB_ULPI_DATA\[2\] -DIRECTION INOUT -pinname 89 -fixed yes
+set_io USB_ULPI_DATA\[3\] -DIRECTION INOUT -pinname 91 -fixed yes
+set_io USB_ULPI_DATA\[4\] -DIRECTION INOUT -pinname 92 -fixed yes
+set_io USB_ULPI_DATA\[5\] -DIRECTION INOUT -pinname 93 -fixed yes
+set_io USB_ULPI_DATA\[6\] -DIRECTION INOUT -pinname 94 -fixed yes
+set_io USB_ULPI_DATA\[7\] -DIRECTION INOUT -pinname 81 -fixed yes
+set_io USB_ULPI_DIR -DIRECTION INPUT -pinname 83 -fixed yes
+set_io USB_ULPI_NXT -DIRECTION INPUT -pinname 87 -fixed yes
+set_io USB_ULPI_STP -DIRECTION OUTPUT -pinname 85 -fixed yes
+set_io USB_ULPI_XCLK -DIRECTION INPUT -pinname 82 -fixed yes
+
+#
+# Core cell constraints
+#
+

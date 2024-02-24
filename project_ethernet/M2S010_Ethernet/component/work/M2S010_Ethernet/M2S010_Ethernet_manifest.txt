@@ -1,0 +1,32 @@
+Microsemi Corporation - Microsemi Libero Software Release Libero SoC v11.8 SP1 (Version 11.8.1.12)
+
+Date      :  Tue Oct 24 12:27:51 2017
+Project   :  D:\Demo\M2S\8\M2S010_Ethernet
+Component :  M2S010_Ethernet
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    D:/Demo/M2S/8/M2S010_Ethernet/component/Actel/DirectCore/CORERMII/2.0.102/rtl/vhdl/core/RMII_RX.vhd
+    D:/Demo/M2S/8/M2S010_Ethernet/component/Actel/DirectCore/CORERMII/2.0.102/rtl/vhdl/core/RMII_TX.vhd
+    D:/Demo/M2S/8/M2S010_Ethernet/component/Actel/DirectCore/CORERMII/2.0.102/rtl/vhdl/core/XHDL_misc.vhd
+    D:/Demo/M2S/8/M2S010_Ethernet/component/Actel/DirectCore/CORERMII/2.0.102/rtl/vhdl/core/XHDL_std_logic.vhd
+    D:/Demo/M2S/8/M2S010_Ethernet/component/work/M2S010_Ethernet/CORERMII_0/rtl/vhdl/core/CoreRMII.vhd
+    D:/Demo/M2S/8/M2S010_Ethernet/component/work/M2S010_Ethernet/FCCC_0/M2S010_Ethernet_FCCC_0_FCCC.vhd
+    D:/Demo/M2S/8/M2S010_Ethernet/component/work/M2S010_Ethernet/M2S010_Ethernet.vhd
+    D:/Demo/M2S/8/M2S010_Ethernet/component/work/M2S010_Ethernet/OSC_0/M2S010_Ethernet_OSC_0_OSC.vhd
+
+HDL source files for Synopsys SynplifyPro Synthesis tool:
+    D:/Demo/M2S/8/M2S010_Ethernet/component/Actel/SgCore/OSC/2.0.101/osc_comps.vhd
+
+HDL source files for Mentor Precision Synthesis tool:
+    D:/Demo/M2S/8/M2S010_Ethernet/component/Actel/SgCore/OSC/2.0.101/osc_comps_pre.vhd
+
+Stimulus files for all Simulation tools:
+    D:/Demo/M2S/8/M2S010_Ethernet/component/work/M2S010_Ethernet/subsystem.bfm
+
+    D:/Demo/M2S/8/M2S010_Ethernet/component/work/M2S010_Ethernet/CORERMII_0/coreparameters.vhd
+    D:/Demo/M2S/8/M2S010_Ethernet/component/work/M2S010_Ethernet/CORERMII_0/rtl/vhdl/test/user/XHDL_misc.vhd
+    D:/Demo/M2S/8/M2S010_Ethernet/component/work/M2S010_Ethernet/CORERMII_0/rtl/vhdl/test/user/XHDL_std_logic.vhd
+    D:/Demo/M2S/8/M2S010_Ethernet/component/work/M2S010_Ethernet/CORERMII_0/rtl/vhdl/test/user/testbench.vhd
+

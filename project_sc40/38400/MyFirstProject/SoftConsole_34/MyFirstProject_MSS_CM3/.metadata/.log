@@ -1,0 +1,128 @@
+!SESSION 2017-09-08 13:52:17.900 -----------------------------------------------
+eclipse.buildId=M20130329-1600
+java.version=1.6.0_22
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ru_RU
+Framework arguments:  -application org.eclipse.cdt.managedbuilder.core.headlessbuild -import E:\Projects\Actel\ActelKit\M2S\RefDes\1\MyFirstProject\SoftConsole\MyFirstProject_MSS_CM3\projects\MyFirstProject_MSS_CM3_hw_platform
+Command-line arguments:  -os win32 -ws win32 -arch x86 -application org.eclipse.cdt.managedbuilder.core.headlessbuild -data E:/Projects/Actel/ActelKit/M2S/RefDes/1/MyFirstProject/SoftConsole/MyFirstProject_MSS_CM3 -import E:\Projects\Actel\ActelKit\M2S\RefDes\1\MyFirstProject\SoftConsole\MyFirstProject_MSS_CM3\projects\MyFirstProject_MSS_CM3_hw_platform
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 4 0 2017-09-08 13:52:31.956
+!MESSAGE The installable unit org.eclipse.cdt.core.win32.translated_host_properties is missing the filename property.
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 4 0 2017-09-08 13:52:31.956
+!MESSAGE The installable unit org.eclipse.equinox.security.win32.x86.translated_host_properties is missing the filename property.
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 4 0 2017-09-08 13:52:31.956
+!MESSAGE The installable unit org.eclipse.core.net.win32.x86.translated_host_properties is missing the filename property.
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 4 0 2017-09-08 13:52:31.956
+!MESSAGE The installable unit org.eclipse.update.core.win32.translated_host_properties is missing the filename property.
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 4 0 2017-09-08 13:52:31.956
+!MESSAGE The installable unit org.eclipse.core.filesystem.win32.x86.translated_host_properties is missing the filename property.
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 4 0 2017-09-08 13:52:31.956
+!MESSAGE The installable unit org.eclipse.ecf.provider.filetransfer.httpclient.ssl.translated_host_properties is missing the filename property.
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 4 0 2017-09-08 13:52:31.956
+!MESSAGE The installable unit org.eclipse.ecf.ssl.translated_host_properties is missing the filename property.
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 4 0 2017-09-08 13:52:31.956
+!MESSAGE The installable unit org.eclipse.core.resources.win32.x86.translated_host_properties is missing the filename property.
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 4 0 2017-09-08 13:52:31.972
+!MESSAGE The installable unit org.eclipse.ui.workbench.compatibility.translated_host_properties is missing the filename property.
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 4 0 2017-09-08 13:52:31.972
+!MESSAGE The installable unit org.eclipse.ui.win32.translated_host_properties is missing the filename property.
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 4 0 2017-09-08 13:52:31.972
+!MESSAGE The installable unit org.eclipse.core.runtime.compatibility.registry.translated_host_properties is missing the filename property.
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 4 0 2017-09-08 13:52:31.972
+!MESSAGE The installable unit org.eclipse.ecf.provider.filetransfer.ssl.translated_host_properties is missing the filename property.
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 4 0 2017-09-08 13:52:31.972
+!MESSAGE The installable unit org.eclipse.swt.win32.win32.x86.translated_host_properties is missing the filename property.
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 4 0 2017-09-08 13:52:31.972
+!MESSAGE The installable unit org.eclipse.core.resources.compatibility.translated_host_properties is missing the filename property.
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 4 0 2017-09-08 13:52:31.972
+!MESSAGE The installable unit org.eclipse.equinox.launcher.win32.win32.x86.translated_host_properties is missing the filename property.
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 4 0 2017-09-08 13:52:40.146
+!MESSAGE The installable unit org.eclipse.cdt.core.win32.translated_host_properties is missing the filename property.
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 4 0 2017-09-08 13:52:40.162
+!MESSAGE The installable unit org.eclipse.equinox.security.win32.x86.translated_host_properties is missing the filename property.
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 4 0 2017-09-08 13:52:40.162
+!MESSAGE The installable unit org.eclipse.core.net.win32.x86.translated_host_properties is missing the filename property.
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 4 0 2017-09-08 13:52:40.162
+!MESSAGE The installable unit org.eclipse.update.core.win32.translated_host_properties is missing the filename property.
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 4 0 2017-09-08 13:52:40.162
+!MESSAGE The installable unit org.eclipse.core.filesystem.win32.x86.translated_host_properties is missing the filename property.
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 4 0 2017-09-08 13:52:40.162
+!MESSAGE The installable unit org.eclipse.ecf.provider.filetransfer.httpclient.ssl.translated_host_properties is missing the filename property.
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 4 0 2017-09-08 13:52:40.162
+!MESSAGE The installable unit org.eclipse.ecf.ssl.translated_host_properties is missing the filename property.
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 4 0 2017-09-08 13:52:40.162
+!MESSAGE The installable unit org.eclipse.core.resources.win32.x86.translated_host_properties is missing the filename property.
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 4 0 2017-09-08 13:52:40.162
+!MESSAGE The installable unit org.eclipse.ui.workbench.compatibility.translated_host_properties is missing the filename property.
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 4 0 2017-09-08 13:52:40.162
+!MESSAGE The installable unit org.eclipse.ui.win32.translated_host_properties is missing the filename property.
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 4 0 2017-09-08 13:52:40.162
+!MESSAGE The installable unit org.eclipse.core.runtime.compatibility.registry.translated_host_properties is missing the filename property.
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 4 0 2017-09-08 13:52:40.162
+!MESSAGE The installable unit org.eclipse.ecf.provider.filetransfer.ssl.translated_host_properties is missing the filename property.
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 4 0 2017-09-08 13:52:40.162
+!MESSAGE The installable unit org.eclipse.swt.win32.win32.x86.translated_host_properties is missing the filename property.
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 4 0 2017-09-08 13:52:40.162
+!MESSAGE The installable unit org.eclipse.core.resources.compatibility.translated_host_properties is missing the filename property.
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 4 0 2017-09-08 13:52:40.162
+!MESSAGE The installable unit org.eclipse.equinox.launcher.win32.win32.x86.translated_host_properties is missing the filename property.
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-09-08 13:52:48.852
+!MESSAGE Indexed 'MyFirstProject_MSS_CM3_hw_platform' (10 sources, 24 headers) in 1,05 sec: 3 098 declarations; 6 284 references; 20 unresolved inclusions; 1 212 syntax errors; 2 437 unresolved names (20,62 %)
+!SESSION 2017-09-08 13:52:50.693 -----------------------------------------------
+eclipse.buildId=M20130329-1600
+java.version=1.6.0_22
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ru_RU
+Framework arguments:  -application org.eclipse.cdt.managedbuilder.core.headlessbuild -import E:\Projects\Actel\ActelKit\M2S\RefDes\1\MyFirstProject\SoftConsole\MyFirstProject_MSS_CM3\projects\MyFirstProject_MSS_CM3_app
+Command-line arguments:  -os win32 -ws win32 -arch x86 -application org.eclipse.cdt.managedbuilder.core.headlessbuild -data E:/Projects/Actel/ActelKit/M2S/RefDes/1/MyFirstProject/SoftConsole/MyFirstProject_MSS_CM3 -import E:\Projects\Actel\ActelKit\M2S\RefDes\1\MyFirstProject\SoftConsole\MyFirstProject_MSS_CM3\projects\MyFirstProject_MSS_CM3_app
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-09-08 13:52:52.112
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-09-08 13:52:53.657
+!MESSAGE Indexed 'MyFirstProject_MSS_CM3_app' (1 sources, 8 headers) in 0,17 sec: 1 declarations; 0 references; 8 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00 %)
+!SESSION 2017-09-08 13:53:30.171 -----------------------------------------------
+eclipse.buildId=M20130329-1600
+java.version=1.6.0_22
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ru_RU
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 4 0 2017-09-08 13:53:40.536
+!MESSAGE The installable unit org.eclipse.ui.win32.translated_host_properties is missing the filename property.
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 4 0 2017-09-08 13:53:40.661
+!MESSAGE The installable unit org.eclipse.ui.win32.translated_host_properties is missing the filename property.
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-09-08 13:55:26.138
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.

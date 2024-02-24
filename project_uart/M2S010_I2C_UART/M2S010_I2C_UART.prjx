@@ -1,0 +1,545 @@
+KEY LIBERO "11.8"
+KEY CAPTURE "11.8.0.26"
+KEY DEFAULT_IMPORT_LOC "C:\Actelprj\A3P_Verilog_labs\lab2"
+KEY DEFAULT_OPEN_LOC ""
+KEY ProjectID "0"
+KEY HDLTechnology "VHDL"
+KEY VERILOGMODE "VERILOG2001"
+KEY VHDLMODE "VHDL2008"
+KEY UseConstraintFlowTechnology "TRUE"
+KEY VendorTechnology_Family "SmartFusion2"
+KEY VendorTechnology_Die "PA4M1000_N"
+KEY VendorTechnology_Package "tq144"
+KEY VendorTechnology_Speed "STD"
+KEY VendorTechnology_DieVoltage "1.2"
+KEY VendorTechnology_PART_RANGE "COM"
+KEY VendorTechnology_DSW_VCCA_VOLTAGE_RAMP_RATE "100_MS"
+KEY VendorTechnology_IO_DEFT_STD "LVCMOS25"
+KEY VendorTechnology_OPCONR ""
+KEY VendorTechnology_PLL_SUPPLY "PLL_SUPPLY_25"
+KEY VendorTechnology_RAD_EXPOSURE ""
+KEY VendorTechnology_RESERVEMIGRATIONPINS "1"
+KEY VendorTechnology_RESTRICTPROBEPINS "1"
+KEY VendorTechnology_RESTRICTSPIPINS "0"
+KEY VendorTechnology_SYSTEM_CONTROLLER_SUSPEND_MODE "0"
+KEY VendorTechnology_TARGETDEVICESFORMIGRATION "PA4M1000_N"
+KEY VendorTechnology_TEMPR "COM"
+KEY VendorTechnology_UNUSED_MSS_IO_RESISTOR_PULL "None"
+KEY VendorTechnology_VCCI_1.2_VOLTR "COM"
+KEY VendorTechnology_VCCI_1.5_VOLTR "COM"
+KEY VendorTechnology_VCCI_1.8_VOLTR "COM"
+KEY VendorTechnology_VCCI_2.5_VOLTR "COM"
+KEY VendorTechnology_VCCI_3.3_VOLTR "COM"
+KEY VendorTechnology_VOLTR "COM"
+KEY ProjectLocation "E:\Projects\Actel\ActelKit\RefDes\5\SoC\M2S010_I2C_UART"
+KEY ProjectDescription ""
+KEY Pa4PeripheralNewSeq "GOOD"
+KEY SimulationType "VHDL"
+KEY Vendor "Actel"
+KEY ActiveRoot "M2S010_I2C_UART::work"
+LIST REVISIONS
+VALUE="Impl1",NUM=1
+CURREV=1
+ENDLIST
+LIST FileManager
+VALUE "<project>\component\Actel\SgCore\FCCC\2.0.201\FCCC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1498216261"
+SIZE="241"
+PARENT="<project>\component\work\M2S010_I2C_UART\M2S010_I2C_UART.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SgCore\OSC\2.0.101\OSC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1498216263"
+SIZE="682"
+PARENT="<project>\component\work\M2S010_I2C_UART\M2S010_I2C_UART.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd,hdl"
+STATE="utd"
+TIME="1490711803"
+SIZE="2164"
+PARENT="<project>\component\Actel\SgCore\OSC\2.0.101\OSC.cxf"
+BEGIN_USE_CONSTRAINT
+TOOL_CONSTRAINT_TYPE="ideSYNTHESIS"
+TOOL_CONSTRAINT_USE="SYNPLIFY7_EXT"
+END_USE_CONSTRAINT
+USE_FOR_ANY_TOOL="FALSE"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\SgCore\OSC\2.0.101\osc_comps_pre.vhd,hdl"
+STATE="utd"
+TIME="1490711803"
+SIZE="2108"
+PARENT="<project>\component\Actel\SgCore\OSC\2.0.101\OSC.cxf"
+BEGIN_USE_CONSTRAINT
+TOOL_CONSTRAINT_TYPE="ideSYNTHESIS"
+TOOL_CONSTRAINT_USE="PRECISION_EXT"
+END_USE_CONSTRAINT
+USE_FOR_ANY_TOOL="FALSE"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS\1.1.500\MSS.cxf,actgen_cxf"
+STATE="utd"
+TIME="1498216227"
+SIZE="526"
+PARENT="<project>\component\work\M2S010_I2C_UART_MSS\M2S010_I2C_UART_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_CCC\1.0.100\MSS_CCC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1498216223"
+SIZE="253"
+PARENT="<project>\component\work\M2S010_I2C_UART_MSS\M2S010_I2C_UART_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_CC\1.0.100\MSS_CC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1498216223"
+SIZE="252"
+PARENT="<project>\component\work\M2S010_I2C_UART_MSS\M2S010_I2C_UART_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_CFGM\1.1.100\MSS_CFGM.cxf,actgen_cxf"
+STATE="utd"
+TIME="1498216223"
+SIZE="254"
+PARENT="<project>\component\work\M2S010_I2C_UART_MSS\M2S010_I2C_UART_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_CM3\1.0.200\MSS_CM3.cxf,actgen_cxf"
+STATE="utd"
+TIME="1498216223"
+SIZE="253"
+PARENT="<project>\component\work\M2S010_I2C_UART_MSS\M2S010_I2C_UART_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_EDAC\1.0.101\MSS_EDAC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1498216223"
+SIZE="254"
+PARENT="<project>\component\work\M2S010_I2C_UART_MSS\M2S010_I2C_UART_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_ENVM\1.0.101\MSS_ENVM.cxf,actgen_cxf"
+STATE="utd"
+TIME="1498216223"
+SIZE="254"
+PARENT="<project>\component\work\M2S010_I2C_UART_MSS\M2S010_I2C_UART_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_I2C\1.0.100\MSS_I2C.cxf,actgen_cxf"
+STATE="utd"
+TIME="1498216223"
+SIZE="253"
+PARENT="<project>\component\work\M2S010_I2C_UART_MSS\M2S010_I2C_UART_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_INTR\1.0.200\MSS_INTR.cxf,actgen_cxf"
+STATE="utd"
+TIME="1498216223"
+SIZE="254"
+PARENT="<project>\component\work\M2S010_I2C_UART_MSS\M2S010_I2C_UART_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_MMUART\1.0.100\MSS_MMUART.cxf,actgen_cxf"
+STATE="utd"
+TIME="1498216223"
+SIZE="256"
+PARENT="<project>\component\work\M2S010_I2C_UART_MSS\M2S010_I2C_UART_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_RESET\1.0.100\MSS_RESET.cxf,actgen_cxf"
+STATE="utd"
+TIME="1498216223"
+SIZE="255"
+PARENT="<project>\component\work\M2S010_I2C_UART_MSS\M2S010_I2C_UART_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_SECURITY\1.0.100\MSS_SECURITY.cxf,actgen_cxf"
+STATE="utd"
+TIME="1498216223"
+SIZE="258"
+PARENT="<project>\component\work\M2S010_I2C_UART_MSS\M2S010_I2C_UART_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_SWITCH\1.0.101\MSS_SWITCH.cxf,actgen_cxf"
+STATE="utd"
+TIME="1498216223"
+SIZE="256"
+PARENT="<project>\component\work\M2S010_I2C_UART_MSS\M2S010_I2C_UART_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\work\DESIGN_FIRMWARE\DESIGN_FIRMWARE.cxf,actgen_cxf"
+STATE="utd"
+TIME="1498124882"
+SIZE="1896"
+ENDFILE
+VALUE "<project>\component\work\M2S010_I2C_UART\FCCC_0\M2S010_I2C_UART_FCCC_0_FCCC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1498216261"
+SIZE="717"
+PARENT="<project>\component\work\M2S010_I2C_UART\M2S010_I2C_UART.cxf"
+ENDFILE
+VALUE "<project>\component\work\M2S010_I2C_UART\FCCC_0\M2S010_I2C_UART_FCCC_0_FCCC.vhd,hdl"
+STATE="utd"
+TIME="1498216261"
+SIZE="5586"
+PARENT="<project>\component\work\M2S010_I2C_UART\FCCC_0\M2S010_I2C_UART_FCCC_0_FCCC.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\M2S010_I2C_UART\M2S010_I2C_UART.cxf,actgen_cxf"
+STATE="utd"
+TIME="1498216264"
+SIZE="4071"
+ENDFILE
+VALUE "<project>\component\work\M2S010_I2C_UART\M2S010_I2C_UART.vhd,hdl"
+STATE="utd"
+TIME="1498216263"
+SIZE="8361"
+PARENT="<project>\component\work\M2S010_I2C_UART\M2S010_I2C_UART.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\M2S010_I2C_UART\OSC_0\M2S010_I2C_UART_OSC_0_OSC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1498216262"
+SIZE="472"
+PARENT="<project>\component\work\M2S010_I2C_UART\M2S010_I2C_UART.cxf"
+ENDFILE
+VALUE "<project>\component\work\M2S010_I2C_UART\OSC_0\M2S010_I2C_UART_OSC_0_OSC.vhd,hdl"
+STATE="utd"
+TIME="1498216262"
+SIZE="912"
+PARENT="<project>\component\work\M2S010_I2C_UART\OSC_0\M2S010_I2C_UART_OSC_0_OSC.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\M2S010_I2C_UART_MSS\M2S010_I2C_UART_MSS.cxf,actgen_cxf"
+STATE="utd"
+TIME="1498216228"
+SIZE="11816"
+ENDFILE
+VALUE "<project>\component\work\M2S010_I2C_UART_MSS\M2S010_I2C_UART_MSS.vhd,hdl"
+STATE="utd"
+TIME="1498216227"
+SIZE="77440"
+PARENT="<project>\component\work\M2S010_I2C_UART_MSS\M2S010_I2C_UART_MSS.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\M2S010_I2C_UART_MSS\M2S010_I2C_UART_MSS_pre.vhd,hdl"
+STATE="utd"
+TIME="1498216227"
+SIZE="70754"
+PARENT="<project>\component\work\M2S010_I2C_UART_MSS\M2S010_I2C_UART_MSS.cxf"
+BEGIN_USE_CONSTRAINT
+TOOL_CONSTRAINT_TYPE="ideSYNTHESIS"
+TOOL_CONSTRAINT_USE="PRECISION_EXT"
+END_USE_CONSTRAINT
+USE_FOR_ANY_TOOL="FALSE"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\M2S010_I2C_UART_MSS\M2S010_I2C_UART_MSS_syn.vhd,hdl"
+STATE="utd"
+TIME="1498216227"
+SIZE="70737"
+PARENT="<project>\component\work\M2S010_I2C_UART_MSS\M2S010_I2C_UART_MSS.cxf"
+BEGIN_USE_CONSTRAINT
+TOOL_CONSTRAINT_TYPE="ideSYNTHESIS"
+TOOL_CONSTRAINT_USE="SYNPLIFY7_EXT"
+END_USE_CONSTRAINT
+USE_FOR_ANY_TOOL="FALSE"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\constraint\io\user.pdc,io_pdc"
+STATE="utd"
+TIME="1498124822"
+SIZE="1190"
+IS_TARGET="TRUE"
+ENDFILE
+VALUE "<project>\designer\impl1\M2S010_I2C_UART.ide_des,ide_des"
+STATE="utd"
+TIME="1498124705"
+SIZE="421"
+ENDFILE
+VALUE "<project>\simulation\CM3_compile_bfm.tcl,sim"
+STATE="utd"
+TIME="1498216227"
+SIZE="500"
+PARENT="<project>\component\work\M2S010_I2C_UART_MSS\M2S010_I2C_UART_MSS.cxf"
+ENDFILE
+VALUE "<project>\simulation\peripheral_init.bfm,sim"
+STATE="utd"
+TIME="1490711798"
+SIZE="8450"
+PARENT="<project>\component\Actel\SmartFusion2MSS\MSS\1.1.500\MSS.cxf"
+ENDFILE
+VALUE "<project>\simulation\subsystem.bfm,sim"
+STATE="utd"
+TIME="1498216263"
+SIZE="602"
+PARENT="<project>\component\work\M2S010_I2C_UART\M2S010_I2C_UART.cxf"
+ENDFILE
+VALUE "<project>\simulation\test.bfm,sim"
+STATE="utd"
+TIME="1498216227"
+SIZE="734"
+PARENT="<project>\component\work\M2S010_I2C_UART_MSS\M2S010_I2C_UART_MSS.cxf"
+ENDFILE
+VALUE "<project>\simulation\user.bfm,sim"
+STATE="utd"
+TIME="1498058823"
+SIZE="555"
+PARENT="<project>\component\work\M2S010_I2C_UART_MSS\M2S010_I2C_UART_MSS.cxf"
+ENDFILE
+VALUE "<project>\synthesis\M2S010_I2C_UART.edn,syn_edn"
+STATE="utd"
+TIME="1498209139"
+SIZE="97143"
+ENDFILE
+VALUE "<project>\synthesis\M2S010_I2C_UART.so,so"
+STATE="utd"
+TIME="1498209139"
+SIZE="255"
+ENDFILE
+VALUE "<project>\synthesis\M2S010_I2C_UART.vhd,syn_hdl"
+STATE="utd"
+TIME="1498209141"
+SIZE="99739"
+ENDFILE
+VALUE "<project>\synthesis\M2S010_I2C_UART_sdc.sdc,syn_sdc"
+STATE="utd"
+TIME="1498209139"
+SIZE="944"
+ENDFILE
+VALUE "<project>\synthesis\M2S010_I2C_UART_syn.prj,prj"
+STATE="utd"
+TIME="1498209139"
+SIZE="2560"
+ENDFILE
+ENDLIST
+LIST UsedFile
+ENDLIST
+LIST NewModulesInfo
+LIST "M2S010_I2C_UART::work"
+FILE "<project>\component\work\M2S010_I2C_UART\M2S010_I2C_UART.vhd,hdl"
+LIST Other_Association
+VALUE "<project>\simulation\subsystem.bfm,sim"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+LiberoState=Post_Synthesis
+ideSYNTHESIS(<project>\synthesis\M2S010_I2C_UART.edn,syn_edn)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST "M2S010_I2C_UART_MSS::work"
+FILE "<project>\component\work\M2S010_I2C_UART_MSS\M2S010_I2C_UART_MSS.vhd,hdl"
+LIST Other_Association
+VALUE "<project>\simulation\CM3_compile_bfm.tcl,sim"
+VALUE "<project>\simulation\user.bfm,sim"
+VALUE "<project>\simulation\test.bfm,sim"
+VALUE "<project>\simulation\peripheral_init.bfm,sim"
+ENDLIST
+ENDLIST
+ENDLIST
+LIST AssociatedStimulus
+ENDLIST
+LIST Other_Association
+LIST M2S010_I2C_UART
+VALUE "<project>\simulation\subsystem.bfm,sim"
+ENDLIST
+LIST M2S010_I2C_UART_MSS
+VALUE "<project>\simulation\CM3_compile_bfm.tcl,sim"
+VALUE "<project>\simulation\user.bfm,sim"
+VALUE "<project>\simulation\test.bfm,sim"
+VALUE "<project>\simulation\peripheral_init.bfm,sim"
+ENDLIST
+ENDLIST
+LIST SimulationOptions
+UseAutomaticDoFile=true
+IncludeWaveDo=false
+Type=max
+RunTime=1000ns
+Resolution=1fs
+VsimOpt=
+EntityName=testbench
+TopInstanceName=<top>_0
+DoFileName=
+DoFileName2=wave.do
+DoFileParams=
+DisplayDUTWave=false
+LogAllSignals=false
+DisablePulseFiltering=false
+DumpVCD=false
+VCDFileName=power.vcd
+VHDL2008=false
+Verilog2001=false
+SystemVerilog=false
+TimeUnit=1
+TimeUnitBase=ns
+Precision=100
+PrecisionBase=ps
+ENDLIST
+LIST ModelSimLibPath
+UseCustomPath=FALSE
+LibraryPath=
+ENDLIST
+LIST GlobalFlowOptions
+GenerateHDLAfterSynthesis=FALSE
+GenerateHDLAfterPhySynthesis=FALSE
+RunDRCAfterSynthesis=FALSE
+AutoCheckConstraints=TRUE
+UpdateModelSimIni=TRUE
+NoIOMode=FALSE
+PeriInitStandalone=FALSE
+EnableViewDraw=FALSE
+UpdateViewDrawIni=TRUE
+GenerateHDLFromSchematic=TRUE
+VmNetlistFlowOn=FALSE
+EnableDesignSeparationOn=FALSE
+EnableSETMitigationOn=FALSE
+DisplayFanoutLimit=10
+AbortFlowOnPDCErrorsOn=TRUE
+AbortFlowOnSDCErrorsOn=TRUE
+FlashProInputFile=pdb
+SmartGenCompileReport=T
+ENDLIST
+LIST PhySynthesisOptions
+ENDLIST
+LIST Profiles
+NAME="SoftConsole"
+FUNCTION="SoftwareIDE"
+TOOL="SoftConsole"
+LOCATION="eclipse.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Synplify11.7"
+FUNCTION="Synthesis"
+TOOL="Synplify Pro ME"
+LOCATION="C:\Microsemi\Libero_SoC_v11.7\Synplify\bin\synplify_pro.exe"
+PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
+BATCH=1
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="ModelSim ME"
+FUNCTION="Simulation"
+TOOL="ModelSim"
+LOCATION="C:\Microsemi\Libero_SoC_v11.8\Modelsim\win32acoem\modelsim.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="FPExpress"
+FUNCTION="Program"
+TOOL="FlashPro"
+LOCATION="C:\Microsemi\Libero_SoC_v11.8\Designer\bin\FPExpress.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Identify Debugger"
+FUNCTION="IdentifyDebugger"
+TOOL="Identify Debugger"
+LOCATION="C:\Microsemi\Libero_SoC_v11.8\Identify\bin\identify_debugger.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+ENDLIST
+LIST ProjectState5.1
+LIST "M2S010_I2C_UART::work"
+LIST Impl1
+LiberoState=Post_Synthesis
+ideSYNTHESIS(<project>\synthesis\M2S010_I2C_UART.edn,syn_edn)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST ExcludePackageForSimulation
+ENDLIST
+LIST ExcludePackageForSynthesis
+ENDLIST
+LIST IncludeModuleForSimulation
+ENDLIST
+LIST CDBOrder
+ENDLIST
+LIST UserCustomizedFileList
+ENDLIST
+LIST OpenedFileList
+ORIENTATION;HORIZONTAL
+Reports;Reports;0
+ReportsCurrentItem;Run PROGRAM Action:M2S010_I2C_UART_PROGRAM.log
+SmartDesign;M2S010_I2C_UART;0
+SmartDesign;M2S010_I2C_UART_MSS;0
+StartPage;StartPage;0
+Constraint Manager;Constraint Manager;0
+ACTIVEVIEW;Reports
+ENDLIST
+LIST ModuleSubBlockList
+LIST "DESIGN_FIRMWARE::work","component\work\DESIGN_FIRMWARE\DESIGN_FIRMWARE.cxf","TRUE","FALSE"
+SUBBLOCK "SmartFusion2_CMSIS::work","","FALSE","FALSE"
+SUBBLOCK "SmartFusion2_MSS_HPDMA_Driver::work","","FALSE","FALSE"
+SUBBLOCK "SmartFusion2_MSS_I2C_Driver::work","","FALSE","FALSE"
+SUBBLOCK "SmartFusion2_MSS_MMUART_Driver::work","","FALSE","FALSE"
+SUBBLOCK "SmartFusion2_MSS_NVM_Driver::work","","FALSE","FALSE"
+SUBBLOCK "SmartFusion2_MSS_System_Services_Driver::work","","FALSE","FALSE"
+SUBBLOCK "SmartFusion2_MSS_Timer_Driver::work","","FALSE","FALSE"
+ENDLIST
+LIST "M2S010_I2C_UART::work","component\work\M2S010_I2C_UART\M2S010_I2C_UART.vhd","TRUE","FALSE"
+SUBBLOCK "M2S010_I2C_UART_FCCC_0_FCCC::work","component\work\M2S010_I2C_UART\FCCC_0\M2S010_I2C_UART_FCCC_0_FCCC.vhd","FALSE","FALSE"
+SUBBLOCK "M2S010_I2C_UART_MSS::work","component\work\M2S010_I2C_UART_MSS\M2S010_I2C_UART_MSS.vhd","TRUE","FALSE"
+SUBBLOCK "M2S010_I2C_UART_OSC_0_OSC::work","component\work\M2S010_I2C_UART\OSC_0\M2S010_I2C_UART_OSC_0_OSC.vhd","FALSE","FALSE"
+ENDLIST
+LIST "M2S010_I2C_UART_FCCC_0_FCCC::work","component\work\M2S010_I2C_UART\FCCC_0\M2S010_I2C_UART_FCCC_0_FCCC.vhd","FALSE","FALSE"
+ENDLIST
+LIST "M2S010_I2C_UART_MSS::work","component\work\M2S010_I2C_UART_MSS\M2S010_I2C_UART_MSS.vhd","TRUE","FALSE"
+SUBBLOCK "MSS_010::work","component\work\M2S010_I2C_UART_MSS\M2S010_I2C_UART_MSS_syn.vhd","FALSE","FALSE"
+ENDLIST
+LIST "M2S010_I2C_UART_OSC_0_OSC::work","component\work\M2S010_I2C_UART\OSC_0\M2S010_I2C_UART_OSC_0_OSC.vhd","FALSE","FALSE"
+SUBBLOCK "RCOSC_25_50MHZ::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd","FALSE","FALSE"
+ENDLIST
+LIST "MSS_010::work","component\work\M2S010_I2C_UART_MSS\M2S010_I2C_UART_MSS_syn.vhd","FALSE","FALSE"
+ENDLIST
+LIST "RCOSC_1MHZ::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd","FALSE","FALSE"
+ENDLIST
+LIST "RCOSC_1MHZ_FAB::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd","FALSE","FALSE"
+ENDLIST
+LIST "RCOSC_25_50MHZ::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd","FALSE","FALSE"
+ENDLIST
+LIST "RCOSC_25_50MHZ_FAB::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd","FALSE","FALSE"
+ENDLIST
+LIST "SmartFusion2_CMSIS::work","","FALSE","FALSE"
+ENDLIST
+LIST "SmartFusion2_MSS_HPDMA_Driver::work","","FALSE","FALSE"
+ENDLIST
+LIST "SmartFusion2_MSS_I2C_Driver::work","","FALSE","FALSE"
+ENDLIST
+LIST "SmartFusion2_MSS_MMUART_Driver::work","","FALSE","FALSE"
+ENDLIST
+LIST "SmartFusion2_MSS_NVM_Driver::work","","FALSE","FALSE"
+ENDLIST
+LIST "SmartFusion2_MSS_System_Services_Driver::work","","FALSE","FALSE"
+ENDLIST
+LIST "SmartFusion2_MSS_Timer_Driver::work","","FALSE","FALSE"
+ENDLIST
+LIST "XTLOSC::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd","FALSE","FALSE"
+ENDLIST
+LIST "XTLOSC_FAB::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd","FALSE","FALSE"
+ENDLIST
+ENDLIST
+LIST ActiveTestBenchList
+ENDLIST
+LIST IOTabList
+VALUE "constraint\io\user.pdc"
+ENDLIST
+LIST FPTabList
+ENDLIST
+LIST TimingTabList
+ENDLIST
+LIST FDCTabList
+ENDLIST

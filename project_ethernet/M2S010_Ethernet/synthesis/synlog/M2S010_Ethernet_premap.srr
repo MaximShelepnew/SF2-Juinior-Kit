@@ -1,0 +1,55 @@
+Synopsys Generic Technology Pre-mapping, Version mapact, Build 1659R, Built Dec 10 2015 09:44:42
+Copyright (C) 1994-2015, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+Product Version J-2015.03M-SP1-2
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+Reading constraint file: D:\Demo\M2S\8\M2S010_Ethernet\designer\M2S010_Ethernet\synthesis.fdc
+@L: D:\Demo\M2S\8\M2S010_Ethernet\synthesis\M2S010_Ethernet_scck.rpt 
+Printing clock  summary report in "D:\Demo\M2S\8\M2S010_Ethernet\synthesis\M2S010_Ethernet_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 102MB peak: 104MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 102MB peak: 104MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 103MB peak: 104MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 103MB peak: 106MB)
+
+syn_allowed_resources : blockrams=21  set on top level netlist M2S010_Ethernet
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+
+@S |Clock Summary
+*****************
+
+Start                                                  Requested     Requested     Clock        Clock              
+Clock                                                  Frequency     Period        Type         Group              
+-------------------------------------------------------------------------------------------------------------------
+M2S010_Ethernet_FCCC_0_FCCC|GL0_net_inferred_clock     100.0 MHz     10.000        inferred     Inferred_clkgroup_1
+M2S010_Ethernet_FCCC_0_FCCC|GL1_net_inferred_clock     100.0 MHz     10.000        inferred     Inferred_clkgroup_0
+M2S010_Ethernet|REFCLK                                 100.0 MHz     10.000        inferred     Inferred_clkgroup_2
+System                                                 100.0 MHz     10.000        system       system_clkgroup    
+===================================================================================================================
+
+@W: MT530 :"d:\demo\m2s\8\m2s010_ethernet\component\work\m2s010_ethernet_mss\m2s010_ethernet_mss.vhd":732:0:732:13|Found inferred clock M2S010_Ethernet_FCCC_0_FCCC|GL1_net_inferred_clock which controls 0 sequential elements including M2S010_Ethernet_MSS_0.MSS_ADLIB_INST. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"d:\demo\m2s\8\m2s010_ethernet\component\actel\directcore\corermii\2.0.102\rtl\vhdl\core\rmii_rx.vhd":672:6:672:7|Found inferred clock M2S010_Ethernet_FCCC_0_FCCC|GL0_net_inferred_clock which controls 10 sequential elements including CORERMII_0.U_RMII_RX.rx2mii_rxd_xhdl1[3:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"d:\demo\m2s\8\m2s010_ethernet\component\actel\directcore\corermii\2.0.102\rtl\vhdl\core\rmii_tx.vhd":237:6:237:7|Found inferred clock M2S010_Ethernet|REFCLK which controls 33 sequential elements including CORERMII_0.U_RMII_TX.tx2rmii_txd_xhdl1[1:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file D:\Demo\M2S\8\M2S010_Ethernet\synthesis\M2S010_Ethernet.sap.
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 69MB peak: 134MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue Oct 24 17:52:27 2017
+
+###########################################################]

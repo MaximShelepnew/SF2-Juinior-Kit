@@ -1,0 +1,71 @@
+Info: No timing constraint has been associated to the 'Place and Route' tool. 'Place and Route' will be run in non Timing Driven mode.
+***** Place and Route Configurations *****
+Timing-driven            : OFF
+Power-driven             : OFF
+High-effort              : OFF
+Repair min-delay         : ON
+Incremental              : OFF
+
+INFO: Reading User PDC file E:\Projects\Actel\ActelKit\M2S\RefDes\2\115200\MyFirstProject\constraint\io\user.pdc. 0 error(s) and 0 warning(s)
+
+Running the I/O Bank and Globals Assigner.
+Info:  I/O Bank and Globals Assigner identified 5 fixed I/O macros, 0 unfixed I/O macros
+
+I/O Bank and Globals Assigner completed successfully.
+Total time spent in I/O Bank and Globals Assigner: 0 seconds
+
+Placer V4.0 - 11.8.1 
+Design: MyFirstProject                  Started: Wed Sep 13 14:01:53 2017
+
+Initializing Standard Placement ...
+Placing design...
+End of placement.
+Pre-Placement Runtime        : 0 seconds
+Placement Runtime            : 0 seconds
+
+Placer completed successfully.
+
+Design: MyFirstProject                  
+Finished: Wed Sep 13 14:01:58 2017
+Total CPU Time:     00:00:03            Total Elapsed Time: 00:00:05
+Total Memory Usage: 124.4 Mbytes
+                        o - o - o - o - o - o
+
+
+Router 
+Design: E:\Projects\Actel\ActelKit\M2S\RefDes\2\115200\MyFirstProject\designer\MyFirstProject\MyFirstProjectStarted: Wed Sep 13 14:02:00 2017
+
+Final stats: search run time 0.020988
+
+Router completed successfully.
+
+Design: E:\Projects\Actel\ActelKit\M2S\RefDes\2\115200\MyFirstProject\designer\MyFirstProject\MyFirstProject
+Finished: Wed Sep 13 14:02:05 2017
+Total CPU Time:     00:00:04            Total Elapsed Time: 00:00:05
+Total Memory Usage: 485.6 Mbytes
+                        o - o - o - o - o - o
+
+
+Router 
+Design: E:\Projects\Actel\ActelKit\M2S\RefDes\2\115200\MyFirstProject\designer\MyFirstProject\MyFirstProjectStarted: Wed Sep 13 14:02:06 2017
+
+Final stats: search run time 0.023031
+
+Router completed successfully.
+
+Design: E:\Projects\Actel\ActelKit\M2S\RefDes\2\115200\MyFirstProject\designer\MyFirstProject\MyFirstProject
+Finished: Wed Sep 13 14:02:11 2017
+Total CPU Time:     00:00:05            Total Elapsed Time: 00:00:05
+Total Memory Usage: 485.5 Mbytes
+                        o - o - o - o - o - o
+
+Resource Usage
++---------------+------+-------+------------+
+| Type          | Used | Total | Percentage |
++---------------+------+-------+------------+
+| 4LUT          | 25   | 12084 | 0.21       |
+| DFF           | 23   | 12084 | 0.19       |
+| I/O Register  | 0    | 246   | 0.00       |
+| Logic Element | 25   | 12084 | 0.21       |
++---------------+------+-------+------------+
+

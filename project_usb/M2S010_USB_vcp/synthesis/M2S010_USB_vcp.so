@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>M2S010_USB_vcp</design>
+	<target_edif>E:\Projects\Actel\ActelKit\RefDes\7\SoC\M2S010_USB_vcp\synthesis\M2S010_USB_vcp.edn</target_edif>
+</SynplifyOutput>

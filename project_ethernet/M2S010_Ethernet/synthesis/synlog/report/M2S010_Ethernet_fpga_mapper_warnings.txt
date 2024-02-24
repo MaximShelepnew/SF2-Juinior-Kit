@@ -1,0 +1,5 @@
+@W: MT246 :"d:\demo\m2s\8\m2s010_ethernet\component\work\m2s010_ethernet\osc_0\m2s010_ethernet_osc_0_osc.vhd":36:4:36:11|Blackbox XTLOSC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT246 :"d:\demo\m2s\8\m2s010_ethernet\component\work\m2s010_ethernet\fccc_0\m2s010_ethernet_fccc_0_fccc.vhd":110:4:110:11|Blackbox CCC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT420 |Found inferred clock M2S010_Ethernet|REFCLK with period 10.00ns. Please declare a user-defined clock on object "p:REFCLK"
+@W: MT420 |Found inferred clock M2S010_Ethernet_FCCC_0_FCCC|GL0_net_inferred_clock with period 10.00ns. Please declare a user-defined clock on object "n:FCCC_0.GL0_net"
+@W: MT420 |Found inferred clock M2S010_Ethernet_FCCC_0_FCCC|GL1_net_inferred_clock with period 10.00ns. Please declare a user-defined clock on object "n:FCCC_0.GL1_net"

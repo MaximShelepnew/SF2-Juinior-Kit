@@ -1,0 +1,1232 @@
+Archive member included because of file (symbol)
+
+c:/microsemi/libero_soc_v11.7/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-errno.o)
+                              ./CMSIS/startup_gcc/newlib_stubs.o (__errno)
+c:/microsemi/libero_soc_v11.7/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-impure.o)
+                              c:/microsemi/libero_soc_v11.7/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-errno.o) (_impure_ptr)
+c:/microsemi/libero_soc_v11.7/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-init.o)
+                              ./CMSIS/startup_gcc/startup_m2sxxx.o (__libc_init_array)
+c:/microsemi/libero_soc_v11.7/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memcpy.o)
+                              ./drivers/mss_sys_services/mss_sys_services.o (memcpy)
+
+Allocating common symbols
+Common symbol       size              file
+
+g_usbd_msc_media_ops
+                    0x4               ./drivers/mss_usb/mss_usb_device_msd.o
+g_usbd_msc_user_speed
+                    0x1               ./drivers/mss_usb/mss_usb_device_msd.o
+g_bot_cbw           0x20              ./drivers/mss_usb/mss_usb_device_msd.o
+g_mss_usbd_printer_ops
+                    0x4               ./drivers/mss_usb/mss_usb_device_printer.o
+g_usbd_hid_user_speed
+                    0x1               ./drivers/mss_usb/mss_usb_device_hid.o
+g_bot_state         0x1               ./drivers/mss_usb/mss_usb_device_msd.o
+g_mss_uart1         0x40              ./drivers/mss_uart/mss_uart.o
+cep_state           0x1               ./drivers/mss_usb/mss_usb_device_cif.o
+g_usbd_cdc_user_speed
+                    0x1               ./drivers/mss_usb/mss_usb_device_cdc.o
+g_mss_uart0         0x40              ./drivers/mss_uart/mss_uart.o
+usbd_cdc_vcp_ops    0x4               ./drivers/mss_usb/mss_usb_device_cdc.o
+g_usbd_vendor_user_speed
+                    0x1               ./drivers/mss_usb/mss_usb_device_vendor.o
+g_usbd_class_cb     0x4               ./drivers/mss_usb/mss_usb_device.o
+g_string_descriptor
+                    0x40              ./usb_user_descriptors.o
+g_usbd_user_descr_cb
+                    0x4               ./drivers/mss_usb/mss_usb_device.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+rom              0x00000000         0x00040000         xr
+ram              0x20000000         0x00010000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD c:/microsemi/libero_soc_v11.7/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crti.o
+LOAD c:/microsemi/libero_soc_v11.7/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+LOAD ./main.o
+LOAD ./usb_user_descriptors.o
+LOAD ./vcp_app.o
+LOAD ./hal/CortexM3/cortex_nvic.o
+LOAD ./hal/CortexM3/GNU/hal.o
+LOAD ./hal/CortexM3/GNU/hw_reg_access.o
+LOAD ./drivers_config/sys_config/sys_config.o
+LOAD ./drivers/mss_usb/mss_usb_common_cif.o
+LOAD ./drivers/mss_usb/mss_usb_device.o
+LOAD ./drivers/mss_usb/mss_usb_device_cdc.o
+LOAD ./drivers/mss_usb/mss_usb_device_cif.o
+LOAD ./drivers/mss_usb/mss_usb_device_hid.o
+LOAD ./drivers/mss_usb/mss_usb_device_msd.o
+LOAD ./drivers/mss_usb/mss_usb_device_printer.o
+LOAD ./drivers/mss_usb/mss_usb_device_vendor.o
+LOAD ./drivers/mss_usb/mss_usb_host.o
+LOAD ./drivers/mss_usb/mss_usb_host_cif.o
+LOAD ./drivers/mss_usb/mss_usb_host_msc.o
+LOAD ./drivers/mss_uart/mss_uart.o
+LOAD ./drivers/mss_sys_services/mss_comblk.o
+LOAD ./drivers/mss_sys_services/mss_sys_services.o
+LOAD ./drivers/mss_nvm/mss_nvm.o
+LOAD ./drivers/mss_hpdma/mss_hpdma.o
+LOAD ./drivers/mss_gpio/mss_gpio.o
+LOAD ./CMSIS/system_m2sxxx.o
+LOAD ./CMSIS/startup_gcc/newlib_stubs.o
+LOAD ./CMSIS/startup_gcc/startup_m2sxxx.o
+START GROUP
+LOAD c:/microsemi/libero_soc_v11.7/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a
+LOAD c:/microsemi/libero_soc_v11.7/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a
+LOAD c:/microsemi/libero_soc_v11.7/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a
+END GROUP
+LOAD c:/microsemi/libero_soc_v11.7/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtend.o
+LOAD c:/microsemi/libero_soc_v11.7/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtn.o
+START GROUP
+LOAD c:/microsemi/libero_soc_v11.7/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a
+LOAD c:/microsemi/libero_soc_v11.7/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a
+LOAD c:/microsemi/libero_soc_v11.7/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libm.a
+END GROUP
+                0x00000000                __DYNAMIC = 0x0
+                0x20000000                RAM_START_ADDRESS = 0x20000000
+                0x00010000                RAM_SIZE = 0x10000
+                0x00001000                MAIN_STACK_SIZE = 0x1000
+                0x00001000                MIN_SIZE_HEAP = 0x1000
+                0x20010000                PROVIDE (__main_stack_start, (RAM_START_ADDRESS + RAM_SIZE))
+                0x2000f000                PROVIDE (__process_stack_start, (__main_stack_start - MAIN_STACK_SIZE))
+                0x20010000                PROVIDE (_estack, __main_stack_start)
+                0x00000000                PROVIDE (__mirrored_nvm, 0x0)
+                0x00000000                PROVIDE (__smartfusion2_memory_remap, 0x0)
+
+.vector_table   0x00000000      0x190
+                0x00000000                __vector_table_load = LOADADDR (.vector_table)
+                0x00000000                __vector_table_start = .
+                0x00000000                __vector_table_vma_base_address = .
+ *(.isr_vector)
+ .isr_vector    0x00000000      0x190 ./CMSIS/startup_gcc/startup_m2sxxx.o
+                0x00000000                g_pfnVectors
+                0x00000190                . = ALIGN (0x10)
+                0x00000190                _evector_table = .
+
+.boot_code      0x00000190      0x330
+ *(.boot_code)
+ .boot_code     0x00000190      0x330 ./CMSIS/startup_gcc/startup_m2sxxx.o
+                0x00000190                Reset_Handler
+                0x0000037e                NMI_Handler
+                0x00000380                HardFault_Handler
+                0x00000382                MemManage_Handler
+                0x00000384                BusFault_Handler
+                0x00000386                UsageFault_Handler
+                0x00000388                SVC_Handler
+                0x0000038a                DebugMon_Handler
+                0x0000038c                PendSV_Handler
+                0x0000038e                SysTick_Handler
+                0x00000390                WdogWakeup_IRQHandler
+                0x00000392                RTC_Wakeup_IRQHandler
+                0x00000394                SPI0_IRQHandler
+                0x00000396                SPI1_IRQHandler
+                0x00000398                I2C0_IRQHandler
+                0x0000039a                I2C0_SMBAlert_IRQHandler
+                0x0000039c                I2C0_SMBus_IRQHandler
+                0x0000039e                I2C1_IRQHandler
+                0x000003a0                I2C1_SMBAlert_IRQHandler
+                0x000003a2                I2C1_SMBus_IRQHandler
+                0x000003a8                EthernetMAC_IRQHandler
+                0x000003aa                DMA_IRQHandler
+                0x000003ac                Timer1_IRQHandler
+                0x000003ae                Timer2_IRQHandler
+                0x000003b0                CAN_IRQHandler
+                0x000003b2                ENVM0_IRQHandler
+                0x000003b4                ENVM1_IRQHandler
+                0x000003bc                PLL_Lock_IRQHandler
+                0x000003be                PLL_LockLost_IRQHandler
+                0x000003c0                CommSwitchError_IRQHandler
+                0x000003c2                CacheError_IRQHandler
+                0x000003c4                DDR_IRQHandler
+                0x000003ca                ECC_Error_IRQHandler
+                0x000003cc                MDDR_IOCalib_IRQHandler
+                0x000003ce                FAB_PLL_Lock_IRQHandler
+                0x000003d0                FAB_PLL_LockLost_IRQHandler
+                0x000003d2                FIC64_IRQHandler
+                0x000003d4                FabricIrq0_IRQHandler
+                0x000003d6                FabricIrq1_IRQHandler
+                0x000003d8                FabricIrq2_IRQHandler
+                0x000003da                FabricIrq3_IRQHandler
+                0x000003dc                FabricIrq4_IRQHandler
+                0x000003de                FabricIrq5_IRQHandler
+                0x000003e0                FabricIrq6_IRQHandler
+                0x000003e2                FabricIrq7_IRQHandler
+                0x000003e4                FabricIrq8_IRQHandler
+                0x000003e6                FabricIrq9_IRQHandler
+                0x000003e8                FabricIrq10_IRQHandler
+                0x000003ea                FabricIrq11_IRQHandler
+                0x000003ec                FabricIrq12_IRQHandler
+                0x000003ee                FabricIrq13_IRQHandler
+                0x000003f0                FabricIrq14_IRQHandler
+                0x000003f2                FabricIrq15_IRQHandler
+                0x000003f4                GPIO0_IRQHandler
+                0x000003f6                GPIO1_IRQHandler
+                0x000003f8                GPIO2_IRQHandler
+                0x000003fa                GPIO3_IRQHandler
+                0x000003fc                GPIO4_IRQHandler
+                0x000003fe                GPIO5_IRQHandler
+                0x00000400                GPIO6_IRQHandler
+                0x00000402                GPIO7_IRQHandler
+                0x00000404                GPIO8_IRQHandler
+                0x00000406                GPIO9_IRQHandler
+                0x00000408                GPIO10_IRQHandler
+                0x0000040a                GPIO11_IRQHandler
+                0x0000040c                GPIO12_IRQHandler
+                0x0000040e                GPIO13_IRQHandler
+                0x00000410                GPIO14_IRQHandler
+                0x00000412                GPIO15_IRQHandler
+                0x00000414                GPIO16_IRQHandler
+                0x00000416                GPIO17_IRQHandler
+                0x00000418                GPIO18_IRQHandler
+                0x0000041a                GPIO19_IRQHandler
+                0x0000041c                GPIO20_IRQHandler
+                0x0000041e                GPIO21_IRQHandler
+                0x00000420                GPIO22_IRQHandler
+                0x00000422                GPIO23_IRQHandler
+                0x00000424                GPIO24_IRQHandler
+                0x00000426                GPIO25_IRQHandler
+                0x00000428                GPIO26_IRQHandler
+                0x0000042a                GPIO27_IRQHandler
+                0x0000042c                GPIO28_IRQHandler
+                0x0000042e                GPIO29_IRQHandler
+                0x00000430                GPIO30_IRQHandler
+                0x00000432                GPIO31_IRQHandler
+                0x00000434                mscc_post_hw_cfg_init
+                0x000004c0                . = ALIGN (0x10)
+
+.text           0x000004c0     0x8ab0
+ CREATE_OBJECT_SYMBOLS
+                0x000004c0                __text_load = LOADADDR (.text)
+                0x000004c0                __text_start = .
+ *(.text .text.* .gnu.linkonce.t.*)
+ .text          0x000004c0        0x0 c:/microsemi/libero_soc_v11.7/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crti.o
+ .text          0x000004c0       0x30 c:/microsemi/libero_soc_v11.7/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+ .text          0x000004f0      0x11c ./main.o
+                0x000004f0                receive_data_handler
+                0x0000050c                main
+ .text          0x0000060c      0x10c ./usb_user_descriptors.o
+                0x0000060c                vcp_device_descriptor
+                0x0000061c                vcp_device_qual_descriptor
+                0x00000638                vcp_get_string
+                0x00000684                vcp_string_descriptor
+ .text          0x00000718      0x1cc ./vcp_app.o
+                0x00000718                VCP_tx_wait_complete
+                0x00000728                VCP_tx_done
+                0x00000734                VCP_configuration_state
+                0x00000740                VCP_init_cb
+                0x0000075c                VCP_release_cb
+                0x0000076c                VCP_process_request_cb
+                0x000007bc                VCP_tx_cb
+                0x000007d0                VCP_rx_cb
+                0x000007ec                VCP_cep_tx_cb
+                0x000007f0                VCP_cep_rx_cb
+                0x0000080c                VCP_notification_cb
+                0x00000814                VCP_default_rx_complete_handler
+                0x00000818                VCP_rx_prepare
+                0x00000858                VCP_tx
+                0x00000880                VCP_init
+ .text          0x000008e4       0x18 ./hal/CortexM3/cortex_nvic.o
+                0x000008e4                NVIC_init
+                0x000008e8                NVIC_set_handler
+                0x000008ec                NVIC_set_priority
+                0x000008f0                NVIC_enable_interrupt
+                0x000008f4                NVIC_disable_interrupt
+                0x000008f8                NVIC_clear_interrupt
+ .text          0x000008fc        0xe ./hal/CortexM3/GNU/hal.o
+                0x000008fc                HAL_disable_interrupts
+                0x00000904                HAL_restore_interrupts
+ .text          0x0000090a       0x90 ./hal/CortexM3/GNU/hw_reg_access.o
+                0x0000090a                HW_set_32bit_reg
+                0x0000090e                HW_get_32bit_reg
+                0x00000912                HW_set_32bit_reg_field
+                0x0000092e                HW_get_32bit_reg_field
+                0x0000093a                HW_set_16bit_reg
+                0x0000093e                HW_get_16bit_reg
+                0x00000942                HW_set_16bit_reg_field
+                0x0000095e                HW_get_16bit_reg_field
+                0x0000096a                HW_set_8bit_reg
+                0x0000096e                HW_get_8bit_reg
+                0x00000972                HW_set_8bit_reg_field
+                0x0000098e                HW_get_8bit_reg_field
+ .text          0x0000099a        0x0 ./drivers_config/sys_config/sys_config.o
+ *fill*         0x0000099a        0x2 00
+ .text          0x0000099c      0xb0c ./drivers/mss_usb/mss_usb_common_cif.o
+                0x0000099c                USB_IRQHandler
+                0x00000d34                USB_DMA_IRQHandler
+                0x00000e10                MSS_USB_CIF_rx_ep_read_prepare
+                0x00000eb8                MSS_USB_CIF_ep_write_pkt
+                0x00000ff8                MSS_USB_CIF_configure_ep_dma
+                0x0000104c                MSS_USB_CIF_tx_ep_configure
+                0x00001230                MSS_USB_CIF_rx_ep_configure
+                0x00001414                MSS_USB_CIF_start_testpacket
+ .text          0x000014a8     0x1500 ./drivers/mss_usb/mss_usb_device.o
+                0x000014a8                MSS_USBD_set_descr_cb_handler
+                0x000014b4                MSS_USBD_set_class_cb_handler
+                0x000014c0                MSS_USBD_tx_ep_stall
+                0x000014ec                MSS_USBD_tx_ep_clr_stall
+                0x00001514                MSS_USBD_tx_ep_flush_fifo
+                0x0000152c                MSS_USBD_rx_ep_stall
+                0x00001558                MSS_USBD_rx_ep_clr_stall
+                0x00001580                MSS_USBD_rx_ep_flush_fifo
+                0x00001598                MSS_USBD_cep_flush_fifo
+                0x000015ac                MSS_USBD_get_dev_address
+                0x000015b8                MSS_USBD_set_isoupdate
+                0x000015cc                MSS_USBD_clr_isoupdate
+                0x000015e0                MSS_USBD_tx_ep_is_fifo_notempty
+                0x000015f4                MSS_USBD_rx_ep_is_fifo_full
+                0x00001608                MSS_USBD_tx_ep_disable_irq
+                0x00001624                MSS_USBD_rx_ep_disable_irq
+                0x00001640                MSS_USBD_tx_ep_enable_irq
+                0x00001658                MSS_USBD_rx_ep_enable_irq
+                0x00001670                MSS_USBD_cep_enable_irq
+                0x00001684                MSS_USBD_cep_disable_irq
+                0x00001824                MSS_USBD_cep_write
+                0x00001934                MSS_USBD_tx_ep_write
+                0x00001ce8                MSS_USBD_rx_ep_read_prepare
+                0x00001d2c                MSS_USBD_get_hwcore_info
+                0x00001d30                MSS_USBD_rx_ep_configure
+                0x00001e20                MSS_USBD_tx_ep_configure
+                0x00001f14                MSS_USBD_cep_read_prepare
+                0x000028d4                MSS_USBD_cep_configure
+                0x00002964                MSS_USBD_init
+ .text          0x000029a8      0x22c ./drivers/mss_usb/mss_usb_device_cdc.o
+                0x000029a8                MSS_USBD_CDC_get_state
+                0x00002b10                MSS_USBD_CDC_tx
+                0x00002ba8                MSS_USBD_CDC_rx_prepare
+                0x00002bb4                MSS_USBD_CDC_init
+ .text          0x00002bd4      0x554 ./drivers/mss_usb/mss_usb_device_cif.o
+                0x00002bd4                MSS_USBD_CIF_init
+                0x00002c60                MSS_USBD_CIF_get_hwcore_info
+                0x00002cc8                MSS_USBD_CIF_cep_configure
+                0x00002ce4                MSS_USBD_CIF_cep_rx_prepare
+                0x00002d1c                MSS_USBD_CIF_rx_ep_read_prepare
+                0x00002dfc                MSS_USBD_CIF_cep_write_pkt
+                0x00002ee8                MSS_USBD_CIF_cep_read_pkt
+                0x00002fc8                MSS_USBD_CIF_rx_ep_configure
+                0x00003090                MSS_USBD_CIF_tx_ep_configure
+ .text          0x00003128      0x118 ./drivers/mss_usb/mss_usb_device_hid.o
+                0x00003128                MSS_USBD_HID_tx_done
+                0x000031fc                MSS_USBD_HID_tx_report
+                0x0000322c                MSS_USBD_HID_init
+ .text          0x00003240      0xc9c ./drivers/mss_usb/mss_usb_device_msd.o
+                0x00003240                MSS_USBD_MSC_get_state
+                0x000035c4                MSS_USBD_MSC_init
+ .text          0x00003edc      0x1a4 ./drivers/mss_usb/mss_usb_device_printer.o
+                0x00003edc                MSS_USBD_PRINTER_set_cb_handler
+                0x00003ee8                MSS_USBD_printer_get_state
+                0x0000405c                MSS_USBD_PRINTER_read_prepare
+                0x00004068                MSS_USBD_PRINTER_write
+                0x00004074                MSS_USBD_printer_init
+ .text          0x00004080      0x230 ./drivers/mss_usb/mss_usb_device_vendor.o
+                0x0000429c                MSS_USBD_VENDOR_init
+ .text          0x000042b0        0x0 ./drivers/mss_usb/mss_usb_host.o
+ .text          0x000042b0        0x0 ./drivers/mss_usb/mss_usb_host_cif.o
+ .text          0x000042b0        0x0 ./drivers/mss_usb/mss_usb_host_msc.o
+ .text          0x000042b0     0x1488 ./drivers/mss_uart/mss_uart.o
+                0x000042b0                MSS_UART_polled_tx
+                0x0000435c                MSS_UART_polled_tx_string
+                0x000043d8                MSS_UART_irq_tx
+                0x0000446c                MSS_UART_tx_complete
+                0x000044a4                MSS_UART_get_rx
+                0x00004518                MSS_UART_enable_irq
+                0x00004584                MSS_UART_disable_irq
+                0x000045f0                MSS_UART_set_rx_handler
+                0x00004674                MSS_UART_set_loopback
+                0x0000470c                MSS_UART_set_rxstatus_handler
+                0x00004778                MSS_UART_set_tx_handler
+                0x000047f0                MSS_UART_set_modemstatus_handler
+                0x0000485c                MSS_UART_fill_tx_fifo
+                0x000048e8                MSS_UART_get_rx_status
+                0x00004918                MSS_UART_get_modem_status
+                0x0000493c                MSS_UART_get_tx_status
+                0x0000496c                MSS_UART_set_break
+                0x000049a4                MSS_UART_clear_break
+                0x000049dc                MSS_UART_set_pidpei_handler
+                0x00004a48                MSS_UART_set_linbreak_handler
+                0x00004ab4                MSS_UART_set_linsync_handler
+                0x00004b20                MSS_UART_set_nack_handler
+                0x00004b88                MSS_UART_set_rx_timeout_handler
+                0x00004bf0                MSS_UART_enable_half_duplex
+                0x00004c28                MSS_UART_disable_half_duplex
+                0x00004c60                MSS_UART_set_rx_endian
+                0x00004cb8                MSS_UART_set_tx_endian
+                0x00004d14                MSS_UART_set_filter_length
+                0x00004d3c                MSS_UART_enable_afm
+                0x00004d74                MSS_UART_disable_afm
+                0x00004dac                MSS_UART_enable_afclear
+                0x00004de4                MSS_UART_disable_afclear
+                0x00004e1c                MSS_UART_enable_rx_timeout
+                0x00004e5c                MSS_UART_disable_rx_timeout
+                0x00004e94                MSS_UART_enable_tx_time_guard
+                0x00004ed4                MSS_UART_disable_tx_time_guard
+                0x00004f0c                MSS_UART_set_address
+                0x00004f30                MSS_UART_set_ready_mode
+                0x00004f8c                MSS_UART_set_usart_mode
+                0x00005120                UART1_IRQHandler
+                0x00005140                UART0_IRQHandler
+                0x0000551c                MSS_UART_smartcard_init
+                0x00005588                MSS_UART_irda_init
+                0x00005680                MSS_UART_lin_init
+                0x000056d8                MSS_UART_init
+ .text          0x00005738      0x83c ./drivers/mss_sys_services/mss_comblk.o
+                0x00005738                MSS_COMBLK_init
+                0x000057f8                MSS_COMBLK_send_cmd_with_ptr
+                0x000058b0                MSS_COMBLK_send_paged_cmd
+                0x000059f4                MSS_COMBLK_send_cmd
+                0x00005b5c                ComBlk_IRQHandler
+ .text          0x00005f74     0x1750 ./drivers/mss_sys_services/mss_sys_services.o
+                0x00006674                MSS_SYS_clear_mesh_short
+                0x000066f8                MSS_SYS_clear_lock_parity
+                0x0000677c                MSS_SYS_disable_puf_power_down
+                0x00006800                MSS_SYS_enable_puf_power_down
+                0x00006884                MSS_SYS_stop_clock_monitor
+                0x00006904                MSS_SYS_start_clock_monitor
+                0x0000698c                MSS_SYS_check_digest
+                0x00006a28                MSS_SYS_initiate_iap
+                0x00006b54                MSS_SYS_zeroize_device
+                0x00006bb4                MSS_SYS_nrbg_uninstantiate
+                0x00006c34                MSS_SYS_nrbg_self_test
+                0x00006cb0                MSS_SYS_nrbg_reset
+                0x00006d34                MSS_SYS_flash_freeze
+                0x00006ddc                MSS_SYS_ecc_get_base_point
+                0x00006e7c                MSS_SYS_ecc_point_addition
+                0x00006eec                MSS_SYS_ecc_point_multiplication
+                0x00006f5c                MSS_SYS_puf_get_random_seed
+                0x00006f8c                MSS_SYS_puf_fetch_ecc_public_key
+                0x00006fbc                MSS_SYS_puf_import_keycodes
+                0x00006ff0                MSS_SYS_puf_export_keycodes
+                0x00007024                MSS_SYS_puf_fetch_key
+                0x00007078                MSS_SYS_puf_get_number_of_keys
+                0x000070b0                MSS_SYS_puf_delete_key
+                0x000070e4                MSS_SYS_puf_enroll_key
+                0x00007168                MSS_SYS_puf_delete_activation_code
+                0x00007198                MSS_SYS_puf_create_activation_code
+                0x000071c4                MSS_SYS_nrbg_reseed
+                0x000071fc                MSS_SYS_nrbg_generate
+                0x00007260                MSS_SYS_nrbg_instantiate
+                0x000072b4                MSS_SYS_challenge_response
+                0x000072f4                MSS_SYS_key_tree
+                0x0000733c                MSS_SYS_hmac
+                0x000073c4                MSS_SYS_sha256
+                0x00007438                MSS_SYS_256bit_aes
+                0x000074c4                MSS_SYS_128bit_aes
+                0x00007550                MSS_SYS_get_secondary_device_certificate
+                0x00007564                MSS_SYS_get_device_certificate
+                0x00007578                MSS_SYS_get_design_version
+                0x0000758c                MSS_SYS_get_user_code
+                0x000075a0                MSS_SYS_get_serial_number
+                0x000075b4                MSS_SYS_start_isp
+                0x00007694                MSS_SYS_init
+ .text          0x000076c4      0xc20 ./drivers/mss_nvm/mss_nvm.o
+                0x00007c34                NVM_read_page_write_count
+                0x00007d24                NVM_unlock
+                0x00007f0c                NVM_write
+ .text          0x000082e4      0x4e4 ./drivers/mss_hpdma/mss_hpdma.o
+                0x000082e4                MSS_HPDMA_init
+                0x00008378                MSS_HPDMA_start
+                0x00008568                MSS_HPDMA_pause
+                0x00008588                MSS_HPDMA_resume
+                0x000085a8                MSS_HPDMA_abort
+                0x000085d0                MSS_HPDMA_get_transfer_status
+                0x000085dc                MSS_HPDMA_set_handler
+                0x000085e8                HPDMA_Complete_IRQHandler
+                0x0000870c                HPDMA_Error_IRQHandler
+ .text          0x000087c8      0x1d8 ./drivers/mss_gpio/mss_gpio.o
+                0x000087c8                MSS_GPIO_init
+                0x00008860                MSS_GPIO_config
+                0x00008878                MSS_GPIO_set_output
+                0x000088a4                MSS_GPIO_drive_inout
+                0x0000892c                MSS_GPIO_enable_irq
+                0x0000896c                MSS_GPIO_disable_irq
+                0x00008988                MSS_GPIO_clear_irq
+ .text          0x000089a0      0x104 ./CMSIS/system_m2sxxx.o
+                0x000089a0                SystemCoreClockUpdate
+                0x00008a64                SystemInit
+ .text          0x00008aa4       0xe8 ./CMSIS/startup_gcc/newlib_stubs.o
+                0x00008aa4                _close
+                0x00008aac                _exit
+                0x00008ab0                _fstat
+                0x00008abc                _getpid
+                0x00008ac0                _isatty
+                0x00008ac4                _lseek
+                0x00008ac8                _open
+                0x00008ad0                _read
+                0x00008ad4                _write_r
+                0x00008ad8                _sbrk
+                0x00008b18                _stat
+                0x00008b24                _times
+                0x00008b2c                _wait
+                0x00008b3c                _unlink
+                0x00008b4c                _link
+                0x00008b5c                _kill
+                0x00008b6c                _fork
+                0x00008b7c                _execve
+ .text          0x00008b8c        0x0 ./CMSIS/startup_gcc/startup_m2sxxx.o
+ .text          0x00008b8c        0xc c:/microsemi/libero_soc_v11.7/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-errno.o)
+                0x00008b8c                __errno
+ .text          0x00008b98        0x0 c:/microsemi/libero_soc_v11.7/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-impure.o)
+ .text          0x00008b98       0x50 c:/microsemi/libero_soc_v11.7/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-init.o)
+                0x00008b98                __libc_init_array
+ .text          0x00008be8      0x190 c:/microsemi/libero_soc_v11.7/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memcpy.o)
+                0x00008be8                memcpy
+ .text          0x00008d78        0x0 c:/microsemi/libero_soc_v11.7/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtend.o
+ .text          0x00008d78        0x0 c:/microsemi/libero_soc_v11.7/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtn.o
+ *(.plt)
+ *(.gnu.warning)
+ *(.glue_7t)
+ .glue_7t       0x00000000        0x0 linker stubs
+ *(.glue_7)
+ .glue_7        0x00000000        0x0 linker stubs
+ *(.vfp11_veneer)
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+                0x00008d78                . = ALIGN (0x4)
+ *crtbegin.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *crtend.o(.ctors)
+ *crtbegin.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *crtend.o(.dtors)
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.4
+                0x00008d78       0x46 ./usb_user_descriptors.o
+                                 0x48 (size before relaxing)
+ *fill*         0x00008dbe        0x2 00
+ .rodata        0x00008dc0       0x38 ./drivers/mss_usb/mss_usb_common_cif.o
+ .rodata        0x00008df8       0x30 ./drivers/mss_usb/mss_usb_device.o
+ .rodata        0x00008e28       0x60 ./drivers/mss_sys_services/mss_sys_services.o
+ .rodata        0x00008e88       0x10 ./drivers/mss_nvm/mss_nvm.o
+ .rodata        0x00008e98       0xa0 ./drivers/mss_gpio/mss_gpio.o
+ .rodata        0x00008f38        0x8 ./CMSIS/system_m2sxxx.o
+ .rodata        0x00008f40        0x4 c:/microsemi/libero_soc_v11.7/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-impure.o)
+                0x00008f40                _global_impure_ptr
+ .rodata.str1.4
+                0x00000000       0x48 c:/microsemi/libero_soc_v11.7/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-impure.o)
+                                  0x4 (size before relaxing)
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+ *(.gcc_except_table)
+ *(.eh_frame_hdr)
+ *(.eh_frame)
+ *(.vector_table)
+ *(.init)
+ .init          0x00008f44        0x4 c:/microsemi/libero_soc_v11.7/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crti.o
+                0x00008f44                _init
+ .init          0x00008f48        0x8 c:/microsemi/libero_soc_v11.7/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtn.o
+ *(.fini)
+ .fini          0x00008f50        0x4 c:/microsemi/libero_soc_v11.7/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crti.o
+                0x00008f50                _fini
+ .fini          0x00008f54        0x8 c:/microsemi/libero_soc_v11.7/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtn.o
+                0x00008f5c                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array)
+                0x00008f5c                PROVIDE (__preinit_array_end, .)
+                0x00008f5c                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array)
+ .init_array    0x00008f5c        0x4 c:/microsemi/libero_soc_v11.7/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+                0x00008f60                PROVIDE (__init_array_end, .)
+                0x00008f60                PROVIDE (__fini_array_start, .)
+ *(.fini_array)
+ .fini_array    0x00008f60        0x4 c:/microsemi/libero_soc_v11.7/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+ *(SORT(.fini_array.*))
+                0x00008f64                PROVIDE (__fini_array_end, .)
+                0x00008f70                . = ALIGN (0x10)
+ *fill*         0x00008f64        0xc 00
+                0x00008f70                __exidx_start = .
+
+.v4_bx          0x00008f70        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x00008f70                __exidx_end = .
+                0x00008f70                _etext = .
+
+.data           0x20000000      0x5d0 load address 0x00008f70
+                0x00008f70                __data_load = LOADADDR (.data)
+                0x00008f70                _sidata = LOADADDR (.data)
+                0x20000000                __data_start = .
+                0x20000000                _sdata = .
+ *(.jcr)
+ .jcr           0x20000000        0x0 c:/microsemi/libero_soc_v11.7/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+ .jcr           0x20000000        0x4 c:/microsemi/libero_soc_v11.7/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtend.o
+ *(.got.plt)
+ *(.got)
+ *(.shdata)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x20000004        0x0 c:/microsemi/libero_soc_v11.7/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crti.o
+ .data          0x20000004        0x4 c:/microsemi/libero_soc_v11.7/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+                0x20000004                __dso_handle
+ .data          0x20000008       0xe0 ./main.o
+                0x20000008                g_greeting
+                0x20000078                MMUART_0_greeting
+ .data          0x200000e8       0x3c ./usb_user_descriptors.o
+                0x200000e8                device_descriptor
+                0x200000fc                fs_dev_qualifier_descriptor
+                0x20000108                hs_dev_qualifier_descriptor
+                0x20000114                lang_string_descriptor
+                0x20000118                vcp_descriptors_cb
+ .data          0x20000124       0x3c ./vcp_app.o
+                0x20000124                g_vcptx_complete_status
+                0x20000125                g_vcprx_complete_status
+                0x20000128                g_linecoding_params
+                0x20000130                g_rx_complete_handler
+                0x20000134                g_vcp_app_cb
+                0x20000154                g_not_buf
+ .data          0x20000160        0x0 ./hal/CortexM3/cortex_nvic.o
+ .data          0x20000160        0x0 ./hal/CortexM3/GNU/hal.o
+ .data          0x20000160        0x0 ./hal/CortexM3/GNU/hw_reg_access.o
+ .data          0x20000160        0x0 ./drivers_config/sys_config/sys_config.o
+ .data          0x20000160        0x0 ./drivers/mss_usb/mss_usb_common_cif.o
+ .data          0x20000160       0x2c ./drivers/mss_usb/mss_usb_device.o
+                0x20000160                g_mss_usbd_cb
+ .data          0x2000018c       0x6c ./drivers/mss_usb/mss_usb_device_cdc.o
+                0x2000018c                cdc_conf_descr
+                0x200001d8                usbd_cdc_class_cb
+ .data          0x200001f8        0x0 ./drivers/mss_usb/mss_usb_device_cif.o
+ .data          0x200001f8       0x7c ./drivers/mss_usb/mss_usb_device_hid.o
+                0x200001f8                g_tx_complete_status
+                0x200001fc                hid_conf_descr
+                0x20000220                report_descr
+                0x20000254                usbd_hid_cb
+ .data          0x20000274       0x88 ./drivers/mss_usb/mss_usb_device_msd.o
+                0x20000274                msc_fs_conf_descr
+                0x20000294                msc_hs_conf_descr
+                0x200002b4                g_current_command_csw
+                0x200002c4                usb_msd_class_cb
+                0x200002e4                g_sense_response
+                0x200002f8                mode_sense_response
+ .data          0x200002fc       0x60 ./drivers/mss_usb/mss_usb_device_printer.o
+                0x200002fc                conf_descr
+                0x2000031c                usb_printer_class_cb
+                0x2000033c                fs_conf_descr
+ .data          0x2000035c      0x140 ./drivers/mss_usb/mss_usb_device_vendor.o
+                0x2000035c                vendor_fs_conf_descr
+                0x2000038c                vendor_hs_conf_descr
+                0x2000047c                usb_vendor_class_cb
+ .data          0x2000049c        0x0 ./drivers/mss_usb/mss_usb_host.o
+ .data          0x2000049c        0x0 ./drivers/mss_usb/mss_usb_host_cif.o
+ .data          0x2000049c        0x0 ./drivers/mss_usb/mss_usb_host_msc.o
+ .data          0x2000049c        0x0 ./drivers/mss_uart/mss_uart.o
+ .data          0x2000049c        0x0 ./drivers/mss_sys_services/mss_comblk.o
+ .data          0x2000049c       0x20 ./drivers/mss_sys_services/mss_sys_services.o
+                0x2000049c                div1_seq
+                0x200004a0                div2_seq
+                0x200004a4                div4_seq
+                0x200004ac                div8_seq
+                0x200004b0                div16_seq
+                0x200004b4                div32_seq
+ .data          0x200004bc        0x0 ./drivers/mss_nvm/mss_nvm.o
+ .data          0x200004bc        0x0 ./drivers/mss_hpdma/mss_hpdma.o
+ .data          0x200004bc        0x0 ./drivers/mss_gpio/mss_gpio.o
+ .data          0x200004bc       0x1c ./CMSIS/system_m2sxxx.o
+                0x200004bc                SystemCoreClock
+                0x200004c0                g_FrequencyPCLK0
+                0x200004c4                g_FrequencyPCLK1
+                0x200004c8                g_FrequencyPCLK2
+                0x200004cc                g_FrequencyFIC0
+                0x200004d0                g_FrequencyFIC1
+                0x200004d4                g_FrequencyFIC64
+ .data          0x200004d8        0x4 ./CMSIS/startup_gcc/newlib_stubs.o
+                0x200004d8                environ
+ .data          0x200004dc        0x0 ./CMSIS/startup_gcc/startup_m2sxxx.o
+ .data          0x200004dc        0x0 c:/microsemi/libero_soc_v11.7/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-errno.o)
+ .data          0x200004dc       0xf4 c:/microsemi/libero_soc_v11.7/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-impure.o)
+                0x200004dc                _impure_ptr
+ .data          0x200005d0        0x0 c:/microsemi/libero_soc_v11.7/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-init.o)
+ .data          0x200005d0        0x0 c:/microsemi/libero_soc_v11.7/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memcpy.o)
+ .data          0x200005d0        0x0 c:/microsemi/libero_soc_v11.7/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtend.o
+ .data          0x200005d0        0x0 c:/microsemi/libero_soc_v11.7/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtn.o
+                0x200005d0                . = ALIGN (0x10)
+                0x200005d0                _edata = .
+
+.bss            0x200005d0      0x6a0 load address 0x00009540
+                0x200005d0                __bss_start__ = .
+                0x200005d0                _sbss = .
+ *(.shbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x200005d0        0x0 c:/microsemi/libero_soc_v11.7/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crti.o
+ .bss           0x200005d0        0x1 c:/microsemi/libero_soc_v11.7/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+ *fill*         0x200005d1        0x3 00
+ .bss           0x200005d4      0x208 ./main.o
+                0x200005d4                g_rx_count
+                0x200005d8                receive_buf
+                0x200007d8                g_tx_count
+ .bss           0x200007dc        0x0 ./usb_user_descriptors.o
+ .bss           0x200007dc        0x3 ./vcp_app.o
+                0x200007dc                g_vcp_config_state
+                0x200007de                g_vcp_serial_state
+ .bss           0x200007df        0x0 ./hal/CortexM3/cortex_nvic.o
+ .bss           0x200007df        0x0 ./hal/CortexM3/GNU/hal.o
+ .bss           0x200007df        0x0 ./hal/CortexM3/GNU/hw_reg_access.o
+ .bss           0x200007df        0x0 ./drivers_config/sys_config/sys_config.o
+ .bss           0x200007df        0x0 ./drivers/mss_usb/mss_usb_common_cif.o
+ *fill*         0x200007df        0x1 00
+ .bss           0x200007e0      0x1d4 ./drivers/mss_usb/mss_usb_device.o
+ .bss           0x200009b4        0x1 ./drivers/mss_usb/mss_usb_device_cdc.o
+ .bss           0x200009b5        0x0 ./drivers/mss_usb/mss_usb_device_cif.o
+ .bss           0x200009b5        0x1 ./drivers/mss_usb/mss_usb_device_hid.o
+                0x200009b5                g_hid_state
+ *fill*         0x200009b6        0x2 00
+ .bss           0x200009b8       0x54 ./drivers/mss_usb/mss_usb_device_msd.o
+                0x200009b8                g_usbd_msc_state
+                0x200009bc                g_xfr_buf_ptr
+                0x200009c0                get_max_lun_response
+                0x200009c1                g_bottx_events
+                0x200009c2                g_botrx_events
+                0x200009c4                g_xfr_buf_len
+                0x200009c8                g_xfr_lba_addr
+                0x200009cc                g_req_type
+                0x200009d0                lun_capacity
+                0x20000a00                format_capacity_list
+ .bss           0x20000a0c        0x2 ./drivers/mss_usb/mss_usb_device_printer.o
+                0x20000a0c                g_usbd_printer_state
+                0x20000a0d                g_printer_events
+ *fill*         0x20000a0e        0x2 00
+ .bss           0x20000a10       0xc0 ./drivers/mss_usb/mss_usb_device_vendor.o
+ .bss           0x20000ad0        0x0 ./drivers/mss_usb/mss_usb_host.o
+ .bss           0x20000ad0        0x0 ./drivers/mss_usb/mss_usb_host_cif.o
+ .bss           0x20000ad0        0x0 ./drivers/mss_usb/mss_usb_host_msc.o
+ .bss           0x20000ad0        0x0 ./drivers/mss_uart/mss_uart.o
+ .bss           0x20000ad0       0x2c ./drivers/mss_sys_services/mss_comblk.o
+ .bss           0x20000afc       0x34 ./drivers/mss_sys_services/mss_sys_services.o
+                0x20000afc                divisor
+                0x20000b1c                g_isp_page_read_handler
+                0x20000b24                g_isp_completion_handler
+                0x20000b2e                ind
+ .bss           0x20000b30        0x1 ./drivers/mss_nvm/mss_nvm.o
+ *fill*         0x20000b31        0x3 00
+ .bss           0x20000b34       0x20 ./drivers/mss_hpdma/mss_hpdma.o
+ .bss           0x20000b54        0x0 ./drivers/mss_gpio/mss_gpio.o
+ .bss           0x20000b54        0x0 ./CMSIS/system_m2sxxx.o
+ .bss           0x20000b54        0x8 ./CMSIS/startup_gcc/newlib_stubs.o
+                0x20000b58                __env
+ .bss           0x20000b5c        0x0 ./CMSIS/startup_gcc/startup_m2sxxx.o
+ .bss           0x20000b5c        0x0 c:/microsemi/libero_soc_v11.7/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-errno.o)
+ .bss           0x20000b5c        0x0 c:/microsemi/libero_soc_v11.7/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-impure.o)
+ .bss           0x20000b5c        0x0 c:/microsemi/libero_soc_v11.7/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-init.o)
+ .bss           0x20000b5c        0x0 c:/microsemi/libero_soc_v11.7/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memcpy.o)
+ .bss           0x20000b5c        0x0 c:/microsemi/libero_soc_v11.7/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtend.o
+ .bss           0x20000b5c        0x0 c:/microsemi/libero_soc_v11.7/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtn.o
+ *(COMMON)
+ COMMON         0x20000b5c       0x40 ./usb_user_descriptors.o
+                0x20000b5c                g_string_descriptor
+ COMMON         0x20000b9c        0x8 ./drivers/mss_usb/mss_usb_device.o
+                0x20000b9c                g_usbd_class_cb
+                0x20000ba0                g_usbd_user_descr_cb
+ COMMON         0x20000ba4        0x8 ./drivers/mss_usb/mss_usb_device_cdc.o
+                0x20000ba4                g_usbd_cdc_user_speed
+                0x20000ba8                usbd_cdc_vcp_ops
+ COMMON         0x20000bac        0x1 ./drivers/mss_usb/mss_usb_device_cif.o
+                0x20000bac                cep_state
+ COMMON         0x20000bad        0x1 ./drivers/mss_usb/mss_usb_device_hid.o
+                0x20000bad                g_usbd_hid_user_speed
+ *fill*         0x20000bae        0x2 00
+ COMMON         0x20000bb0       0x29 ./drivers/mss_usb/mss_usb_device_msd.o
+                0x20000bb0                g_usbd_msc_media_ops
+                0x20000bb4                g_usbd_msc_user_speed
+                0x20000bb8                g_bot_cbw
+                0x20000bd8                g_bot_state
+ *fill*         0x20000bd9        0x3 00
+ COMMON         0x20000bdc        0x4 ./drivers/mss_usb/mss_usb_device_printer.o
+                0x20000bdc                g_mss_usbd_printer_ops
+ COMMON         0x20000be0        0x1 ./drivers/mss_usb/mss_usb_device_vendor.o
+                0x20000be0                g_usbd_vendor_user_speed
+ *fill*         0x20000be1        0x3 00
+ COMMON         0x20000be4       0x80 ./drivers/mss_uart/mss_uart.o
+                0x20000be4                g_mss_uart1
+                0x20000c24                g_mss_uart0
+                0x20000c70                . = ALIGN (0x10)
+ *fill*         0x20000c64        0xc 00
+                0x20000c70                __bss_end__ = .
+                0x20000c70                _end = .
+                0x20000c70                __end = _end
+                0x20000c70                _ebss = .
+                0x20000c70                PROVIDE (end, .)
+
+.heap           0x20000c70     0xe390 load address 0x00009540
+                0x20000c70                __heap_start__ = .
+                0x20001c70                . = (. + MIN_SIZE_HEAP)
+ *fill*         0x20000c70     0x1000 00
+                0x2000f000                . = (. + (((ABSOLUTE (RAM_START_ADDRESS) + RAM_SIZE) - MAIN_STACK_SIZE) - .))
+ *fill*         0x20001c70     0xd390 00
+                0x2000f000                _eheap = .
+
+.stack          0x2000f000     0x1000 load address 0x00009540
+                0x2000f000                __stack_start__ = .
+                0x20010000                . = (. + MAIN_STACK_SIZE)
+ *fill*         0x2000f000     0x1000 00
+                0x20010000                _estack = .
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.comment        0x00000000      0x408
+ .comment       0x00000000       0x2b ./main.o
+ .comment       0x0000002b       0x2b ./usb_user_descriptors.o
+ .comment       0x00000056       0x2b ./vcp_app.o
+ .comment       0x00000081       0x2b ./hal/CortexM3/cortex_nvic.o
+ .comment       0x000000ac       0x2b ./drivers_config/sys_config/sys_config.o
+ .comment       0x000000d7       0x2b ./drivers/mss_usb/mss_usb_common_cif.o
+ .comment       0x00000102       0x2b ./drivers/mss_usb/mss_usb_device.o
+ .comment       0x0000012d       0x2b ./drivers/mss_usb/mss_usb_device_cdc.o
+ .comment       0x00000158       0x2b ./drivers/mss_usb/mss_usb_device_cif.o
+ .comment       0x00000183       0x2b ./drivers/mss_usb/mss_usb_device_hid.o
+ .comment       0x000001ae       0x2b ./drivers/mss_usb/mss_usb_device_msd.o
+ .comment       0x000001d9       0x2b ./drivers/mss_usb/mss_usb_device_printer.o
+ .comment       0x00000204       0x2b ./drivers/mss_usb/mss_usb_device_vendor.o
+ .comment       0x0000022f       0x2b ./drivers/mss_usb/mss_usb_host.o
+ .comment       0x0000025a       0x2b ./drivers/mss_usb/mss_usb_host_cif.o
+ .comment       0x00000285       0x2b ./drivers/mss_usb/mss_usb_host_msc.o
+ .comment       0x000002b0       0x2b ./drivers/mss_uart/mss_uart.o
+ .comment       0x000002db       0x2b ./drivers/mss_sys_services/mss_comblk.o
+ .comment       0x00000306       0x2b ./drivers/mss_sys_services/mss_sys_services.o
+ .comment       0x00000331       0x2b ./drivers/mss_nvm/mss_nvm.o
+ .comment       0x0000035c       0x2b ./drivers/mss_hpdma/mss_hpdma.o
+ .comment       0x00000387       0x2b ./drivers/mss_gpio/mss_gpio.o
+ .comment       0x000003b2       0x2b ./CMSIS/system_m2sxxx.o
+ .comment       0x000003dd       0x2b ./CMSIS/startup_gcc/newlib_stubs.o
+
+.debug_aranges  0x00000000      0x280
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 ./main.o
+ .debug_aranges
+                0x00000020       0x20 ./usb_user_descriptors.o
+ .debug_aranges
+                0x00000040       0x20 ./vcp_app.o
+ .debug_aranges
+                0x00000060       0x20 ./hal/CortexM3/cortex_nvic.o
+ .debug_aranges
+                0x00000080       0x20 ./drivers/mss_usb/mss_usb_common_cif.o
+ .debug_aranges
+                0x000000a0       0x20 ./drivers/mss_usb/mss_usb_device.o
+ .debug_aranges
+                0x000000c0       0x20 ./drivers/mss_usb/mss_usb_device_cdc.o
+ .debug_aranges
+                0x000000e0       0x20 ./drivers/mss_usb/mss_usb_device_cif.o
+ .debug_aranges
+                0x00000100       0x20 ./drivers/mss_usb/mss_usb_device_hid.o
+ .debug_aranges
+                0x00000120       0x20 ./drivers/mss_usb/mss_usb_device_msd.o
+ .debug_aranges
+                0x00000140       0x20 ./drivers/mss_usb/mss_usb_device_printer.o
+ .debug_aranges
+                0x00000160       0x20 ./drivers/mss_usb/mss_usb_device_vendor.o
+ .debug_aranges
+                0x00000180       0x20 ./drivers/mss_uart/mss_uart.o
+ .debug_aranges
+                0x000001a0       0x20 ./drivers/mss_sys_services/mss_comblk.o
+ .debug_aranges
+                0x000001c0       0x20 ./drivers/mss_sys_services/mss_sys_services.o
+ .debug_aranges
+                0x000001e0       0x20 ./drivers/mss_nvm/mss_nvm.o
+ .debug_aranges
+                0x00000200       0x20 ./drivers/mss_hpdma/mss_hpdma.o
+ .debug_aranges
+                0x00000220       0x20 ./drivers/mss_gpio/mss_gpio.o
+ .debug_aranges
+                0x00000240       0x20 ./CMSIS/system_m2sxxx.o
+ .debug_aranges
+                0x00000260       0x20 ./CMSIS/startup_gcc/newlib_stubs.o
+
+.debug_pubnames
+                0x00000000     0x1de8
+ *(.debug_pubnames)
+ .debug_pubnames
+                0x00000000       0x87 ./main.o
+ .debug_pubnames
+                0x00000087      0x118 ./usb_user_descriptors.o
+ .debug_pubnames
+                0x0000019f      0x1f3 ./vcp_app.o
+ .debug_pubnames
+                0x00000392       0x99 ./hal/CortexM3/cortex_nvic.o
+ .debug_pubnames
+                0x0000042b       0xfe ./drivers/mss_usb/mss_usb_common_cif.o
+ .debug_pubnames
+                0x00000529      0x395 ./drivers/mss_usb/mss_usb_device.o
+ .debug_pubnames
+                0x000008be       0xcb ./drivers/mss_usb/mss_usb_device_cdc.o
+ .debug_pubnames
+                0x00000989      0x139 ./drivers/mss_usb/mss_usb_device_cif.o
+ .debug_pubnames
+                0x00000ac2       0xd3 ./drivers/mss_usb/mss_usb_device_hid.o
+ .debug_pubnames
+                0x00000b95      0x1e0 ./drivers/mss_usb/mss_usb_device_msd.o
+ .debug_pubnames
+                0x00000d75      0x12f ./drivers/mss_usb/mss_usb_device_printer.o
+ .debug_pubnames
+                0x00000ea4       0x92 ./drivers/mss_usb/mss_usb_device_vendor.o
+ .debug_pubnames
+                0x00000f36      0x50f ./drivers/mss_uart/mss_uart.o
+ .debug_pubnames
+                0x00001445       0x93 ./drivers/mss_sys_services/mss_comblk.o
+ .debug_pubnames
+                0x000014d8      0x571 ./drivers/mss_sys_services/mss_sys_services.o
+ .debug_pubnames
+                0x00001a49       0x4d ./drivers/mss_nvm/mss_nvm.o
+ .debug_pubnames
+                0x00001a96       0xeb ./drivers/mss_hpdma/mss_hpdma.o
+ .debug_pubnames
+                0x00001b81       0xb1 ./drivers/mss_gpio/mss_gpio.o
+ .debug_pubnames
+                0x00001c32       0xcb ./CMSIS/system_m2sxxx.o
+ .debug_pubnames
+                0x00001cfd       0xeb ./CMSIS/startup_gcc/newlib_stubs.o
+
+.debug_info     0x00000000    0x17916
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x7f7 ./main.o
+ .debug_info    0x000007f7      0x313 ./usb_user_descriptors.o
+ .debug_info    0x00000b0a      0xf4c ./vcp_app.o
+ .debug_info    0x00001a56      0x17b ./hal/CortexM3/cortex_nvic.o
+ .debug_info    0x00001bd1       0x91 ./drivers_config/sys_config/sys_config.o
+ .debug_info    0x00001c62     0x2714 ./drivers/mss_usb/mss_usb_common_cif.o
+ .debug_info    0x00004376     0x2d33 ./drivers/mss_usb/mss_usb_device.o
+ .debug_info    0x000070a9     0x11b4 ./drivers/mss_usb/mss_usb_device_cdc.o
+ .debug_info    0x0000825d     0x1b36 ./drivers/mss_usb/mss_usb_device_cif.o
+ .debug_info    0x00009d93      0x63a ./drivers/mss_usb/mss_usb_device_hid.o
+ .debug_info    0x0000a3cd     0x1b6a ./drivers/mss_usb/mss_usb_device_msd.o
+ .debug_info    0x0000bf37      0x7bc ./drivers/mss_usb/mss_usb_device_printer.o
+ .debug_info    0x0000c6f3      0x664 ./drivers/mss_usb/mss_usb_device_vendor.o
+ .debug_info    0x0000cd57       0x98 ./drivers/mss_usb/mss_usb_host.o
+ .debug_info    0x0000cdef       0x91 ./drivers/mss_usb/mss_usb_host_cif.o
+ .debug_info    0x0000ce80       0x98 ./drivers/mss_usb/mss_usb_host_msc.o
+ .debug_info    0x0000cf18     0x29c7 ./drivers/mss_uart/mss_uart.o
+ .debug_info    0x0000f8df      0xdd4 ./drivers/mss_sys_services/mss_comblk.o
+ .debug_info    0x000106b3     0x24b9 ./drivers/mss_sys_services/mss_sys_services.o
+ .debug_info    0x00012b6c     0x15b4 ./drivers/mss_nvm/mss_nvm.o
+ .debug_info    0x00014120     0x134d ./drivers/mss_hpdma/mss_hpdma.o
+ .debug_info    0x0001546d     0x116a ./drivers/mss_gpio/mss_gpio.o
+ .debug_info    0x000165d7      0xc3d ./CMSIS/system_m2sxxx.o
+ .debug_info    0x00017214      0x702 ./CMSIS/startup_gcc/newlib_stubs.o
+
+.debug_abbrev   0x00000000     0x32a5
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x19f ./main.o
+ .debug_abbrev  0x0000019f      0x13f ./usb_user_descriptors.o
+ .debug_abbrev  0x000002de      0x277 ./vcp_app.o
+ .debug_abbrev  0x00000555       0x99 ./hal/CortexM3/cortex_nvic.o
+ .debug_abbrev  0x000005ee       0x5a ./drivers_config/sys_config/sys_config.o
+ .debug_abbrev  0x00000648      0x3a8 ./drivers/mss_usb/mss_usb_common_cif.o
+ .debug_abbrev  0x000009f0      0x46c ./drivers/mss_usb/mss_usb_device.o
+ .debug_abbrev  0x00000e5c      0x2cc ./drivers/mss_usb/mss_usb_device_cdc.o
+ .debug_abbrev  0x00001128      0x32c ./drivers/mss_usb/mss_usb_device_cif.o
+ .debug_abbrev  0x00001454      0x1ea ./drivers/mss_usb/mss_usb_device_hid.o
+ .debug_abbrev  0x0000163e      0x350 ./drivers/mss_usb/mss_usb_device_msd.o
+ .debug_abbrev  0x0000198e      0x1fa ./drivers/mss_usb/mss_usb_device_printer.o
+ .debug_abbrev  0x00001b88      0x194 ./drivers/mss_usb/mss_usb_device_vendor.o
+ .debug_abbrev  0x00001d1c       0x5a ./drivers/mss_usb/mss_usb_host.o
+ .debug_abbrev  0x00001d76       0x5a ./drivers/mss_usb/mss_usb_host_cif.o
+ .debug_abbrev  0x00001dd0       0x5a ./drivers/mss_usb/mss_usb_host_msc.o
+ .debug_abbrev  0x00001e2a      0x39f ./drivers/mss_uart/mss_uart.o
+ .debug_abbrev  0x000021c9      0x2ae ./drivers/mss_sys_services/mss_comblk.o
+ .debug_abbrev  0x00002477      0x318 ./drivers/mss_sys_services/mss_sys_services.o
+ .debug_abbrev  0x0000278f      0x294 ./drivers/mss_nvm/mss_nvm.o
+ .debug_abbrev  0x00002a23      0x276 ./drivers/mss_hpdma/mss_hpdma.o
+ .debug_abbrev  0x00002c99      0x1e2 ./drivers/mss_gpio/mss_gpio.o
+ .debug_abbrev  0x00002e7b      0x1de ./CMSIS/system_m2sxxx.o
+ .debug_abbrev  0x00003059      0x24c ./CMSIS/startup_gcc/newlib_stubs.o
+
+.debug_line     0x00000000     0x6849
+ *(.debug_line)
+ .debug_line    0x00000000      0x1fa ./main.o
+ .debug_line    0x000001fa      0x242 ./usb_user_descriptors.o
+ .debug_line    0x0000043c      0x309 ./vcp_app.o
+ .debug_line    0x00000745      0x12d ./hal/CortexM3/cortex_nvic.o
+ .debug_line    0x00000872      0x17b ./drivers_config/sys_config/sys_config.o
+ .debug_line    0x000009ed      0x6f5 ./drivers/mss_usb/mss_usb_common_cif.o
+ .debug_line    0x000010e2      0xa6b ./drivers/mss_usb/mss_usb_device.o
+ .debug_line    0x00001b4d      0x316 ./drivers/mss_usb/mss_usb_device_cdc.o
+ .debug_line    0x00001e63      0x489 ./drivers/mss_usb/mss_usb_device_cif.o
+ .debug_line    0x000022ec      0x269 ./drivers/mss_usb/mss_usb_device_hid.o
+ .debug_line    0x00002555      0x6fc ./drivers/mss_usb/mss_usb_device_msd.o
+ .debug_line    0x00002c51      0x2bc ./drivers/mss_usb/mss_usb_device_printer.o
+ .debug_line    0x00002f0d      0x2de ./drivers/mss_usb/mss_usb_device_vendor.o
+ .debug_line    0x000031eb      0x42a ./drivers/mss_usb/mss_usb_host.o
+ .debug_line    0x00003615      0x1dc ./drivers/mss_usb/mss_usb_host_cif.o
+ .debug_line    0x000037f1      0x415 ./drivers/mss_usb/mss_usb_host_msc.o
+ .debug_line    0x00003c06      0xbeb ./drivers/mss_uart/mss_uart.o
+ .debug_line    0x000047f1      0x4fc ./drivers/mss_sys_services/mss_comblk.o
+ .debug_line    0x00004ced      0xc54 ./drivers/mss_sys_services/mss_sys_services.o
+ .debug_line    0x00005941      0x434 ./drivers/mss_nvm/mss_nvm.o
+ .debug_line    0x00005d75      0x339 ./drivers/mss_hpdma/mss_hpdma.o
+ .debug_line    0x000060ae      0x241 ./drivers/mss_gpio/mss_gpio.o
+ .debug_line    0x000062ef      0x1c2 ./CMSIS/system_m2sxxx.o
+ .debug_line    0x000064b1      0x398 ./CMSIS/startup_gcc/newlib_stubs.o
+
+.debug_frame    0x00000000     0x1d64
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x44 ./main.o
+ .debug_frame   0x00000044       0x60 ./usb_user_descriptors.o
+ .debug_frame   0x000000a4      0x12c ./vcp_app.o
+ .debug_frame   0x000001d0       0x70 ./hal/CortexM3/cortex_nvic.o
+ .debug_frame   0x00000240      0x108 ./drivers/mss_usb/mss_usb_common_cif.o
+ .debug_frame   0x00000348      0x378 ./drivers/mss_usb/mss_usb_device.o
+ .debug_frame   0x000006c0      0x114 ./drivers/mss_usb/mss_usb_device_cdc.o
+ .debug_frame   0x000007d4       0xd0 ./drivers/mss_usb/mss_usb_device_cif.o
+ .debug_frame   0x000008a4       0xe4 ./drivers/mss_usb/mss_usb_device_hid.o
+ .debug_frame   0x00000988      0x180 ./drivers/mss_usb/mss_usb_device_msd.o
+ .debug_frame   0x00000b08      0x130 ./drivers/mss_usb/mss_usb_device_printer.o
+ .debug_frame   0x00000c38       0xc8 ./drivers/mss_usb/mss_usb_device_vendor.o
+ .debug_frame   0x00000d00      0x458 ./drivers/mss_uart/mss_uart.o
+ .debug_frame   0x00001158      0x10c ./drivers/mss_sys_services/mss_comblk.o
+ .debug_frame   0x00001264      0x690 ./drivers/mss_sys_services/mss_sys_services.o
+ .debug_frame   0x000018f4       0xd8 ./drivers/mss_nvm/mss_nvm.o
+ .debug_frame   0x000019cc       0xe4 ./drivers/mss_hpdma/mss_hpdma.o
+ .debug_frame   0x00001ab0       0xa0 ./drivers/mss_gpio/mss_gpio.o
+ .debug_frame   0x00001b50       0x34 ./CMSIS/system_m2sxxx.o
+ .debug_frame   0x00001b84      0x160 ./CMSIS/startup_gcc/newlib_stubs.o
+ .debug_frame   0x00001ce4       0x20 c:/microsemi/libero_soc_v11.7/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-errno.o)
+ .debug_frame   0x00001d04       0x2c c:/microsemi/libero_soc_v11.7/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-init.o)
+ .debug_frame   0x00001d30       0x34 c:/microsemi/libero_soc_v11.7/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memcpy.o)
+
+.debug_str      0x00000000     0x716d
+ *(.debug_str)
+ .debug_str     0x00000000      0x7ec ./main.o
+                                0x8ba (size before relaxing)
+ .debug_str     0x000007ec      0x1a1 ./usb_user_descriptors.o
+                                0x302 (size before relaxing)
+ .debug_str     0x0000098d      0xb8f ./vcp_app.o
+                                0xe23 (size before relaxing)
+ .debug_str     0x0000151c       0xc4 ./hal/CortexM3/cortex_nvic.o
+                                0x1d3 (size before relaxing)
+ .debug_str     0x000015e0       0x2a ./drivers_config/sys_config/sys_config.o
+                                0x135 (size before relaxing)
+ .debug_str     0x0000160a     0x1280 ./drivers/mss_usb/mss_usb_common_cif.o
+                               0x1485 (size before relaxing)
+ .debug_str     0x0000288a      0xd24 ./drivers/mss_usb/mss_usb_device.o
+                               0x1e20 (size before relaxing)
+ .debug_str     0x000035ae      0x21c ./drivers/mss_usb/mss_usb_device_cdc.o
+                                0xb13 (size before relaxing)
+ .debug_str     0x000037ca      0x2b6 ./drivers/mss_usb/mss_usb_device_cif.o
+                               0x1478 (size before relaxing)
+ .debug_str     0x00003a80      0x1cc ./drivers/mss_usb/mss_usb_device_hid.o
+                                0x614 (size before relaxing)
+ .debug_str     0x00003c4c      0x8a8 ./drivers/mss_usb/mss_usb_device_msd.o
+                               0x1198 (size before relaxing)
+ .debug_str     0x000044f4      0x3c9 ./drivers/mss_usb/mss_usb_device_printer.o
+                                0x87b (size before relaxing)
+ .debug_str     0x000048bd      0x1a2 ./drivers/mss_usb/mss_usb_device_vendor.o
+                                0x66a (size before relaxing)
+ .debug_str     0x00004a5f       0x22 ./drivers/mss_usb/mss_usb_host.o
+                                0x132 (size before relaxing)
+ .debug_str     0x00004a81       0x26 ./drivers/mss_usb/mss_usb_host_cif.o
+                                0x131 (size before relaxing)
+ .debug_str     0x00004aa7       0x26 ./drivers/mss_usb/mss_usb_host_msc.o
+                                0x136 (size before relaxing)
+ .debug_str     0x00004acd      0xa0c ./drivers/mss_uart/mss_uart.o
+                               0x199f (size before relaxing)
+ .debug_str     0x000054d9      0x2fb ./drivers/mss_sys_services/mss_comblk.o
+                                0xa6c (size before relaxing)
+ .debug_str     0x000057d4      0x9f5 ./drivers/mss_sys_services/mss_sys_services.o
+                               0x1310 (size before relaxing)
+ .debug_str     0x000061c9      0x437 ./drivers/mss_nvm/mss_nvm.o
+                                0xcdc (size before relaxing)
+ .debug_str     0x00006600      0x4db ./drivers/mss_hpdma/mss_hpdma.o
+                               0x1299 (size before relaxing)
+ .debug_str     0x00006adb      0x2ec ./drivers/mss_gpio/mss_gpio.o
+                               0x1219 (size before relaxing)
+ .debug_str     0x00006dc7      0x1bf ./CMSIS/system_m2sxxx.o
+                                0xa19 (size before relaxing)
+ .debug_str     0x00006f86      0x1e7 ./CMSIS/startup_gcc/newlib_stubs.o
+                                0x339 (size before relaxing)
+
+.debug_loc      0x00000000     0x7785
+ *(.debug_loc)
+ .debug_loc     0x00000000       0x49 ./main.o
+ .debug_loc     0x00000049      0x152 ./usb_user_descriptors.o
+ .debug_loc     0x0000019b      0x298 ./vcp_app.o
+ .debug_loc     0x00000433      0x722 ./drivers/mss_usb/mss_usb_common_cif.o
+ .debug_loc     0x00000b55      0xc09 ./drivers/mss_usb/mss_usb_device.o
+ .debug_loc     0x0000175e      0x3a7 ./drivers/mss_usb/mss_usb_device_cdc.o
+ .debug_loc     0x00001b05      0x1f0 ./drivers/mss_usb/mss_usb_device_cif.o
+ .debug_loc     0x00001cf5      0x1de ./drivers/mss_usb/mss_usb_device_hid.o
+ .debug_loc     0x00001ed3     0x102b ./drivers/mss_usb/mss_usb_device_msd.o
+ .debug_loc     0x00002efe      0x3a0 ./drivers/mss_usb/mss_usb_device_printer.o
+ .debug_loc     0x0000329e      0x38e ./drivers/mss_usb/mss_usb_device_vendor.o
+ .debug_loc     0x0000362c      0xc75 ./drivers/mss_uart/mss_uart.o
+ .debug_loc     0x000042a1      0x805 ./drivers/mss_sys_services/mss_comblk.o
+ .debug_loc     0x00004aa6     0x19df ./drivers/mss_sys_services/mss_sys_services.o
+ .debug_loc     0x00006485      0xccd ./drivers/mss_nvm/mss_nvm.o
+ .debug_loc     0x00007152      0x167 ./drivers/mss_hpdma/mss_hpdma.o
+ .debug_loc     0x000072b9      0x225 ./drivers/mss_gpio/mss_gpio.o
+ .debug_loc     0x000074de       0x50 ./CMSIS/system_m2sxxx.o
+ .debug_loc     0x0000752e      0x257 ./CMSIS/startup_gcc/newlib_stubs.o
+
+.debug_macinfo  0x00000000    0xcca2d
+ *(.debug_macinfo)
+ .debug_macinfo
+                0x00000000     0x7c5b ./main.o
+ .debug_macinfo
+                0x00007c5b     0x9b20 ./usb_user_descriptors.o
+ .debug_macinfo
+                0x0001177b     0xa481 ./vcp_app.o
+ .debug_macinfo
+                0x0001bbfc     0x153a ./hal/CortexM3/cortex_nvic.o
+ .debug_macinfo
+                0x0001d136     0x7000 ./drivers_config/sys_config/sys_config.o
+ .debug_macinfo
+                0x00024136     0x8897 ./drivers/mss_usb/mss_usb_common_cif.o
+ .debug_macinfo
+                0x0002c9cd     0x9a03 ./drivers/mss_usb/mss_usb_device.o
+ .debug_macinfo
+                0x000363d0     0x9b3e ./drivers/mss_usb/mss_usb_device_cdc.o
+ .debug_macinfo
+                0x0003ff0e     0x88d8 ./drivers/mss_usb/mss_usb_device_cif.o
+ .debug_macinfo
+                0x000487e6     0x9aba ./drivers/mss_usb/mss_usb_device_hid.o
+ .debug_macinfo
+                0x000522a0     0x9f7a ./drivers/mss_usb/mss_usb_device_msd.o
+ .debug_macinfo
+                0x0005c21a     0x9ae4 ./drivers/mss_usb/mss_usb_device_printer.o
+ .debug_macinfo
+                0x00065cfe     0x9d5e ./drivers/mss_usb/mss_usb_device_vendor.o
+ .debug_macinfo
+                0x0006fa5c     0xc3f8 ./drivers/mss_usb/mss_usb_host.o
+ .debug_macinfo
+                0x0007be54     0x98e2 ./drivers/mss_usb/mss_usb_host_cif.o
+ .debug_macinfo
+                0x00085736     0xc3db ./drivers/mss_usb/mss_usb_host_msc.o
+ .debug_macinfo
+                0x00091b11     0x7d7f ./drivers/mss_uart/mss_uart.o
+ .debug_macinfo
+                0x00099890     0x6f62 ./drivers/mss_sys_services/mss_comblk.o
+ .debug_macinfo
+                0x000a07f2     0xa7de ./drivers/mss_sys_services/mss_sys_services.o
+ .debug_macinfo
+                0x000aafd0     0x76f2 ./drivers/mss_nvm/mss_nvm.o
+ .debug_macinfo
+                0x000b26c2     0x701c ./drivers/mss_hpdma/mss_hpdma.o
+ .debug_macinfo
+                0x000b96de     0x7377 ./drivers/mss_gpio/mss_gpio.o
+ .debug_macinfo
+                0x000c0a55     0x73de ./CMSIS/system_m2sxxx.o
+ .debug_macinfo
+                0x000c7e33     0x4bfa ./CMSIS/startup_gcc/newlib_stubs.o
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+.ARM.attributes
+                0x00000000       0x25
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x19 c:/microsemi/libero_soc_v11.7/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crti.o
+ .ARM.attributes
+                0x00000019       0x29 c:/microsemi/libero_soc_v11.7/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+ .ARM.attributes
+                0x00000042       0x31 ./main.o
+ .ARM.attributes
+                0x00000073       0x31 ./usb_user_descriptors.o
+ .ARM.attributes
+                0x000000a4       0x31 ./vcp_app.o
+ .ARM.attributes
+                0x000000d5       0x31 ./hal/CortexM3/cortex_nvic.o
+ .ARM.attributes
+                0x00000106       0x21 ./hal/CortexM3/GNU/hal.o
+ .ARM.attributes
+                0x00000127       0x21 ./hal/CortexM3/GNU/hw_reg_access.o
+ .ARM.attributes
+                0x00000148       0x31 ./drivers_config/sys_config/sys_config.o
+ .ARM.attributes
+                0x00000179       0x31 ./drivers/mss_usb/mss_usb_common_cif.o
+ .ARM.attributes
+                0x000001aa       0x31 ./drivers/mss_usb/mss_usb_device.o
+ .ARM.attributes
+                0x000001db       0x31 ./drivers/mss_usb/mss_usb_device_cdc.o
+ .ARM.attributes
+                0x0000020c       0x31 ./drivers/mss_usb/mss_usb_device_cif.o
+ .ARM.attributes
+                0x0000023d       0x31 ./drivers/mss_usb/mss_usb_device_hid.o
+ .ARM.attributes
+                0x0000026e       0x31 ./drivers/mss_usb/mss_usb_device_msd.o
+ .ARM.attributes
+                0x0000029f       0x31 ./drivers/mss_usb/mss_usb_device_printer.o
+ .ARM.attributes
+                0x000002d0       0x31 ./drivers/mss_usb/mss_usb_device_vendor.o
+ .ARM.attributes
+                0x00000301       0x31 ./drivers/mss_usb/mss_usb_host.o
+ .ARM.attributes
+                0x00000332       0x31 ./drivers/mss_usb/mss_usb_host_cif.o
+ .ARM.attributes
+                0x00000363       0x31 ./drivers/mss_usb/mss_usb_host_msc.o
+ .ARM.attributes
+                0x00000394       0x31 ./drivers/mss_uart/mss_uart.o
+ .ARM.attributes
+                0x000003c5       0x31 ./drivers/mss_sys_services/mss_comblk.o
+ .ARM.attributes
+                0x000003f6       0x31 ./drivers/mss_sys_services/mss_sys_services.o
+ .ARM.attributes
+                0x00000427       0x31 ./drivers/mss_nvm/mss_nvm.o
+ .ARM.attributes
+                0x00000458       0x31 ./drivers/mss_hpdma/mss_hpdma.o
+ .ARM.attributes
+                0x00000489       0x31 ./drivers/mss_gpio/mss_gpio.o
+ .ARM.attributes
+                0x000004ba       0x31 ./CMSIS/system_m2sxxx.o
+ .ARM.attributes
+                0x000004eb       0x31 ./CMSIS/startup_gcc/newlib_stubs.o
+ .ARM.attributes
+                0x0000051c       0x21 ./CMSIS/startup_gcc/startup_m2sxxx.o
+ .ARM.attributes
+                0x0000053d       0x29 c:/microsemi/libero_soc_v11.7/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-errno.o)
+ .ARM.attributes
+                0x00000566       0x29 c:/microsemi/libero_soc_v11.7/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-impure.o)
+ .ARM.attributes
+                0x0000058f       0x29 c:/microsemi/libero_soc_v11.7/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-init.o)
+ .ARM.attributes
+                0x000005b8       0x29 c:/microsemi/libero_soc_v11.7/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memcpy.o)
+ .ARM.attributes
+                0x000005e1       0x29 c:/microsemi/libero_soc_v11.7/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtend.o
+ .ARM.attributes
+                0x0000060a       0x19 c:/microsemi/libero_soc_v11.7/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtn.o
+
+/DISCARD/
+ *(.note.GNU-stack)
+OUTPUT(usb_device_cdc_vcp elf32-littlearm)
+
+.debug_ranges   0x00000000     0x2a18
+ .debug_ranges  0x00000000      0x568 ./drivers/mss_usb/mss_usb_common_cif.o
+ .debug_ranges  0x00000568      0x600 ./drivers/mss_usb/mss_usb_device.o
+ .debug_ranges  0x00000b68       0x70 ./drivers/mss_usb/mss_usb_device_cdc.o
+ .debug_ranges  0x00000bd8      0x208 ./drivers/mss_usb/mss_usb_device_cif.o
+ .debug_ranges  0x00000de0      0x2b0 ./drivers/mss_usb/mss_usb_device_msd.o
+ .debug_ranges  0x00001090      0xa78 ./drivers/mss_uart/mss_uart.o
+ .debug_ranges  0x00001b08      0x3b0 ./drivers/mss_sys_services/mss_comblk.o
+ .debug_ranges  0x00001eb8      0x618 ./drivers/mss_sys_services/mss_sys_services.o
+ .debug_ranges  0x000024d0      0x330 ./drivers/mss_nvm/mss_nvm.o
+ .debug_ranges  0x00002800      0x110 ./drivers/mss_hpdma/mss_hpdma.o
+ .debug_ranges  0x00002910       0x90 ./drivers/mss_gpio/mss_gpio.o
+ .debug_ranges  0x000029a0       0x78 ./CMSIS/system_m2sxxx.o

@@ -1,0 +1,145 @@
+# Microsemi Physical design constraints file
+
+# Version: v11.8 SP1 11.8.1.12
+
+# Design Name: M2S010_Ethernet 
+
+# Input Netlist Format: EDIF 
+
+# Family: SmartFusion2 , Die: M2S010 , Package: 144 TQ , Speed grade: STD 
+
+# Date generated: Tue Oct 24 17:52:54 2017 
+
+
+#
+# I/O constraints
+#
+
+set_io BtnReset -DIRECTION INPUT -pinname 13 -fixed no
+set_io LED1 -DIRECTION OUTPUT -pinname 63 -fixed no
+set_io LED2 -DIRECTION OUTPUT -pinname 64 -fixed no
+set_io LED3 -DIRECTION OUTPUT -pinname 66 -fixed no
+set_io LED4 -DIRECTION OUTPUT -pinname 67 -fixed no
+set_io MAC_MII_MDC -DIRECTION OUTPUT -pinname 111 -fixed no
+set_io MDIO -DIRECTION INOUT -pinname 110 -fixed no
+set_io MMUART_0_RXD_F2M -DIRECTION INPUT -pinname 9 -fixed no
+set_io MMUART_0_TXD_M2F -DIRECTION OUTPUT -pinname 10 -fixed no
+set_io PHY_reset -DIRECTION OUTPUT -pinname 128 -fixed no
+set_io REFCLK -DIRECTION INPUT -pinname 117 -fixed no
+set_io RMII_CRSDV -DIRECTION INPUT -pinname 116 -fixed no
+set_io RMII_RXD\[0\] -DIRECTION INPUT -pinname 115 -fixed no
+set_io RMII_RXD\[1\] -DIRECTION INPUT -pinname 112 -fixed no
+set_io RMII_RXERR -DIRECTION INPUT -pinname 118 -fixed no
+set_io RMII_TXD\[0\] -DIRECTION OUTPUT -pinname 124 -fixed no
+set_io RMII_TXD\[1\] -DIRECTION OUTPUT -pinname 125 -fixed no
+set_io RMII_TXEN -DIRECTION OUTPUT -pinname 123 -fixed no
+
+#
+# Core cell constraints
+#
+
+set_location CORERMII_0/U_RMII_RX/spred -fixed no 393 79
+set_location CORERMII_0/U_RMII_TX/temp_xhdl3\[3\] -fixed no 399 78
+set_location CORERMII_0/U_RMII_TX/second_dibit_en -fixed no 397 79
+set_location CORERMII_0/U_RMII_RX/un3_srfcd2_d -fixed no 374 78
+set_location CORERMII_0/U_RMII_RX/rmii2rx_rrxd\[1\] -fixed no 386 76
+set_location CORERMII_0/U_RMII_RX/rmii2rx_rrxd\[7\] -fixed no 372 79
+set_location CORERMII_0/U_RMII_RX/rrxd_RNO\[0\] -fixed no 389 75
+set_location CORERMII_0/U_RMII_RX/spred_RNO_0 -fixed no 394 78
+set_location AND3_0 -fixed no 398 78
+set_location CORERMII_0/U_RMII_RX/rmii2rx_rrxd_RNI6HJA\[4\] -fixed no 392 78
+set_location FCCC_0/GL0_INST -fixed no 220 54
+set_location CORERMII_0/U_RMII_RX/srfcd1 -fixed no 373 79
+set_location CORERMII_0/U_RMII_RX/srfcd2_d -fixed no 374 79
+set_location CORERMII_0/U_RMII_RX/rrxd_RNO\[1\] -fixed no 393 75
+set_location CORERMII_0/U_RMII_RX/rmii2rx_rrxd_RNO\[0\] -fixed no 394 75
+set_location CORERMII_0/U_RMII_RX/rx2mii_rxd_xhdl1\[1\] -fixed no 384 76
+set_location CORERMII_0/U_RMII_RX/rmii2rx_rrxd_RNO\[1\] -fixed no 391 75
+set_location CORERMII_0/U_RMII_RX/rmii2rx_rrxd_RNO\[3\] -fixed no 379 78
+set_location CORERMII_0/U_RMII_TX/tx2rmii_txen_xhdl2 -fixed no 375 79
+set_location FCCC_0/GL0_INST/U0_RGB1 -fixed no 218 78
+set_location CORERMII_0/U_RMII_RX/rmii2rx_scrsdv2 -fixed no 382 79
+set_location CORERMII_0/U_RMII_RX/rmii2rx_rrxd_RNO\[4\] -fixed no 387 75
+set_location CORERMII_0/U_RMII_RX/rfcd_RNO_0 -fixed no 373 78
+set_location CORERMII_0/U_RMII_RX/rx2mii_rxd_xhdl1_RNO\[3\] -fixed no 388 75
+set_location CORERMII_0/U_RMII_RX/rrxdv_RNO -fixed no 389 78
+set_location FCCC_0/GL1_INST/U0_RGB1 -fixed no 218 102
+set_location CORERMII_0/U_RMII_TX/un1_temp_xhdl4 -fixed no 397 78
+set_location CORERMII_0/U_RMII_RX/rmii2rx_rrxd\[6\] -fixed no 384 79
+set_location CORERMII_0/U_RMII_RX/brfc_RNO -fixed no 377 78
+set_location CORERMII_0/U_RMII_RX/rmii2rx_rrxd_RNO\[5\] -fixed no 380 78
+set_location CORERMII_0/U_RMII_RX/srfcd2 -fixed no 378 79
+set_location CORERMII_0/U_RMII_RX/rmii2rx_rrxd_RNO\[7\] -fixed no 372 78
+set_location CORERMII_0/U_RMII_TX/txen_mreg -fixed no 398 79
+set_location CORERMII_0/U_RMII_RX/rrxd\[0\] -fixed no 389 76
+set_location CORERMII_0/U_RMII_RX/rx2mii_rxd_xhdl1_RNO\[2\] -fixed no 390 75
+set_location CORERMII_0/U_RMII_RX/rfcd_RNO -fixed no 376 78
+set_location CORERMII_0/U_RMII_RX/rrxd\[3\] -fixed no 392 76
+set_location CORERMII_0/U_RMII_RX/rmii2rx_rrxd\[2\] -fixed no 395 76
+set_location CORERMII_0/U_RMII_RX/rx2mii_rxerr_xhdl3 -fixed no 406 79
+set_location CORERMII_0/U_RMII_RX/brfc -fixed no 377 79
+set_location CORERMII_0/U_RMII_TX/txd_mreg\[0\] -fixed no 401 79
+set_location CORERMII_0/U_RMII_RX/rmii2rx_rrxd_RNI41AA\[4\] -fixed no 384 78
+set_location CORERMII_0/U_RMII_RX/rrxd_RNO\[2\] -fixed no 385 75
+set_location CORERMII_0/U_RMII_RX/bcs -fixed no 381 79
+set_location CORERMII_0/U_RMII_TX/temp_xhdl3\[0\] -fixed no 401 78
+set_location CORERMII_0/U_RMII_RX/rrxd_RNO\[3\] -fixed no 392 75
+set_location CORERMII_0/U_RMII_RX/rrxdv_RNO_0 -fixed no 390 78
+set_location REFCLK_ibuf_RNISI58/U0_RGB1 -fixed no 219 78
+set_location CORERMII_0/U_RMII_RX/srxdv1 -fixed no 386 79
+set_location OSC_0/I_XTLOSC -fixed no 400 92
+set_location CORERMII_0/U_RMII_RX/rmii2rx_scrsdv2_RNIB8K9 -fixed no 382 78
+set_location CORERMII_0/U_RMII_RX/rxdata_en -fixed no 387 79
+set_location CORERMII_0/U_RMII_RX/rx2mii_rxd_xhdl1\[3\] -fixed no 388 76
+set_location ip_interface_inst -fixed no 191 0
+set_location CORERMII_0/U_RMII_RX/temp_xhdl7 -fixed no 406 78
+set_location AND3_0_RNILQT1/U0_RGB1 -fixed no 219 102
+set_location CORERMII_0/U_RMII_RX/rrxd\[1\] -fixed no 393 76
+set_location CORERMII_0/U_RMII_RX/rsfd_RNO -fixed no 388 78
+set_location CORERMII_0/U_RMII_RX/rmii2rx_rrxd\[3\] -fixed no 379 79
+set_location CORERMII_0/U_RMII_RX/rfcd -fixed no 376 79
+set_location CORERMII_0/U_RMII_RX/bcs_RNO -fixed no 381 78
+set_location CORERMII_0/U_RMII_TX/txd_mreg\[1\] -fixed no 400 79
+set_location CORERMII_0/U_RMII_TX/temp_xhdl3\[2\] -fixed no 405 78
+set_location CORERMII_0/U_RMII_RX/rrxdv -fixed no 389 79
+set_location CORERMII_0/U_RMII_RX/rmii2rx_rrxd\[5\] -fixed no 380 79
+set_location FCCC_0/GL1_INST -fixed no 219 54
+set_location CORERMII_0/U_RMII_TX/temp_xhdl3\[1\] -fixed no 400 78
+set_location CORERMII_0/U_RMII_TX/temp_xhdl4\[1\] -fixed no 402 78
+set_location CORERMII_0/U_RMII_RX/rsfd_RNO_0 -fixed no 386 78
+set_location CORERMII_0/U_RMII_RX/rmii2rx_rrxd_RNO\[6\] -fixed no 378 78
+set_location CORERMII_0/U_RMII_RX/rmii2rx_rrxd_RNI7GS61_0\[7\] -fixed no 395 78
+set_location CORERMII_0/U_RMII_RX/rx2mii_rxd_xhdl1\[2\] -fixed no 390 76
+set_location CORERMII_0/U_RMII_RX/rsfdd_RNO -fixed no 387 78
+set_location CORERMII_0/U_RMII_RX/rmii2rx_rrxd_RNO\[2\] -fixed no 395 75
+set_location CORERMII_0/U_RMII_TX/temp_xhdl4\[0\] -fixed no 403 78
+set_location CORERMII_0/U_RMII_RX/rxdata_en_RNO -fixed no 391 78
+set_location CORERMII_0/U_RMII_TX/tx2rmii_txd_xhdl1\[0\] -fixed no 403 79
+set_location CORERMII_0/U_RMII_RX/rmii2rx_rrxd\[4\] -fixed no 387 76
+set_location CORERMII_0/U_RMII_RX/rx2mii_rxd_xhdl1\[0\] -fixed no 391 76
+set_location CORERMII_0/U_RMII_RX/srfcd -fixed no 404 79
+set_location CORERMII_0/U_RMII_RX/rmii2rx_rrxd_RNI2JND\[0\] -fixed no 386 75
+set_location AND3_0_RNILQT1 -fixed no 221 54
+set_location CORERMII_0/U_RMII_TX/txd_mreg\[2\] -fixed no 405 79
+set_location CORERMII_0/U_RMII_TX/txd_mreg\[3\] -fixed no 399 79
+set_location CORERMII_0/U_RMII_RX/spred_d -fixed no 390 79
+set_location REFCLK_ibuf_RNISI58 -fixed no 218 54
+set_location CORERMII_0/U_RMII_RX/rmii2rx_rxerr_r -fixed no 407 79
+set_location CORERMII_0/U_RMII_RX/rx2mii_crs -fixed no 404 78
+set_location CORERMII_0/U_RMII_TX/tx2rmii_txd_xhdl1\[1\] -fixed no 402 79
+set_location CORERMII_0/U_RMII_RX/rmii2rx_scrsdv1 -fixed no 383 79
+set_location CORERMII_0/U_RMII_RX/rmii2rx_rrxd\[0\] -fixed no 394 76
+set_location CORERMII_0/U_RMII_RX/spred_RNO -fixed no 393 78
+set_location CORERMII_0/U_RMII_RX/rsfdd -fixed no 391 79
+set_location CORERMII_0/U_RMII_RX/rrxd\[2\] -fixed no 385 76
+set_location CORERMII_0/U_RMII_RX/rsfd -fixed no 388 79
+set_location CORERMII_0/U_RMII_RX/rx2mii_rxd_xhdl1_RNO\[1\] -fixed no 384 75
+set_location CORERMII_0/U_RMII_RX/rmii2rx_rrxd_RNI7GS61\[7\] -fixed no 385 78
+set_location FCCC_0/CCC_INST -fixed no 390 92
+set_location SYSRESET_0 -fixed no 396 8
+set_location M2S010_Ethernet_MSS_0/MSS_ADLIB_INST -fixed no 300 104
+set_location AND3_0_RNILQT1/U0_RGB1_RGB0 -fixed no 220 78
+set_location AND3_0_RNILQT1/U0_RGB1_RGB1 -fixed no 220 75
+set_location FCCC_0/GL0_INST/U0_RGB1_RGB0 -fixed no 218 75
+set_location FCCC_0/GL0_INST/U0_RGB1_RGB1 -fixed no 218 69
+set_location REFCLK_ibuf_RNISI58/U0_RGB1_RGB0 -fixed no 219 75

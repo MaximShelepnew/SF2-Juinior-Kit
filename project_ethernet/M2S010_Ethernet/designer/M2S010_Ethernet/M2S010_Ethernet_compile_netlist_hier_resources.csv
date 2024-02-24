@@ -1,0 +1,8 @@
+Detailed Resource Usage
+Module Name,Fabric 4LUT,Fabric DFF,Single-Ended I/O,PLLs and CCCs,Chip Globals,MSS,XTLOSC
+CORERMII_0/U_RMII_RX/Primitives,36,34,0,0,0,0,0
+CORERMII_0/U_RMII_TX/Primitives,7,9,0,0,0,0,0
+FCCC_0/Primitives,0,0,0,1,2,0,0
+M2S010_Ethernet_MSS_0/Primitives,0,0,0,0,0,1,0
+OSC_0/Primitives,0,0,0,0,0,0,1
+Primitives/Primitives,1,0,18,0,2,0,0

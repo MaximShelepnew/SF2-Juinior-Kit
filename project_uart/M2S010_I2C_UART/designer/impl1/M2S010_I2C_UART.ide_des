@@ -1,0 +1,10 @@
+KEY IDE_DES_TOOL "Ide"
+KEY IDE_DES_ADB_PATH "E:\Projects\Actel\ActelKit\RefDes\5\SoC\M2S010_I2C_UART\designer\impl1\M2S010_I2C_UART.adb"
+LIST SOURCE_FILES
+VALUE "E:\Projects\Actel\ActelKit\RefDes\5\SoC\M2S010_I2C_UART\constraint\io\user.pdc;pdc"
+ENDLIST
+LIST OPTIONAL_FILES
+VALUE "E:\Projects\Actel\ActelKit\RefDes\5\SoC\M2S010_I2C_UART\synthesis\M2S010_I2C_UART_sdc.sdc;Skipped"
+ENDLIST
+LIST VCD_FILES
+ENDLIST

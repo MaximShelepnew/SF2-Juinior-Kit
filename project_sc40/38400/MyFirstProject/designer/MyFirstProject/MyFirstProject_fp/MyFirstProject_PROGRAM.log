@@ -1,0 +1,37 @@
+Software Version: 11.8.1.12
+Driver : 3.0.0 build 1
+programmer '97578' : FlashPro4
+Opened 'E:\Projects\Actel\ActelKit\M2S\RefDes\3\38400\MyFirstProject\designer\MyFirstProject\MyFirstProject_fp\MyFirstProject.pro'
+The 'open_project' command succeeded.
+IPD file 'E:/Projects/Actel/ActelKit/M2S/RefDes/3/38400/MyFirstProject/designer/MyFirstProject/MyFirstProject.ipd' has been loaded successfully.
+DESIGN : MyFirstProject;  CHECKSUM : 6A3D;  PDB_VERSION : 1.9
+The 'set_programming_file' command succeeded.
+Warning: Programming is already enabled for device 'M2S010'.
+The 'enable_device' command succeeded.
+The 'set_programming_action' command succeeded.
+programmer '97578' : Scan Chain...
+Warning: programmer '97578' : Vpump has been selected on programmer AND an externally provided Vpump has also been detected. Using externally provided Vpump voltage source.
+programmer '97578' : Check Chain...
+programmer '97578' : Scan and Check Chain PASSED.
+programmer '97578' : device 'M2S010' : Executing action PROGRAM
+programmer '97578' : device 'M2S010' : Family: SmartFusion2
+programmer '97578' : device 'M2S010' : Product:      M2S010
+programmer '97578' : device 'M2S010' : EXPORT ISC_ENABLE_RESULT[32] = 007b6648
+programmer '97578' : device 'M2S010' : EXPORT CRCERR[1] = 0
+programmer '97578' : device 'M2S010' : EXPORT EDCERR[1] = 0
+programmer '97578' : device 'M2S010' : Programming FPGA Array and eNVM...
+programmer '97578' : device 'M2S010' : ===================================================================================
+programmer '97578' : device 'M2S010' : EXPORT DSN[128] = baa9155cddea07c86a4b91a5f6cad5b2
+programmer '97578' : device 'M2S010' : ===================================================================================
+programmer '97578' : device 'M2S010' : Finished: Tue Sep 19 14:57:56 2017 (Elapsed time 00:00:49)
+programmer '97578' : device 'M2S010' : Executing action PROGRAM PASSED.
+programmer '97578' : Chain programming PASSED.
+Chain Programming Finished: Tue Sep 19 14:57:56 2017 (Elapsed time 00:00:49)
+
+                        o - o - o - o - o - o
+
+The 'run_selected_actions' command succeeded.
+The 'set_programming_file' command succeeded.
+Project saved.
+The 'save_project' command succeeded.
+Project closed.

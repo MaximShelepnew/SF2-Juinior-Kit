@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>M2S010_Ethernet</design>
+	<target_edif>D:\Demo\M2S\8\M2S010_Ethernet\synthesis\M2S010_Ethernet.edn</target_edif>
+</SynplifyOutput>

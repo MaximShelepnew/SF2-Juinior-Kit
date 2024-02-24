@@ -1,0 +1,57 @@
+@N: CD231 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus ('U'="1000000000")
+@N: CD630 :"D:\Demo\M2S\8\M2S010_Ethernet\component\work\M2S010_Ethernet\M2S010_Ethernet.vhd":19:7:19:21|Synthesizing work.m2s010_ethernet.rtl 
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.vhd":434:10:434:14|Synthesizing smartfusion2.bibuf.syn_black_box 
+Post processing for smartfusion2.bibuf.syn_black_box
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.vhd":413:10:413:15|Synthesizing smartfusion2.outbuf.syn_black_box 
+Post processing for smartfusion2.outbuf.syn_black_box
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.vhd":786:10:786:17|Synthesizing smartfusion2.sysreset.syn_black_box 
+Post processing for smartfusion2.sysreset.syn_black_box
+@N: CD630 :"D:\Demo\M2S\8\M2S010_Ethernet\component\work\M2S010_Ethernet\OSC_0\M2S010_Ethernet_OSC_0_OSC.vhd":8:7:8:31|Synthesizing work.m2s010_ethernet_osc_0_osc.def_arch 
+@N: CD630 :"D:\Demo\M2S\8\M2S010_Ethernet\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd":39:7:39:12|Synthesizing work.xtlosc.def_arch 
+Post processing for work.xtlosc.def_arch
+Post processing for work.m2s010_ethernet_osc_0_osc.def_arch
+@W: CL240 :"D:\Demo\M2S\8\M2S010_Ethernet\component\work\M2S010_Ethernet\OSC_0\M2S010_Ethernet_OSC_0_OSC.vhd":16:10:16:19|XTLOSC_O2F is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"D:\Demo\M2S\8\M2S010_Ethernet\component\work\M2S010_Ethernet\OSC_0\M2S010_Ethernet_OSC_0_OSC.vhd":14:10:14:23|RCOSC_1MHZ_O2F is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"D:\Demo\M2S\8\M2S010_Ethernet\component\work\M2S010_Ethernet\OSC_0\M2S010_Ethernet_OSC_0_OSC.vhd":13:10:13:23|RCOSC_1MHZ_CCC is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"D:\Demo\M2S\8\M2S010_Ethernet\component\work\M2S010_Ethernet\OSC_0\M2S010_Ethernet_OSC_0_OSC.vhd":12:10:12:27|RCOSC_25_50MHZ_O2F is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"D:\Demo\M2S\8\M2S010_Ethernet\component\work\M2S010_Ethernet\OSC_0\M2S010_Ethernet_OSC_0_OSC.vhd":11:10:11:27|RCOSC_25_50MHZ_CCC is not assigned a value (floating) -- simulation mismatch possible. 
+@N: CD630 :"D:\Demo\M2S\8\M2S010_Ethernet\component\work\M2S010_Ethernet_MSS\M2S010_Ethernet_MSS.vhd":17:7:17:25|Synthesizing work.m2s010_ethernet_mss.rtl 
+@N: CD630 :"D:\Demo\M2S\8\M2S010_Ethernet\component\work\M2S010_Ethernet_MSS\M2S010_Ethernet_MSS_syn.vhd":10:7:10:13|Synthesizing work.mss_010.def_arch 
+Post processing for work.mss_010.def_arch
+Post processing for work.m2s010_ethernet_mss.rtl
+@N: CD630 :"D:\Demo\M2S\8\M2S010_Ethernet\component\work\M2S010_Ethernet\FCCC_0\M2S010_Ethernet_FCCC_0_FCCC.vhd":8:7:8:33|Synthesizing work.m2s010_ethernet_fccc_0_fccc.def_arch 
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.vhd":794:10:794:12|Synthesizing smartfusion2.ccc.syn_black_box 
+Post processing for smartfusion2.ccc.syn_black_box
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.vhd":562:10:562:15|Synthesizing smartfusion2.clkint.syn_black_box 
+Post processing for smartfusion2.clkint.syn_black_box
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.vhd":576:10:576:12|Synthesizing smartfusion2.gnd.syn_black_box 
+Post processing for smartfusion2.gnd.syn_black_box
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.vhd":582:10:582:12|Synthesizing smartfusion2.vcc.syn_black_box 
+Post processing for smartfusion2.vcc.syn_black_box
+Post processing for work.m2s010_ethernet_fccc_0_fccc.def_arch
+@N: CD630 :"D:\Demo\M2S\8\M2S010_Ethernet\component\work\M2S010_Ethernet\CORERMII_0\rtl\vhdl\core\CoreRMII.vhd":34:7:34:41|Synthesizing corermii_lib.m2s010_ethernet_corermii_0_corermii.translated 
+@N: CD630 :"D:\Demo\M2S\8\M2S010_Ethernet\component\Actel\DirectCore\CORERMII\2.0.102\rtl\vhdl\core\RMII_RX.vhd":35:7:35:13|Synthesizing corermii_lib.rmii_rx.translated 
+Post processing for corermii_lib.rmii_rx.translated
+@W: CL169 :"D:\Demo\M2S\8\M2S010_Ethernet\component\Actel\DirectCore\CORERMII\2.0.102\rtl\vhdl\core\RMII_RX.vhd":267:6:267:7|Pruning register sfdpos_2  
+@W: CL111 :"D:\Demo\M2S\8\M2S010_Ethernet\component\Actel\DirectCore\CORERMII\2.0.102\rtl\vhdl\core\RMII_RX.vhd":685:6:685:7|All reachable assignments to cntr(0) assign '0'; register removed by optimization
+@W: CL111 :"D:\Demo\M2S\8\M2S010_Ethernet\component\Actel\DirectCore\CORERMII\2.0.102\rtl\vhdl\core\RMII_RX.vhd":685:6:685:7|All reachable assignments to cntr(1) assign '0'; register removed by optimization
+@W: CL111 :"D:\Demo\M2S\8\M2S010_Ethernet\component\Actel\DirectCore\CORERMII\2.0.102\rtl\vhdl\core\RMII_RX.vhd":685:6:685:7|All reachable assignments to cntr(2) assign '0'; register removed by optimization
+@W: CL111 :"D:\Demo\M2S\8\M2S010_Ethernet\component\Actel\DirectCore\CORERMII\2.0.102\rtl\vhdl\core\RMII_RX.vhd":685:6:685:7|All reachable assignments to cntr(3) assign '0'; register removed by optimization
+@W: CL111 :"D:\Demo\M2S\8\M2S010_Ethernet\component\Actel\DirectCore\CORERMII\2.0.102\rtl\vhdl\core\RMII_RX.vhd":685:6:685:7|All reachable assignments to cntr(4) assign '0'; register removed by optimization
+@W: CL169 :"D:\Demo\M2S\8\M2S010_Ethernet\component\Actel\DirectCore\CORERMII\2.0.102\rtl\vhdl\core\RMII_RX.vhd":472:6:472:7|Pruning register pmde  
+@W: CL169 :"D:\Demo\M2S\8\M2S010_Ethernet\component\Actel\DirectCore\CORERMII\2.0.102\rtl\vhdl\core\RMII_RX.vhd":708:6:708:7|Pruning register rxen_10mreg  
+@W: CL169 :"D:\Demo\M2S\8\M2S010_Ethernet\component\Actel\DirectCore\CORERMII\2.0.102\rtl\vhdl\core\RMII_RX.vhd":708:6:708:7|Pruning register rxen_10rreg  
+@N: CD630 :"D:\Demo\M2S\8\M2S010_Ethernet\component\Actel\DirectCore\CORERMII\2.0.102\rtl\vhdl\core\RMII_TX.vhd":35:7:35:13|Synthesizing corermii_lib.rmii_tx.translated 
+Post processing for corermii_lib.rmii_tx.translated
+@W: CL169 :"D:\Demo\M2S\8\M2S010_Ethernet\component\Actel\DirectCore\CORERMII\2.0.102\rtl\vhdl\core\RMII_TX.vhd":183:6:183:7|Pruning register txen_10rreg_2  
+@W: CL111 :"D:\Demo\M2S\8\M2S010_Ethernet\component\Actel\DirectCore\CORERMII\2.0.102\rtl\vhdl\core\RMII_TX.vhd":161:6:161:7|All reachable assignments to cntr(0) assign '0'; register removed by optimization
+@W: CL111 :"D:\Demo\M2S\8\M2S010_Ethernet\component\Actel\DirectCore\CORERMII\2.0.102\rtl\vhdl\core\RMII_TX.vhd":161:6:161:7|All reachable assignments to cntr(1) assign '0'; register removed by optimization
+@W: CL111 :"D:\Demo\M2S\8\M2S010_Ethernet\component\Actel\DirectCore\CORERMII\2.0.102\rtl\vhdl\core\RMII_TX.vhd":161:6:161:7|All reachable assignments to cntr(2) assign '0'; register removed by optimization
+@W: CL111 :"D:\Demo\M2S\8\M2S010_Ethernet\component\Actel\DirectCore\CORERMII\2.0.102\rtl\vhdl\core\RMII_TX.vhd":161:6:161:7|All reachable assignments to cntr(3) assign '0'; register removed by optimization
+@W: CL111 :"D:\Demo\M2S\8\M2S010_Ethernet\component\Actel\DirectCore\CORERMII\2.0.102\rtl\vhdl\core\RMII_TX.vhd":161:6:161:7|All reachable assignments to cntr(4) assign '0'; register removed by optimization
+@W: CL169 :"D:\Demo\M2S\8\M2S010_Ethernet\component\Actel\DirectCore\CORERMII\2.0.102\rtl\vhdl\core\RMII_TX.vhd":183:6:183:7|Pruning register txen_10mreg  
+Post processing for corermii_lib.m2s010_ethernet_corermii_0_corermii.translated
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.vhd":231:10:231:13|Synthesizing smartfusion2.and3.syn_black_box 
+Post processing for smartfusion2.and3.syn_black_box
+Post processing for work.m2s010_ethernet.rtl
+@W: CL159 :"D:\Demo\M2S\8\M2S010_Ethernet\component\Actel\DirectCore\CORERMII\2.0.102\rtl\vhdl\core\RMII_TX.vhd":49:6:49:10|Input txclk is unused

@@ -1,0 +1,42 @@
+Software Version: 11.8.0.26
+Driver : 3.0.0 build 1
+programmer '97578' : FlashPro4
+Opened 'E:\Projects\Actel\ActelKit\RefDes\7\SoC\M2S010_USB_vcp\designer\M2S010_USB_vcp\M2S010_USB_vcp_fp\M2S010_USB_vcp.pro'
+The 'open_project' command succeeded.
+IPD file 'E:/Projects/Actel/ActelKit/RefDes/7/SoC/M2S010_USB_vcp/designer/M2S010_USB_vcp/M2S010_USB_vcp.ipd' has been loaded successfully.
+DESIGN : M2S010_USB_vcp;  CHECKSUM : BCA8;  PDB_VERSION : 1.9
+The 'set_programming_file' command succeeded.
+Warning: Programming is already enabled for device 'M2S010'.
+The 'enable_device' command succeeded.
+The 'set_programming_action' command succeeded.
+programmer '97578' : Scan Chain...
+Warning: programmer '97578' : Vpump has been selected on programmer AND an externally provided Vpump has also been detected. Using externally provided Vpump voltage source.
+programmer '97578' : Check Chain...
+programmer '97578' : Scan and Check Chain PASSED.
+programmer '97578' : device 'M2S010' : Executing action PROGRAM
+programmer '97578' : device 'M2S010' : Family: SmartFusion2
+programmer '97578' : device 'M2S010' : Product:      M2S010
+programmer '97578' : device 'M2S010' : EXPORT ISC_ENABLE_RESULT[32] = 00796544
+programmer '97578' : device 'M2S010' : EXPORT CRCERR[1] = 0
+programmer '97578' : device 'M2S010' : EXPORT EDCERR[1] = 0
+programmer '97578' : device 'M2S010' : TEMPGRADE: ROOM
+programmer '97578' : device 'M2S010' : EXPORT VPPRANGE[3] = 2
+programmer '97578' : device 'M2S010' : VPPRANGE: HIGH
+programmer '97578' : device 'M2S010' : EXPORT TEMP[8] = 65
+programmer '97578' : device 'M2S010' : EXPORT VPP[8] = 79
+programmer '97578' : device 'M2S010' : Programming FPGA Array and eNVM...
+programmer '97578' : device 'M2S010' : ===================================================================================
+programmer '97578' : device 'M2S010' : EXPORT DSN[128] = 1c755b6dfdd59416add285e811b0de45
+programmer '97578' : device 'M2S010' : ===================================================================================
+programmer '97578' : device 'M2S010' : Finished: Tue Jul 04 12:39:35 2017 (Elapsed time 00:00:38)
+programmer '97578' : device 'M2S010' : Executing action PROGRAM PASSED.
+programmer '97578' : Chain programming PASSED.
+Chain Programming Finished: Tue Jul 04 12:39:35 2017 (Elapsed time 00:00:38)
+
+                        o - o - o - o - o - o
+
+The 'run_selected_actions' command succeeded.
+The 'set_programming_file' command succeeded.
+Project saved.
+The 'save_project' command succeeded.
+Project closed.

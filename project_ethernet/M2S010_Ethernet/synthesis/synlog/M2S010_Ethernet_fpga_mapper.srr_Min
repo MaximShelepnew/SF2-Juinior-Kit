@@ -1,0 +1,266 @@
+
+
+@S |##### START OF TIMING REPORT #####[
+# Timing Report written on Tue Oct 24 17:52:28 2017
+#
+
+
+Top view:               M2S010_Ethernet
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    D:\Demo\M2S\8\M2S010_Ethernet\designer\M2S010_Ethernet\synthesis.fdc
+                       
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: 0.362
+
+                                                       Requested     Estimated     Requested     Estimated               Clock        Clock              
+Starting Clock                                         Frequency     Frequency     Period        Period        Slack     Type         Group              
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+M2S010_Ethernet_FCCC_0_FCCC|GL0_net_inferred_clock     100.0 MHz     678.9 MHz     10.000        1.473         8.527     inferred     Inferred_clkgroup_1
+M2S010_Ethernet_FCCC_0_FCCC|GL1_net_inferred_clock     100.0 MHz     NA            10.000        NA            NA        inferred     Inferred_clkgroup_0
+M2S010_Ethernet|REFCLK                                 100.0 MHz     291.0 MHz     10.000        3.437         6.563     inferred     Inferred_clkgroup_2
+System                                                 100.0 MHz     895.2 MHz     10.000        1.117         8.883     system       system_clkgroup    
+=========================================================================================================================================================
+@N: MT582 |Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                                                  |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                            Ending                                              |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                              System                                              |  0.000       0.782  |  No paths    -      |  No paths    -      |  No paths    -    
+M2S010_Ethernet_FCCC_0_FCCC|GL0_net_inferred_clock  M2S010_Ethernet_FCCC_0_FCCC|GL0_net_inferred_clock  |  0.000       0.362  |  No paths    -      |  No paths    -      |  No paths    -    
+M2S010_Ethernet_FCCC_0_FCCC|GL0_net_inferred_clock  M2S010_Ethernet|REFCLK                              |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+M2S010_Ethernet|REFCLK                              M2S010_Ethernet_FCCC_0_FCCC|GL0_net_inferred_clock  |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+M2S010_Ethernet|REFCLK                              M2S010_Ethernet|REFCLK                              |  0.000       0.482  |  No paths    -      |  No paths    -      |  No paths    -    
+==============================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: M2S010_Ethernet_FCCC_0_FCCC|GL0_net_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                  Starting                                                                             Arrival          
+Instance                          Reference                                              Type     Pin     Net          Time        Slack
+                                  Clock                                                                                                 
+----------------------------------------------------------------------------------------------------------------------------------------
+CORERMII_0.U_RMII_RX.srfcd1       M2S010_Ethernet_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       srfcd1       0.061       0.362
+CORERMII_0.U_RMII_RX.srfcd2       M2S010_Ethernet_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       srfcd2       0.061       0.435
+CORERMII_0.U_RMII_RX.srfcd2_d     M2S010_Ethernet_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       srfcd2_d     0.076       0.475
+CORERMII_0.U_RMII_RX.srfcd        M2S010_Ethernet_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       srfcd        0.061       0.592
+========================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                             Starting                                                                                 Required          
+Instance                                     Reference                                              Type     Pin     Net              Time         Slack
+                                             Clock                                                                                                      
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+CORERMII_0.U_RMII_RX.srfcd2                  M2S010_Ethernet_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      D       srfcd1           0.179        0.362
+CORERMII_0.U_RMII_RX.srfcd2_d                M2S010_Ethernet_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      D       srfcd2           0.179        0.435
+CORERMII_0.U_RMII_RX.srfcd                   M2S010_Ethernet_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      un3_srfcd2_d     0.236        0.475
+CORERMII_0.U_RMII_RX.rx2mii_rxd_xhdl1[1]     M2S010_Ethernet_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      D       N_65_i_0         0.179        0.592
+CORERMII_0.U_RMII_RX.rx2mii_rxd_xhdl1[2]     M2S010_Ethernet_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      D       N_64_i_0         0.179        0.592
+CORERMII_0.U_RMII_RX.rx2mii_rxd_xhdl1[3]     M2S010_Ethernet_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      D       N_63_i_0         0.179        0.592
+CORERMII_0.U_RMII_RX.rx2mii_rxerr_xhdl3      M2S010_Ethernet_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      D       temp_xhdl7       0.179        0.592
+========================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Propagation time:                        0.541
+    + Clock delay at starting point:         0.000 (ideal)
+    - Requested Period:                      0.000
+    - Hold time:                             0.179
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (critical) :                     0.362
+
+    Number of logic level(s):                0
+    Starting point:                          CORERMII_0.U_RMII_RX.srfcd1 / Q
+    Ending point:                            CORERMII_0.U_RMII_RX.srfcd2 / D
+    The start point is clocked by            M2S010_Ethernet_FCCC_0_FCCC|GL0_net_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            M2S010_Ethernet_FCCC_0_FCCC|GL0_net_inferred_clock [rising] on pin CLK
+
+Instance / Net                           Pin      Pin               Arrival     No. of    
+Name                            Type     Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------
+CORERMII_0.U_RMII_RX.srfcd1     SLE      Q        Out     0.061     0.061       -         
+srfcd1                          Net      -        -       0.480     -           1         
+CORERMII_0.U_RMII_RX.srfcd2     SLE      D        In      -         0.541       -         
+==========================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: M2S010_Ethernet|REFCLK
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                         Starting                                                        Arrival          
+Instance                                 Reference                  Type     Pin     Net                 Time        Slack
+                                         Clock                                                                            
+--------------------------------------------------------------------------------------------------------------------------
+CORERMII_0.U_RMII_RX.rmii2rx_scrsdv1     M2S010_Ethernet|REFCLK     SLE      Q       rmii2rx_scrsdv1     0.061       0.482
+CORERMII_0.U_RMII_TX.txen_mreg           M2S010_Ethernet|REFCLK     SLE      Q       txen_mreg           0.061       0.518
+CORERMII_0.U_RMII_RX.rmii2rx_rrxd[0]     M2S010_Ethernet|REFCLK     SLE      Q       rmii2rx_rrxd[0]     0.061       0.520
+CORERMII_0.U_RMII_RX.rmii2rx_rrxd[1]     M2S010_Ethernet|REFCLK     SLE      Q       rmii2rx_rrxd[1]     0.061       0.520
+CORERMII_0.U_RMII_TX.txd_mreg[2]         M2S010_Ethernet|REFCLK     SLE      Q       txd_mreg[2]         0.061       0.545
+CORERMII_0.U_RMII_TX.txd_mreg[3]         M2S010_Ethernet|REFCLK     SLE      Q       txd_mreg[3]         0.061       0.545
+CORERMII_0.U_RMII_RX.brfc                M2S010_Ethernet|REFCLK     SLE      Q       brfc                0.076       0.550
+CORERMII_0.U_RMII_RX.rmii2rx_rrxd[2]     M2S010_Ethernet|REFCLK     SLE      Q       rmii2rx_rrxd[2]     0.061       0.561
+CORERMII_0.U_RMII_RX.rmii2rx_rrxd[3]     M2S010_Ethernet|REFCLK     SLE      Q       rmii2rx_rrxd[3]     0.061       0.561
+CORERMII_0.U_RMII_TX.second_dibit_en     M2S010_Ethernet|REFCLK     SLE      Q       second_dibit_en     0.061       0.577
+==========================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                              Starting                                                        Required          
+Instance                                      Reference                  Type     Pin     Net                 Time         Slack
+                                              Clock                                                                             
+--------------------------------------------------------------------------------------------------------------------------------
+CORERMII_0.U_RMII_RX.rmii2rx_scrsdv2          M2S010_Ethernet|REFCLK     SLE      D       rmii2rx_scrsdv1     0.179        0.482
+CORERMII_0.U_RMII_TX.tx2rmii_txen_xhdl2       M2S010_Ethernet|REFCLK     SLE      D       txen_mreg           0.179        0.518
+CORERMII_0.U_RMII_RX.rrxd[0]                  M2S010_Ethernet|REFCLK     SLE      D       N_25_0_i_0          0.179        0.520
+CORERMII_0.U_RMII_RX.rrxd[1]                  M2S010_Ethernet|REFCLK     SLE      D       N_32_i_0            0.179        0.520
+CORERMII_0.U_RMII_TX.tx2rmii_txd_xhdl1[0]     M2S010_Ethernet|REFCLK     SLE      D       temp_xhdl4[0]       0.179        0.545
+CORERMII_0.U_RMII_TX.tx2rmii_txd_xhdl1[1]     M2S010_Ethernet|REFCLK     SLE      D       temp_xhdl4[1]       0.179        0.545
+CORERMII_0.U_RMII_RX.rfcd                     M2S010_Ethernet|REFCLK     SLE      D       N_43_i_0            0.179        0.550
+CORERMII_0.U_RMII_RX.rrxd[2]                  M2S010_Ethernet|REFCLK     SLE      D       N_22_0_i_0          0.179        0.561
+CORERMII_0.U_RMII_RX.rrxd[3]                  M2S010_Ethernet|REFCLK     SLE      D       N_29_i_0            0.179        0.561
+CORERMII_0.U_RMII_RX.spred_d                  M2S010_Ethernet|REFCLK     SLE      D       spred               0.179        0.595
+================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Propagation time:                        0.661
+    + Clock delay at starting point:         0.000 (ideal)
+    - Requested Period:                      0.000
+    - Hold time:                             0.179
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (non-critical) :                 0.482
+
+    Number of logic level(s):                0
+    Starting point:                          CORERMII_0.U_RMII_RX.rmii2rx_scrsdv1 / Q
+    Ending point:                            CORERMII_0.U_RMII_RX.rmii2rx_scrsdv2 / D
+    The start point is clocked by            M2S010_Ethernet|REFCLK [rising] on pin CLK
+    The end   point is clocked by            M2S010_Ethernet|REFCLK [rising] on pin CLK
+
+Instance / Net                                    Pin      Pin               Arrival     No. of    
+Name                                     Type     Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------
+CORERMII_0.U_RMII_RX.rmii2rx_scrsdv1     SLE      Q        Out     0.061     0.061       -         
+rmii2rx_scrsdv1                          Net      -        -       0.600     -           3         
+CORERMII_0.U_RMII_RX.rmii2rx_scrsdv2     SLE      D        In      -         0.661       -         
+===================================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                   Starting                                                   Arrival          
+Instance           Reference     Type       Pin        Net                    Time        Slack
+                   Clock                                                                       
+-----------------------------------------------------------------------------------------------
+OSC_0.I_XTLOSC     System        XTLOSC     CLKOUT     CCC_OUT_XTLOSC_CCC     0.000       0.782
+===============================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                    Starting                                                 Required          
+Instance            Reference     Type     Pin        Net                    Time         Slack
+                    Clock                                                                      
+-----------------------------------------------------------------------------------------------
+FCCC_0.CCC_INST     System        CCC      XTLOSC     CCC_OUT_XTLOSC_CCC     0.000        0.782
+===============================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Propagation time:                        0.782
+    + Clock delay at starting point:         0.000 (ideal)
+-0.000
+    - Requested Period:                      0.000
+    - Hold time:                             0.000
+    - Clock delay at ending point:           0.000 (ideal)
+0.000
+    = Slack (non-critical) :                 0.782
+
+    Number of logic level(s):                0
+    Starting point:                          OSC_0.I_XTLOSC / CLKOUT
+    Ending point:                            FCCC_0.CCC_INST / XTLOSC
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            System [rising]
+
+Instance / Net                    Pin        Pin               Arrival     No. of    
+Name                   Type       Name       Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------
+OSC_0.I_XTLOSC         XTLOSC     CLKOUT     Out     0.000     0.000       -         
+CCC_OUT_XTLOSC_CCC     Net        -          -       0.782     -           1         
+FCCC_0.CCC_INST        CCC        XTLOSC     In      -         0.782       -         
+=====================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+

@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet href="rptstyle.xsl" type="text/xsl" ?>
+<doc>
+<text>SmartTime Version 11.8.0.26</text>
+<text>Microsemi Corporation - Microsemi Libero Software Release v11.8 (Version 11.8.0.26)
+Date: Tue Jul 04 12:37:46 2017 </text>
+<table>
+<header>
+</header>
+<row>
+ <cell>Design</cell>
+ <cell>M2S010_USB_vcp</cell>
+</row>
+<row>
+ <cell>Family</cell>
+ <cell>SmartFusion2</cell>
+</row>
+<row>
+ <cell>Die</cell>
+ <cell>M2S010</cell>
+</row>
+<row>
+ <cell>Package</cell>
+ <cell>144 TQ</cell>
+</row>
+<row>
+ <cell>Temperature Range</cell>
+ <cell>0 - 85 C</cell>
+</row>
+<row>
+ <cell>Voltage Range</cell>
+ <cell>1.14 - 1.26 V</cell>
+</row>
+<row>
+ <cell>Speed Grade</cell>
+ <cell>STD</cell>
+</row>
+</table>
+<text></text>
+<text></text>
+<section>
+<name>Coverage Summary</name>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>            0</cell>
+ <cell>            1</cell>
+ <cell>            1</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>            0</cell>
+ <cell>            1</cell>
+ <cell>            1</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>           10</cell>
+ <cell>           10</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>            0</cell>
+ <cell>           12</cell>
+ <cell>           12</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>            0</cell>
+ <cell>            1</cell>
+ <cell>            1</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>            0</cell>
+ <cell>            1</cell>
+ <cell>            1</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>           10</cell>
+ <cell>           10</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>            0</cell>
+ <cell>           12</cell>
+ <cell>           12</cell>
+</row>
+</table>
+<section>
+<name>Clock domain: </name>
+<text>OSC_0/I_RCOSC_25_50MHZ:CLKOUT</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>            0</cell>
+ <cell>            1</cell>
+ <cell>            1</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>            0</cell>
+ <cell>            1</cell>
+ <cell>            1</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>           10</cell>
+ <cell>           10</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>            0</cell>
+ <cell>           12</cell>
+ <cell>           12</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>            0</cell>
+ <cell>            1</cell>
+ <cell>            1</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>            0</cell>
+ <cell>            1</cell>
+ <cell>            1</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>           10</cell>
+ <cell>           10</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>            0</cell>
+ <cell>           12</cell>
+ <cell>           12</cell>
+</row>
+</table>
+<section>
+<name>Enhancement Suggestions</name>
+<text></text>
+<text> - Clock constraint is missing </text>
+<text> - Max input delay constraint missing on  ports:</text>
+<text>   </text>
+<list>
+ <item>BtnReset</item>
+ <item>MMUART_0_RXD_F2M</item>
+</list>
+<text></text>
+<text> - Min input delay constraint missing on  ports:</text>
+<text>   </text>
+<list>
+ <item>BtnReset</item>
+ <item>MMUART_0_RXD_F2M</item>
+</list>
+<text></text>
+<text></text>
+<text> - Max output delay constraint missing on  ports:</text>
+<text>   </text>
+<list>
+ <item>MMUART_0_TXD_M2F</item>
+ <item>USB_ULPI_DATA[0]</item>
+ <item>USB_ULPI_DATA[1]</item>
+ <item>USB_ULPI_DATA[2]</item>
+ <item>USB_ULPI_DATA[3]</item>
+ <item>USB_ULPI_DATA[4]</item>
+ <item>USB_ULPI_DATA[5]</item>
+ <item>USB_ULPI_DATA[6]</item>
+ <item>USB_ULPI_DATA[7]</item>
+ <item>USB_ULPI_STP</item>
+</list>
+<text></text>
+<text> - Min output delay constraint missing on  ports:</text>
+<text>   </text>
+<list>
+ <item>MMUART_0_TXD_M2F</item>
+ <item>USB_ULPI_DATA[0]</item>
+ <item>USB_ULPI_DATA[1]</item>
+ <item>USB_ULPI_DATA[2]</item>
+ <item>USB_ULPI_DATA[3]</item>
+ <item>USB_ULPI_DATA[4]</item>
+ <item>USB_ULPI_DATA[5]</item>
+ <item>USB_ULPI_DATA[6]</item>
+ <item>USB_ULPI_DATA[7]</item>
+ <item>USB_ULPI_STP</item>
+</list>
+<text></text>
+<text></text>
+<text> - Setup uncconstrained for the following pin:</text>
+<text>   </text>
+<list>
+ <item>M2S010_USB_vcp_MSS_0/MSS_ADLIB_INST/INST_MSS_010_IP:MMUART0_RXD_F2H_SCP</item>
+</list>
+<text></text>
+<text> - Recovery uncconstrained for the following pin:</text>
+<text>   </text>
+<list>
+ <item>M2S010_USB_vcp_MSS_0/MSS_ADLIB_INST/INST_MSS_010_IP:USER_MSS_RESET_N</item>
+</list>
+<text></text>
+<text> - Hold uncconstrained for the following pin:</text>
+<text>   </text>
+<list>
+ <item>M2S010_USB_vcp_MSS_0/MSS_ADLIB_INST/INST_MSS_010_IP:MMUART0_RXD_F2H_SCP</item>
+</list>
+<text></text>
+<text> - Removal uncconstrained for the following pin:</text>
+<text>   </text>
+<list>
+ <item>M2S010_USB_vcp_MSS_0/MSS_ADLIB_INST/INST_MSS_010_IP:USER_MSS_RESET_N</item>
+</list>
+<text></text>
+</section>
+</section>
+<section>
+<name>Input to Output</name>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<separator/>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+</table>
+</section>
+</section>
+</doc>

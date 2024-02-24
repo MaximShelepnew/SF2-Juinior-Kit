@@ -1,0 +1,24 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\vhd2008\std.vhd":146:18:146:21|Setting time resolution to ns
+@N:"D:\Demo\M2S\8\M2S010_Ethernet\component\work\M2S010_Ethernet\M2S010_Ethernet.vhd":19:7:19:21|Top entity is set to M2S010_Ethernet.
+@N: CD231 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus ('U'="1000000000")
+@N: CD630 :"D:\Demo\M2S\8\M2S010_Ethernet\component\work\M2S010_Ethernet\M2S010_Ethernet.vhd":19:7:19:21|Synthesizing work.m2s010_ethernet.rtl 
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.vhd":434:10:434:14|Synthesizing smartfusion2.bibuf.syn_black_box 
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.vhd":413:10:413:15|Synthesizing smartfusion2.outbuf.syn_black_box 
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.vhd":786:10:786:17|Synthesizing smartfusion2.sysreset.syn_black_box 
+@N: CD630 :"D:\Demo\M2S\8\M2S010_Ethernet\component\work\M2S010_Ethernet\OSC_0\M2S010_Ethernet_OSC_0_OSC.vhd":8:7:8:31|Synthesizing work.m2s010_ethernet_osc_0_osc.def_arch 
+@N: CD630 :"D:\Demo\M2S\8\M2S010_Ethernet\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd":39:7:39:12|Synthesizing work.xtlosc.def_arch 
+@N: CD630 :"D:\Demo\M2S\8\M2S010_Ethernet\component\work\M2S010_Ethernet_MSS\M2S010_Ethernet_MSS.vhd":17:7:17:25|Synthesizing work.m2s010_ethernet_mss.rtl 
+@N: CD630 :"D:\Demo\M2S\8\M2S010_Ethernet\component\work\M2S010_Ethernet_MSS\M2S010_Ethernet_MSS_syn.vhd":10:7:10:13|Synthesizing work.mss_010.def_arch 
+@N: CD630 :"D:\Demo\M2S\8\M2S010_Ethernet\component\work\M2S010_Ethernet\FCCC_0\M2S010_Ethernet_FCCC_0_FCCC.vhd":8:7:8:33|Synthesizing work.m2s010_ethernet_fccc_0_fccc.def_arch 
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.vhd":794:10:794:12|Synthesizing smartfusion2.ccc.syn_black_box 
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.vhd":562:10:562:15|Synthesizing smartfusion2.clkint.syn_black_box 
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.vhd":576:10:576:12|Synthesizing smartfusion2.gnd.syn_black_box 
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.vhd":582:10:582:12|Synthesizing smartfusion2.vcc.syn_black_box 
+@N: CD630 :"D:\Demo\M2S\8\M2S010_Ethernet\component\work\M2S010_Ethernet\CORERMII_0\rtl\vhdl\core\CoreRMII.vhd":34:7:34:41|Synthesizing corermii_lib.m2s010_ethernet_corermii_0_corermii.translated 
+@N: CD630 :"D:\Demo\M2S\8\M2S010_Ethernet\component\Actel\DirectCore\CORERMII\2.0.102\rtl\vhdl\core\RMII_RX.vhd":35:7:35:13|Synthesizing corermii_lib.rmii_rx.translated 
+@N: CD630 :"D:\Demo\M2S\8\M2S010_Ethernet\component\Actel\DirectCore\CORERMII\2.0.102\rtl\vhdl\core\RMII_TX.vhd":35:7:35:13|Synthesizing corermii_lib.rmii_tx.translated 
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.vhd":231:10:231:13|Synthesizing smartfusion2.and3.syn_black_box 
+@N|Running in 64-bit mode
+

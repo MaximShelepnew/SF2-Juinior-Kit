@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>M2S010_I2C_UART</design>
+	<target_edif>E:\Projects\Actel\ActelKit\RefDes\5\SoC\M2S010_I2C_UART\synthesis\M2S010_I2C_UART.edn</target_edif>
+</SynplifyOutput>

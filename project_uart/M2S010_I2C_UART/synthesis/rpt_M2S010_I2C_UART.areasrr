@@ -1,0 +1,78 @@
+#### START OF AREA REPORT #####[
+
+Part:			M2S010TQ144STD (Microsemi)
+
+-------------------------------------------------------------------------------
+########   Utilization report for  Top level view:   M2S010_I2C_UART   ########
+===============================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     6                  100 %                
+======================================================
+Total COMBINATIONAL LOGIC in the block M2S010_I2C_UART:	6 (30.00 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  100 %                
+===================================================
+Total GLOBAL BUFFERS in the block M2S010_I2C_UART:	1 (5.00 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       5                  100 %                
+=================================================
+Total IO PADS in the block M2S010_I2C_UART:	5 (25.00 % Utilization)
+
+---------------------------------------------------------------------------------
+########   Utilization report for  cell:   M2S010_I2C_UART_FCCC_0_FCCC   ########
+Instance path:   M2S010_I2C_UART.M2S010_I2C_UART_FCCC_0_FCCC                     
+=================================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     2                  33.3 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block M2S010_I2C_UART.M2S010_I2C_UART_FCCC_0_FCCC:	2 (10.00 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  100 %                
+===================================================
+Total GLOBAL BUFFERS in the block M2S010_I2C_UART.M2S010_I2C_UART_FCCC_0_FCCC:	1 (5.00 % Utilization)
+
+-------------------------------------------------------------------------
+########   Utilization report for  cell:   M2S010_I2C_UART_MSS   ########
+Instance path:   M2S010_I2C_UART.M2S010_I2C_UART_MSS                     
+=========================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     1                  16.7 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block M2S010_I2C_UART.M2S010_I2C_UART_MSS:	1 (5.00 % Utilization)
+
+-------------------------------------------------------------------------------
+########   Utilization report for  cell:   M2S010_I2C_UART_OSC_0_OSC   ########
+Instance path:   M2S010_I2C_UART.M2S010_I2C_UART_OSC_0_OSC                     
+===============================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     1                  16.7 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block M2S010_I2C_UART.M2S010_I2C_UART_OSC_0_OSC:	1 (5.00 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

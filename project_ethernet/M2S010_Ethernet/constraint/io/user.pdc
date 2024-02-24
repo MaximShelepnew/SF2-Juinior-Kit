@@ -1,0 +1,144 @@
+# Microsemi I/O Physical Design Constraints file
+
+# User I/O Constraints file 
+
+# Version: v11.8 SP1 11.8.1.12
+
+# Family: SmartFusion2 , Die: M2S010 , Package: 144 TQ
+
+# Date generated: Tue Oct 24 12:48:58 2017 
+
+# 
+# User Locked I/O Bank Settings
+# 
+
+# 
+# Unlocked I/O Bank Settings
+# The I/O Bank Settings can be locked by directly editing this file
+# or by making changes in the I/O Attribute Editor
+# 
+
+# 
+# User Locked I/O settings
+# 
+
+set_io BtnReset       \
+    -pinname 13       \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io LED1            \
+    -pinname 63        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io LED2            \
+    -pinname 64        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io LED3            \
+    -pinname 66        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io LED4            \
+    -pinname 67        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io MAC_MII_MDC     \
+    -pinname 111       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io MDIO           \
+    -pinname 110      \
+    -fixed yes        \
+    -DIRECTION INOUT
+
+
+set_io MMUART_0_RXD_F2M  \
+    -pinname 9           \
+    -fixed yes           \
+    -DIRECTION INPUT
+
+
+set_io MMUART_0_TXD_M2F  \
+    -pinname 10          \
+    -fixed yes           \
+    -DIRECTION OUTPUT
+
+
+set_io PHY_reset       \
+    -pinname 128       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io REFCLK         \
+    -pinname 117      \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io RMII_CRSDV     \
+    -pinname 116      \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io {RMII_RXD[0]}  \
+    -pinname 115      \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io {RMII_RXD[1]}  \
+    -pinname 112      \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io RMII_RXERR     \
+    -pinname 118      \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io {RMII_TXD[0]}   \
+    -pinname 124       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {RMII_TXD[1]}   \
+    -pinname 125       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io RMII_TXEN       \
+    -pinname 123       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+
+# 
+# Dedicated Peripheral I/O Settings
+# 
+
+
+# 
+# Unlocked I/O settings
+# The I/Os in this section are unplaced or placed but are not locked
+# the other listed attributes have been applied
+# 
+

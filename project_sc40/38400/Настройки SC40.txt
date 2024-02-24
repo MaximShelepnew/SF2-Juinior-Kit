@@ -1,0 +1,32 @@
+Cross ARM C Compiler > Miscellaneous
+Other compiler flags:     --specs=cmsis.specs 
+
+
+
+Cross ARM C Compiler > Includes  
+
+../drivers/mss_uart/
+../drivers/mss_gpio/
+../CMSIS/
+
+
+Debug [Active]. 
+Cross ARM C Linker > General
+Script files (-T) 
+../CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld
+
+Cross ARM C Linker > Miscellaneous
+Use newlib-nano (--spces=nano.specs).
+
+
+
+Release
+Cross ARM C Linker > General
+Script files (-T) : ../CMSIS/startup_gcc/production-smartfusion2-execute-in-place.ld
+
+Cross ARM C Linker > Miscellaneous
+Use newlib-nano (--spces=nano.specs).
+
+
+Debug Config options:
+--command "set DEVICE M2S010" --file board/microsemi-cortex-m3.cfg

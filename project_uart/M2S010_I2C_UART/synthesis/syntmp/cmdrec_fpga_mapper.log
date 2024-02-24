@@ -1,0 +1,16 @@
+C:\Microsemi\Libero_SoC_v11.7\Synplify\bin64\m_generic.exe  -prodtype  synplify_pro  -encrypt  -pro  -rundir  E:\Projects\Actel\ActelKit\RefDes\5\SoC\M2S010_I2C_UART\synthesis   -part M2S010  -package TQ144  -grade STD    -maxfan 10000 -clock_globalthreshold 2 -async_globalthreshold 12 -globalthreshold 5000 -low_power_ram_decomp 0 -opcond COMTC -report_path 4000 -RWCheckOnRam 0 -summaryfile E:\Projects\Actel\ActelKit\RefDes\5\SoC\M2S010_I2C_UART\synthesis\synlog\report\M2S010_I2C_UART_fpga_mapper.xml  -top_level_module  work.M2S010_I2C_UART  -licensetype  synplifypro_actel  -flow mapping  -mp  1  -prjfile  E:\Projects\Actel\ActelKit\RefDes\5\SoC\M2S010_I2C_UART\synthesis\scratchproject.prs  -implementation  synthesis  -multisrs  -oedif  E:\Projects\Actel\ActelKit\RefDes\5\SoC\M2S010_I2C_UART\synthesis\M2S010_I2C_UART.edn   -freq 100.000   -tcl  E:\Projects\Actel\ActelKit\RefDes\5\SoC\M2S010_I2C_UART\designer\M2S010_I2C_UART\synthesis.fdc  E:\Projects\Actel\ActelKit\RefDes\5\SoC\M2S010_I2C_UART\synthesis\synwork\M2S010_I2C_UART_prem.srd  -sap  E:\Projects\Actel\ActelKit\RefDes\5\SoC\M2S010_I2C_UART\synthesis\M2S010_I2C_UART.sap  -otap  E:\Projects\Actel\ActelKit\RefDes\5\SoC\M2S010_I2C_UART\synthesis\M2S010_I2C_UART.tap  -omap  E:\Projects\Actel\ActelKit\RefDes\5\SoC\M2S010_I2C_UART\synthesis\M2S010_I2C_UART.map  -devicelib  C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.v  -sap  E:\Projects\Actel\ActelKit\RefDes\5\SoC\M2S010_I2C_UART\synthesis\M2S010_I2C_UART.sap  -ologparam  E:\Projects\Actel\ActelKit\RefDes\5\SoC\M2S010_I2C_UART\synthesis\syntmp\M2S010_I2C_UART.plg  -osyn  E:\Projects\Actel\ActelKit\RefDes\5\SoC\M2S010_I2C_UART\synthesis\M2S010_I2C_UART.srm  -prjdir  E:\Projects\Actel\ActelKit\RefDes\5\SoC\M2S010_I2C_UART\synthesis\  -prjname  M2S010_I2C_UART_syn  -log  E:\Projects\Actel\ActelKit\RefDes\5\SoC\M2S010_I2C_UART\synthesis\synlog\M2S010_I2C_UART_fpga_mapper.srr 
+rc:1 success:1
+E:\Projects\Actel\ActelKit\RefDes\5\SoC\M2S010_I2C_UART\synthesis\scratchproject.prs|o|1498124189|2675
+E:\Projects\Actel\ActelKit\RefDes\5\SoC\M2S010_I2C_UART\synthesis\M2S010_I2C_UART.edn|o|1498216277|97143
+E:\Projects\Actel\ActelKit\RefDes\5\SoC\M2S010_I2C_UART\designer\M2S010_I2C_UART\synthesis.fdc|i|1498216267|54
+E:\Projects\Actel\ActelKit\RefDes\5\SoC\M2S010_I2C_UART\synthesis\synwork\M2S010_I2C_UART_prem.srd|i|1498216275|65437
+E:\Projects\Actel\ActelKit\RefDes\5\SoC\M2S010_I2C_UART\synthesis\M2S010_I2C_UART.sap|o|1498216276|1727
+E:\Projects\Actel\ActelKit\RefDes\5\SoC\M2S010_I2C_UART\synthesis\M2S010_I2C_UART.tap|o|0|0
+E:\Projects\Actel\ActelKit\RefDes\5\SoC\M2S010_I2C_UART\synthesis\M2S010_I2C_UART.map|o|1498216277|28
+C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.v|i|1449207330|16359
+E:\Projects\Actel\ActelKit\RefDes\5\SoC\M2S010_I2C_UART\synthesis\M2S010_I2C_UART.sap|o|1498216276|1727
+E:\Projects\Actel\ActelKit\RefDes\5\SoC\M2S010_I2C_UART\synthesis\syntmp\M2S010_I2C_UART.plg|o|1498216277|1625
+E:\Projects\Actel\ActelKit\RefDes\5\SoC\M2S010_I2C_UART\synthesis\M2S010_I2C_UART.srm|o|1498216276|8061
+E:\Projects\Actel\ActelKit\RefDes\5\SoC\M2S010_I2C_UART\synthesis\synlog\M2S010_I2C_UART_fpga_mapper.srr|o|1498216277|14540
+C:\Microsemi\Libero_SoC_v11.7\Synplify\bin\m_generic.exe|i|1449724744|15814144
+C:\Microsemi\Libero_SoC_v11.7\Synplify\bin64\m_generic.exe|i|1449726356|27632640

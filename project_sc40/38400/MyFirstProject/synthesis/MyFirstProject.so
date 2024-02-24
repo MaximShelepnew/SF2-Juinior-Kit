@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>MyFirstProject</design>
+	<target_edif>E:\Projects\Actel\ActelKit\M2S\RefDes\3\38400\MyFirstProject\synthesis\MyFirstProject.edn</target_edif>
+</SynplifyOutput>

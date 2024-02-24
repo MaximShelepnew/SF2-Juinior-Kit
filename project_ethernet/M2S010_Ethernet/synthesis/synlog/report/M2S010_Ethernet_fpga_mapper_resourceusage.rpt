@@ -1,0 +1,41 @@
+Resource Usage Report for M2S010_Ethernet 
+
+Mapping to part: m2s010tq144std
+Cell usage:
+AND3            1 use
+CCC             1 use
+CLKINT          4 uses
+MSS_010         1 use
+SYSRESET        1 use
+XTLOSC          1 use
+CFG2           11 uses
+CFG3           13 uses
+CFG4           19 uses
+
+
+Sequential Cells: 
+SLE            43 uses
+
+DSP Blocks:    0
+
+I/O ports: 20
+I/O primitives: 18
+BIBUF          1 use
+INBUF          7 uses
+OUTBUF         10 uses
+
+
+Global Clock Buffers: 4
+
+
+Total LUTs:    43
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K18  Interface Logic : SLEs = 0; LUTs = 0;
+MACC     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  43 + 0 + 0 + 0 = 43;
+Total number of LUTs after P&R:  43 + 0 + 0 + 0 = 43;
+

@@ -1,0 +1,76 @@
+Synopsys HDL Compiler, version comp201503sp1p1, Build 240R, built Dec  1 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp201503sp1p1, Build 240R, built Dec  1 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+@N: CD720 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\vhd2008\std.vhd":146:18:146:21|Setting time resolution to ns
+@N:"E:\Projects\Actel\ActelKit\RefDes\7\SoC\M2S010_USB_vcp\component\work\M2S010_USB_vcp\M2S010_USB_vcp.vhd":17:7:17:20|Top entity is set to M2S010_USB_vcp.
+File E:\Projects\Actel\ActelKit\RefDes\7\SoC\M2S010_USB_vcp\component\work\M2S010_USB_vcp_MSS\M2S010_USB_vcp_MSS_syn.vhd changed - recompiling
+File C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.vhd changed - recompiling
+File E:\Projects\Actel\ActelKit\RefDes\7\SoC\M2S010_USB_vcp\component\work\M2S010_USB_vcp_MSS\M2S010_USB_vcp_MSS.vhd changed - recompiling
+File E:\Projects\Actel\ActelKit\RefDes\7\SoC\M2S010_USB_vcp\component\work\M2S010_USB_vcp\OSC_0\M2S010_USB_vcp_OSC_0_OSC.vhd changed - recompiling
+File E:\Projects\Actel\ActelKit\RefDes\7\SoC\M2S010_USB_vcp\component\work\M2S010_USB_vcp\M2S010_USB_vcp.vhd changed - recompiling
+VHDL syntax check successful!
+File E:\Projects\Actel\ActelKit\RefDes\7\SoC\M2S010_USB_vcp\component\work\M2S010_USB_vcp_MSS\M2S010_USB_vcp_MSS_syn.vhd changed - recompiling
+File E:\Projects\Actel\ActelKit\RefDes\7\SoC\M2S010_USB_vcp\component\work\M2S010_USB_vcp_MSS\M2S010_USB_vcp_MSS.vhd changed - recompiling
+File E:\Projects\Actel\ActelKit\RefDes\7\SoC\M2S010_USB_vcp\component\work\M2S010_USB_vcp\OSC_0\M2S010_USB_vcp_OSC_0_OSC.vhd changed - recompiling
+File E:\Projects\Actel\ActelKit\RefDes\7\SoC\M2S010_USB_vcp\component\work\M2S010_USB_vcp\M2S010_USB_vcp.vhd changed - recompiling
+@N: CD231 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus ('U'="1000000000")
+@N: CD630 :"E:\Projects\Actel\ActelKit\RefDes\7\SoC\M2S010_USB_vcp\component\work\M2S010_USB_vcp\M2S010_USB_vcp.vhd":17:7:17:20|Synthesizing work.m2s010_usb_vcp.rtl 
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.vhd":786:10:786:17|Synthesizing smartfusion2.sysreset.syn_black_box 
+Post processing for smartfusion2.sysreset.syn_black_box
+@N: CD630 :"E:\Projects\Actel\ActelKit\RefDes\7\SoC\M2S010_USB_vcp\component\work\M2S010_USB_vcp\OSC_0\M2S010_USB_vcp_OSC_0_OSC.vhd":8:7:8:30|Synthesizing work.m2s010_usb_vcp_osc_0_osc.def_arch 
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.vhd":562:10:562:15|Synthesizing smartfusion2.clkint.syn_black_box 
+Post processing for smartfusion2.clkint.syn_black_box
+@N: CD630 :"E:\Projects\Actel\ActelKit\RefDes\7\SoC\M2S010_USB_vcp\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd":19:7:19:20|Synthesizing work.rcosc_25_50mhz.def_arch 
+Post processing for work.rcosc_25_50mhz.def_arch
+@N: CD630 :"E:\Projects\Actel\ActelKit\RefDes\7\SoC\M2S010_USB_vcp\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd":79:7:79:24|Synthesizing work.rcosc_25_50mhz_fab.def_arch 
+Post processing for work.rcosc_25_50mhz_fab.def_arch
+Post processing for work.m2s010_usb_vcp_osc_0_osc.def_arch
+@W: CL240 :"E:\Projects\Actel\ActelKit\RefDes\7\SoC\M2S010_USB_vcp\component\work\M2S010_USB_vcp\OSC_0\M2S010_USB_vcp_OSC_0_OSC.vhd":16:10:16:19|XTLOSC_O2F is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"E:\Projects\Actel\ActelKit\RefDes\7\SoC\M2S010_USB_vcp\component\work\M2S010_USB_vcp\OSC_0\M2S010_USB_vcp_OSC_0_OSC.vhd":15:10:15:19|XTLOSC_CCC is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"E:\Projects\Actel\ActelKit\RefDes\7\SoC\M2S010_USB_vcp\component\work\M2S010_USB_vcp\OSC_0\M2S010_USB_vcp_OSC_0_OSC.vhd":14:10:14:23|RCOSC_1MHZ_O2F is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"E:\Projects\Actel\ActelKit\RefDes\7\SoC\M2S010_USB_vcp\component\work\M2S010_USB_vcp\OSC_0\M2S010_USB_vcp_OSC_0_OSC.vhd":13:10:13:23|RCOSC_1MHZ_CCC is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"E:\Projects\Actel\ActelKit\RefDes\7\SoC\M2S010_USB_vcp\component\work\M2S010_USB_vcp\OSC_0\M2S010_USB_vcp_OSC_0_OSC.vhd":11:10:11:27|RCOSC_25_50MHZ_CCC is not assigned a value (floating) -- simulation mismatch possible. 
+@N: CD630 :"E:\Projects\Actel\ActelKit\RefDes\7\SoC\M2S010_USB_vcp\component\work\M2S010_USB_vcp_MSS\M2S010_USB_vcp_MSS.vhd":17:7:17:24|Synthesizing work.m2s010_usb_vcp_mss.rtl 
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.vhd":434:10:434:14|Synthesizing smartfusion2.bibuf.syn_black_box 
+Post processing for smartfusion2.bibuf.syn_black_box
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.vhd":403:10:403:14|Synthesizing smartfusion2.inbuf.syn_black_box 
+Post processing for smartfusion2.inbuf.syn_black_box
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.vhd":423:10:423:16|Synthesizing smartfusion2.tribuff.syn_black_box 
+Post processing for smartfusion2.tribuff.syn_black_box
+@N: CD630 :"E:\Projects\Actel\ActelKit\RefDes\7\SoC\M2S010_USB_vcp\component\work\M2S010_USB_vcp_MSS\M2S010_USB_vcp_MSS_syn.vhd":10:7:10:13|Synthesizing work.mss_010.def_arch 
+Post processing for work.mss_010.def_arch
+Post processing for work.m2s010_usb_vcp_mss.rtl
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.vhd":191:10:191:13|Synthesizing smartfusion2.and2.syn_black_box 
+Post processing for smartfusion2.and2.syn_black_box
+Post processing for work.m2s010_usb_vcp.rtl
+@W: CL159 :"E:\Projects\Actel\ActelKit\RefDes\7\SoC\M2S010_USB_vcp\component\work\M2S010_USB_vcp\OSC_0\M2S010_USB_vcp_OSC_0_OSC.vhd":10:10:10:12|Input XTL is unused
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 79MB peak: 80MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue Jul 04 12:37:06 2017
+
+###########################################################]
+Synopsys Netlist Linker, version comp201503sp1p1, Build 240R, built Dec  1 2015
+@N|Running in 64-bit mode
+File E:\Projects\Actel\ActelKit\RefDes\7\SoC\M2S010_USB_vcp\synthesis\synwork\layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 69MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue Jul 04 12:37:06 2017
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue Jul 04 12:37:06 2017
+
+###########################################################]

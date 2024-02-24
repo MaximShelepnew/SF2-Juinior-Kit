@@ -1,0 +1,4 @@
+#0 define_false_path
+#1001 define_clock {n:FCCC_0.GL0_net} -name {M2S010_I2C_UART_FCCC_0_FCCC|GL0_net_inferred_clock} -ref_rise {0.000000} -ref_fall {5.000000} -uncertainty {0.000000} -period {10.000000} -clockgroup {Inferred_clkgroup_0} -rise {0.000000} -fall {5.000000}
+define_attribute {i:BIBUF_0}  {syn_noprune} 1
+define_attribute {i:BIBUF_1}  {syn_noprune} 1

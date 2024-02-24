@@ -1,0 +1,21 @@
+Microsemi Corporation - Microsemi Libero Software Release v11.8 (Version 11.8.0.26)
+
+Date      :  Tue Jul 04 12:36:48 2017
+Project   :  E:\Projects\Actel\ActelKit\RefDes\7\SoC\M2S010_USB_vcp
+Component :  M2S010_USB_vcp
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    E:/Projects/Actel/ActelKit/RefDes/7/SoC/M2S010_USB_vcp/component/work/M2S010_USB_vcp/M2S010_USB_vcp.vhd
+    E:/Projects/Actel/ActelKit/RefDes/7/SoC/M2S010_USB_vcp/component/work/M2S010_USB_vcp/OSC_0/M2S010_USB_vcp_OSC_0_OSC.vhd
+
+HDL source files for Synopsys SynplifyPro Synthesis tool:
+    E:/Projects/Actel/ActelKit/RefDes/7/SoC/M2S010_USB_vcp/component/Actel/SgCore/OSC/2.0.101/osc_comps.vhd
+
+HDL source files for Mentor Precision Synthesis tool:
+    E:/Projects/Actel/ActelKit/RefDes/7/SoC/M2S010_USB_vcp/component/Actel/SgCore/OSC/2.0.101/osc_comps_pre.vhd
+
+Stimulus files for all Simulation tools:
+    E:/Projects/Actel/ActelKit/RefDes/7/SoC/M2S010_USB_vcp/component/work/M2S010_USB_vcp/subsystem.bfm
+

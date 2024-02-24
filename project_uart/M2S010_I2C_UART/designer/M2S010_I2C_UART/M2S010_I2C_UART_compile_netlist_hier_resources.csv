@@ -1,0 +1,6 @@
+Detailed Resource Usage
+Module Name,Fabric 4LUT,Single-Ended I/O,PLLs and CCCs,Chip Globals,MSS,RCOSC_50MHZ
+FCCC_0/Primitives,0,0,1,1,0,0
+M2S010_I2C_UART_MSS_0/Primitives,0,0,0,0,1,0
+OSC_0/Primitives,0,0,0,0,0,1
+Primitives/Primitives,1,5,0,0,0,0

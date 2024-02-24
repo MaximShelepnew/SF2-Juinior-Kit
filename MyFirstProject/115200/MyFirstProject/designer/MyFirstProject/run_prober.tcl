@@ -1,0 +1,8 @@
+probe \
+    -desdir {E:\Projects\Actel\ActelKit\M2S\RefDes\2\115200\MyFirstProject\designer\MyFirstProject} \
+    -design MyFirstProject \
+    -fam SmartFusion2 \
+    -die PA4M1000_N \
+    -pkg tq144 \
+    -use_mvn_pdc 0  \
+    -use_last_placement 0 

@@ -1,0 +1,16 @@
+C:\Microsemi\Libero_SoC_v11.7\Synplify\bin64\m_generic.exe  -prodtype  synplify_pro  -encrypt  -pro  -rundir  E:\Projects\Actel\ActelKit\RefDes\7\SoC\M2S010_USB_vcp\synthesis   -part M2S010  -package TQ144  -grade STD    -maxfan 10000 -clock_globalthreshold 2 -async_globalthreshold 12 -globalthreshold 5000 -low_power_ram_decomp 0 -opcond COMTC -report_path 4000 -RWCheckOnRam 0 -summaryfile E:\Projects\Actel\ActelKit\RefDes\7\SoC\M2S010_USB_vcp\synthesis\synlog\report\M2S010_USB_vcp_fpga_mapper.xml  -top_level_module  work.M2S010_USB_vcp  -licensetype  synplifypro_actel  -flow mapping  -mp  1  -prjfile  E:\Projects\Actel\ActelKit\RefDes\7\SoC\M2S010_USB_vcp\synthesis\scratchproject.prs  -implementation  synthesis  -multisrs  -oedif  E:\Projects\Actel\ActelKit\RefDes\7\SoC\M2S010_USB_vcp\synthesis\M2S010_USB_vcp.edn   -freq 100.000   -tcl  E:\Projects\Actel\ActelKit\RefDes\7\SoC\M2S010_USB_vcp\designer\M2S010_USB_vcp\synthesis.fdc  E:\Projects\Actel\ActelKit\RefDes\7\SoC\M2S010_USB_vcp\synthesis\synwork\M2S010_USB_vcp_prem.srd  -sap  E:\Projects\Actel\ActelKit\RefDes\7\SoC\M2S010_USB_vcp\synthesis\M2S010_USB_vcp.sap  -otap  E:\Projects\Actel\ActelKit\RefDes\7\SoC\M2S010_USB_vcp\synthesis\M2S010_USB_vcp.tap  -omap  E:\Projects\Actel\ActelKit\RefDes\7\SoC\M2S010_USB_vcp\synthesis\M2S010_USB_vcp.map  -devicelib  C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.v  -sap  E:\Projects\Actel\ActelKit\RefDes\7\SoC\M2S010_USB_vcp\synthesis\M2S010_USB_vcp.sap  -ologparam  E:\Projects\Actel\ActelKit\RefDes\7\SoC\M2S010_USB_vcp\synthesis\syntmp\M2S010_USB_vcp.plg  -osyn  E:\Projects\Actel\ActelKit\RefDes\7\SoC\M2S010_USB_vcp\synthesis\M2S010_USB_vcp.srm  -prjdir  E:\Projects\Actel\ActelKit\RefDes\7\SoC\M2S010_USB_vcp\synthesis\  -prjname  M2S010_USB_vcp_syn  -log  E:\Projects\Actel\ActelKit\RefDes\7\SoC\M2S010_USB_vcp\synthesis\synlog\M2S010_USB_vcp_fpga_mapper.srr 
+rc:1 success:1
+E:\Projects\Actel\ActelKit\RefDes\7\SoC\M2S010_USB_vcp\synthesis\scratchproject.prs|o|1498746734|2501
+E:\Projects\Actel\ActelKit\RefDes\7\SoC\M2S010_USB_vcp\synthesis\M2S010_USB_vcp.edn|o|1499161029|98871
+E:\Projects\Actel\ActelKit\RefDes\7\SoC\M2S010_USB_vcp\designer\M2S010_USB_vcp\synthesis.fdc|i|1499161020|54
+E:\Projects\Actel\ActelKit\RefDes\7\SoC\M2S010_USB_vcp\synthesis\synwork\M2S010_USB_vcp_prem.srd|i|1499161028|63578
+E:\Projects\Actel\ActelKit\RefDes\7\SoC\M2S010_USB_vcp\synthesis\M2S010_USB_vcp.sap|o|1499161028|2098
+E:\Projects\Actel\ActelKit\RefDes\7\SoC\M2S010_USB_vcp\synthesis\M2S010_USB_vcp.tap|o|0|0
+E:\Projects\Actel\ActelKit\RefDes\7\SoC\M2S010_USB_vcp\synthesis\M2S010_USB_vcp.map|o|1499161030|28
+C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.v|i|1449207330|16359
+E:\Projects\Actel\ActelKit\RefDes\7\SoC\M2S010_USB_vcp\synthesis\M2S010_USB_vcp.sap|o|1499161028|2098
+E:\Projects\Actel\ActelKit\RefDes\7\SoC\M2S010_USB_vcp\synthesis\syntmp\M2S010_USB_vcp.plg|o|1499161030|1268
+E:\Projects\Actel\ActelKit\RefDes\7\SoC\M2S010_USB_vcp\synthesis\M2S010_USB_vcp.srm|o|1499161029|7348
+E:\Projects\Actel\ActelKit\RefDes\7\SoC\M2S010_USB_vcp\synthesis\synlog\M2S010_USB_vcp_fpga_mapper.srr|o|1499161030|9421
+C:\Microsemi\Libero_SoC_v11.7\Synplify\bin\m_generic.exe|i|1449724744|15814144
+C:\Microsemi\Libero_SoC_v11.7\Synplify\bin64\m_generic.exe|i|1449726356|27632640

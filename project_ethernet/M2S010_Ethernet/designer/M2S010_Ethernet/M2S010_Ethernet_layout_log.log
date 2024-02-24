@@ -1,0 +1,71 @@
+Info: No timing constraint has been associated to the 'Place and Route' tool. 'Place and Route' will be run in non Timing Driven mode.
+***** Place and Route Configurations *****
+Timing-driven            : OFF
+Power-driven             : OFF
+High-effort              : OFF
+Repair min-delay         : ON
+Incremental              : OFF
+
+INFO: Reading User PDC file D:\Demo\M2S\8\M2S010_Ethernet\constraint\io\user.pdc. 0 error(s) and 0 warning(s)
+
+Running the I/O Bank and Globals Assigner.
+Info:  I/O Bank and Globals Assigner identified 18 fixed I/O macros, 0 unfixed I/O macros
+
+I/O Bank and Globals Assigner completed successfully.
+Total time spent in I/O Bank and Globals Assigner: 0 seconds
+
+Placer V4.0 - 11.8.1 
+Design: M2S010_Ethernet                 Started: Tue Oct 24 17:52:35 2017
+
+Initializing Standard Placement ...
+Placing design...
+End of placement.
+Pre-Placement Runtime        : 0 seconds
+Placement Runtime            : 0 seconds
+
+Placer completed successfully.
+
+Design: M2S010_Ethernet                 
+Finished: Tue Oct 24 17:52:39 2017
+Total CPU Time:     00:00:03            Total Elapsed Time: 00:00:04
+Total Memory Usage: 125.2 Mbytes
+                        o - o - o - o - o - o
+
+
+Router 
+Design: D:\Demo\M2S\8\M2S010_Ethernet\designer\M2S010_Ethernet\M2S010_EthernetStarted: Tue Oct 24 17:52:42 2017
+
+Final stats: search run time 0.066110
+
+Router completed successfully.
+
+Design: D:\Demo\M2S\8\M2S010_Ethernet\designer\M2S010_Ethernet\M2S010_Ethernet
+Finished: Tue Oct 24 17:52:47 2017
+Total CPU Time:     00:00:05            Total Elapsed Time: 00:00:05
+Total Memory Usage: 486.3 Mbytes
+                        o - o - o - o - o - o
+
+
+Router 
+Design: D:\Demo\M2S\8\M2S010_Ethernet\designer\M2S010_Ethernet\M2S010_EthernetStarted: Tue Oct 24 17:52:48 2017
+
+Final stats: search run time 0.066205
+
+Router completed successfully.
+
+Design: D:\Demo\M2S\8\M2S010_Ethernet\designer\M2S010_Ethernet\M2S010_Ethernet
+Finished: Tue Oct 24 17:52:54 2017
+Total CPU Time:     00:00:05            Total Elapsed Time: 00:00:06
+Total Memory Usage: 486.6 Mbytes
+                        o - o - o - o - o - o
+
+Resource Usage
++---------------+------+-------+------------+
+| Type          | Used | Total | Percentage |
++---------------+------+-------+------------+
+| 4LUT          | 44   | 12084 | 0.36       |
+| DFF           | 43   | 12084 | 0.36       |
+| I/O Register  | 0    | 246   | 0.00       |
+| Logic Element | 47   | 12084 | 0.39       |
++---------------+------+-------+------------+
+

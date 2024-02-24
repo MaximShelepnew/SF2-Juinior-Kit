@@ -1,0 +1,92 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+-include ../makefile.init
+
+RM := rm -rf
+
+# All of the sources participating in the build are defined here
+-include sources.mk
+-include subdir.mk
+-include hal/CortexM3/subdir.mk
+-include hal/CortexM3/GNU/subdir.mk
+-include drivers_config/sys_config/subdir.mk
+-include drivers/mss_usb/subdir.mk
+-include drivers/mss_uart/subdir.mk
+-include drivers/mss_sys_services/subdir.mk
+-include drivers/mss_nvm/subdir.mk
+-include drivers/mss_hpdma/subdir.mk
+-include drivers/mss_gpio/subdir.mk
+-include CMSIS/subdir.mk
+-include CMSIS/startup_gcc/subdir.mk
+-include objects.mk
+
+ifneq ($(MAKECMDGOALS),clean)
+ifneq ($(strip $(C_DEPS)),)
+-include $(C_DEPS)
+endif
+endif
+
+-include ../makefile.defs
+
+# Add inputs and outputs from these tool invocations to the build variables 
+MEMORYMAP += \
+memory-map.xml \
+
+IHEXFILES += \
+usb_device_cdc_vcp.hex \
+
+SRECFILES += \
+usb_device_cdc_vcp.srec \
+
+LISTINGS += \
+usb_device_cdc_vcp.lst \
+
+
+# All Target
+all: usb_device_cdc_vcp secondary-outputs
+
+# Tool invocations
+usb_device_cdc_vcp: $(OBJS) $(USER_OBJS)
+	@echo 'Building target: $@'
+	@echo 'Invoking: GNU C Linker'
+	arm-none-eabi-gcc -mthumb -mcpu=cortex-m3 -specs=bare.specs -T ../CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Wl,-Map=$(EXECUTABLE).map -o"usb_device_cdc_vcp" $(OBJS) $(USER_OBJS) $(LIBS)
+	@echo 'Finished building target: $@'
+	@echo ' '
+
+memory-map.xml: $(EXECUTABLE)
+	@echo 'Invoking: Memory map generator'
+	actel-map -o "memory-map.xml" $(EXECUTABLE) $(BUILDCMD)
+	@echo 'Finished building: $@'
+	@echo ' '
+
+usb_device_cdc_vcp.hex: $(EXECUTABLE)
+	@echo 'Invoking: GNU Intel Hex File Generator'
+	arm-none-eabi-objcopy -O ihex $(EXECUTABLE) "usb_device_cdc_vcp.hex"
+	@echo 'Finished building: $@'
+	@echo ' '
+
+usb_device_cdc_vcp.srec: $(EXECUTABLE)
+	@echo 'Invoking: GNU S-Record Generator'
+	arm-none-eabi-objcopy -O srec $(EXECUTABLE) "usb_device_cdc_vcp.srec"
+	@echo 'Finished building: $@'
+	@echo ' '
+
+usb_device_cdc_vcp.lst: $(EXECUTABLE)
+	@echo 'Invoking: GNU Listing Generator'
+	arm-none-eabi-objdump -h -S $(EXECUTABLE) > "usb_device_cdc_vcp.lst"
+	@echo 'Finished building: $@'
+	@echo ' '
+
+# Other Targets
+clean::
+	-$(RM) $(MEMORYMAP)$(OBJS)$(C_DEPS)$(SRECFILES)$(IHEXFILES)$(LISTINGS)$(EXECUTABLE) usb_device_cdc_vcp
+	-@echo ' '
+
+secondary-outputs: $(MEMORYMAP) $(IHEXFILES) $(SRECFILES) $(LISTINGS)
+
+.PHONY: all clean dependents
+.SECONDARY:
+
+-include ../makefile.targets

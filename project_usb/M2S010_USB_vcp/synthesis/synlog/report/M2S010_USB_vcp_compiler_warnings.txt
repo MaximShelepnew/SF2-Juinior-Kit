@@ -1,0 +1,7 @@
+@W: CL240 :"E:\Projects\Actel\ActelKit\RefDes\7\SoC\M2S010_USB_vcp\component\work\M2S010_USB_vcp\OSC_0\M2S010_USB_vcp_OSC_0_OSC.vhd":16:10:16:19|XTLOSC_O2F is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"E:\Projects\Actel\ActelKit\RefDes\7\SoC\M2S010_USB_vcp\component\work\M2S010_USB_vcp\OSC_0\M2S010_USB_vcp_OSC_0_OSC.vhd":15:10:15:19|XTLOSC_CCC is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"E:\Projects\Actel\ActelKit\RefDes\7\SoC\M2S010_USB_vcp\component\work\M2S010_USB_vcp\OSC_0\M2S010_USB_vcp_OSC_0_OSC.vhd":14:10:14:23|RCOSC_1MHZ_O2F is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"E:\Projects\Actel\ActelKit\RefDes\7\SoC\M2S010_USB_vcp\component\work\M2S010_USB_vcp\OSC_0\M2S010_USB_vcp_OSC_0_OSC.vhd":13:10:13:23|RCOSC_1MHZ_CCC is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"E:\Projects\Actel\ActelKit\RefDes\7\SoC\M2S010_USB_vcp\component\work\M2S010_USB_vcp\OSC_0\M2S010_USB_vcp_OSC_0_OSC.vhd":11:10:11:27|RCOSC_25_50MHZ_CCC is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL159 :"E:\Projects\Actel\ActelKit\RefDes\7\SoC\M2S010_USB_vcp\component\work\M2S010_USB_vcp\OSC_0\M2S010_USB_vcp_OSC_0_OSC.vhd":10:10:10:12|Input XTL is unused
+

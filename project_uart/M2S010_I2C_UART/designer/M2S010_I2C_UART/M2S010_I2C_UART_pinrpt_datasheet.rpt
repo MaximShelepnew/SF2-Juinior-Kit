@@ -1,0 +1,19 @@
+*****************************************************************
+Pin Report - Date: Fri Jun 23 14:11:46 2017 Pinchecksum: NOT-AVAILABLE
+Product: Designer
+Release: v11.8
+Version: 11.8.0.26
+Design Name: M2S010_I2C_UART
+Family: SmartFusion2
+Die: M2S010
+Package: 144 TQ
+*****************************************************************
+
+Port             |Pin |Fixed |Function                 |Bank     |I/O Std   |Direction                      |I/O state in Flash*Freeze mode |Resistor Pull                      |I/O available in Flash*Freeze mode |Schmitt Trigger |Odt_Static    |Odt Imp (Ohm)  |Low Power Exit |Input Delay |Slew         |Pre-Emphasis      |Output Drive (mA) |Output Load (pF) |
+-----------------|----|------|-------------------------|---------|----------|-------------------------------|-------------------------------|-----------------------------------|-----------------------------------|----------------|--------------|---------------|---------------|------------|-------------|------------------|------------------|-----------------|
+BtnReset          13   Yes    MSIO76NB7                 Bank7     LVCMOS25   Input                           TRISTATE                        None                                No                                  Off              ---            ---             Off             Off          ---           ---                ---                ---               
+DEVRST_N          72   Fixed  DEVRST_N                  ---       
+MMUART_0_RXD_F2M  9    Yes    MSIO72NB7                 Bank7     LVCMOS25   Input                           TRISTATE                        None                                No                                  Off              ---            ---             Off             Off          ---           ---                ---                ---               
+MMUART_0_TXD_M2F  10   Yes    MSIO73NB7                 Bank7     LVCMOS25   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          SLOW          ---                4                  5                 
+SCL               137  Yes    DDRIO55PB0/CCC_NE0_CLKI3  Bank0     LVCMOS25   Inout                           TRISTATE                        None                                No                                  Off              ---            ---             Off             Off          SLOW          ---                4                  5                 
+SDA               134  Yes    DDRIO53NB0                Bank0     LVCMOS25   Inout                           TRISTATE                        None                                No                                  Off              ---            ---             Off             Off          SLOW          ---                4                  5                 

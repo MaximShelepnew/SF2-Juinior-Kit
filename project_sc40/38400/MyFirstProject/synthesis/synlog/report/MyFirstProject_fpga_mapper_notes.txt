@@ -1,0 +1,9 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MO231 :"e:\projects\actel\actelkit\m2s\refdes\3\38400\myfirstproject\hdl\mycounter.vhd":18:4:18:5|Found counter in view:work.MyFirstProject(rtl) instance MyCounter_0.Qaux[22:0] 
+@N: FP130 |Promoting Net AND2_0_Y on CLKINT  I_2 
+@N: FX1056 |Writing EDF file: E:\Projects\Actel\ActelKit\M2S\RefDes\3\38400\MyFirstProject\synthesis\MyFirstProject.edn
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
